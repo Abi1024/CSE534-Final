@@ -72,6 +72,7 @@ public class Server extends Thread {
                     Enumeration<InetAddress> addresses = iface.getInetAddresses();
                     while (addresses.hasMoreElements()) {
                         InetAddress addr = addresses.nextElement();
+                        System.out.println(addr);
                         ip = addr.getHostAddress();
                         if (ip.contains(".")) {
                             switch (ip) {

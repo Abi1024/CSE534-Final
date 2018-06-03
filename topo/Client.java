@@ -3,7 +3,8 @@ import java.net.Socket;
 public class Client {
 	   public static void main(String [] args) // three arguments required here
 	   {
-	      String serverName = "172.24.224.169";// ip
+	      //String serverName = "172.24.224.169";// ip
+        String serverName = "172.24.224.56";
 	      int port = 6006; //port
 	      try
 	      {
