@@ -68,4 +68,3 @@ class QuaggaTopo(Topo):
             # Attach the quaggaContainer to the IXP Fabric Switch
         self.addLink(quaggaContainers[0], quaggaContainers[1])
         self.addLink(quaggaContainers[1], quaggaContainers[2])
-~
