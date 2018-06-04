@@ -14,3 +14,8 @@ R1 echo 1 > /proc/sys/net/ipv4/ip_forward
 H1 python ftable.py H1
 R1 python ftable.py R1
 H2 python ftable.py H2
+
+H1 javac *.java
+H1 java Host 1.1.2.2 1 &
+R1 java Router &
+H2 java Host

@@ -3,6 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="a237f64f-d34d-44d6-8860-39cc6cbae8a6" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Get_IP.java" beforeDir="false" afterPath="$PROJECT_DIR$/Get_IP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Host.java" beforeDir="false" afterPath="$PROJECT_DIR$/Host.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PartA.sh" beforeDir="false" afterPath="$PROJECT_DIR$/PartA.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Router.java" beforeDir="false" afterPath="$PROJECT_DIR$/Router.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Routing_Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/Routing_Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/Server$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/topo/Get_IP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/topo/Get_IP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/topo/Host$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/topo/Host$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/topo/Host$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/topo/Host$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/topo/Host.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/topo/Host.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/topo/PartA.sh" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/topo/PartA.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/topo/Router$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/topo/Router$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/topo/Router$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/topo/Router$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/topo/Router$PC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/topo/Router$PC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/topo/Router.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/topo/Router.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,29 +37,8 @@
       <file leaf-file-name="Host.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Host.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="66" column="63" lean-forward="true" selection-start-line="66" selection-start-column="63" selection-end-line="66" selection-end-column="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Packet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Packet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Get_IP.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Get_IP.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+            <state relative-caret-position="312">
+              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,8 +49,65 @@
       <file leaf-file-name="Router.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Router.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-178">
-              <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+            <state>
+              <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="H1_ERROR.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/H1_ERROR.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="R1_ERROR.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/R1_ERROR.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="H2_ERROR.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/H2_ERROR.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="12" selection-start-column="12" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PartA.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PartA.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Packet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Packet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Get_IP.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Get_IP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-141">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,8 +118,8 @@
       <file leaf-file-name="Routing_Table.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Routing_Table.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+            <state relative-caret-position="425">
+              <caret line="25" column="63" lean-forward="true" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,6 +145,9 @@
       <find>System.out</find>
       <find>routing</find>
       <find>setup</find>
+      <find>system.out</find>
+      <find>system</find>
+      <find>out</find>
     </findStrings>
     <replaceStrings>
       <replace>writer</replace>
@@ -108,9 +163,10 @@
         <option value="$PROJECT_DIR$/Server.java" />
         <option value="$PROJECT_DIR$/Packet.java" />
         <option value="$PROJECT_DIR$/Get_IP.java" />
-        <option value="$PROJECT_DIR$/Host.java" />
-        <option value="$PROJECT_DIR$/Routing_Table.java" />
+        <option value="$PROJECT_DIR$/PartA.sh" />
         <option value="$PROJECT_DIR$/Router.java" />
+        <option value="$PROJECT_DIR$/Routing_Table.java" />
+        <option value="$PROJECT_DIR$/Host.java" />
       </list>
     </option>
   </component>
@@ -262,7 +318,7 @@
       <option name="presentableId" value="Default" />
       <updated>1527993336272</updated>
       <workItem from="1527993337700" duration="397000" />
-      <workItem from="1528055883483" duration="38189000" />
+      <workItem from="1528055883483" duration="55621000" />
     </task>
     <task id="LOCAL-00001" summary="Basic client/server">
       <created>1528057178434</created>
@@ -289,10 +345,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38586000" />
+    <option name="totallyTimeSpent" value="56018000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="9" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -300,18 +357,18 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50104165" side_tool="true" weight="0.10945802" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5015625" side_tool="true" weight="0.23379384" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49895832" weight="0.23379384" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4984375" weight="0.23379384" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.3296875" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19427083" />
       <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49895832" visible="true" weight="0.10945802" />
+      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49895832" weight="0.10945802" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -324,6 +381,37 @@
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="9" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4984375" weight="0.23379384" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19427083" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49895832" weight="0.10945802" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5015625" side_tool="true" weight="0.23379384" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.3995749" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32943678" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.3296875" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -339,7 +427,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="25" />
+      <option name="time" value="28" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -375,27 +463,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Get_IP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Packet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PartA.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Routing_Table.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        <state relative-caret-position="425">
+          <caret line="25" column="63" lean-forward="true" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -404,8 +489,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Router.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-178">
-          <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        <state>
+          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/H1_ERROR.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/R1_ERROR.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/H2_ERROR.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Get_IP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-141">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -414,8 +530,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Host.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="66" column="63" lean-forward="true" selection-start-line="66" selection-start-column="63" selection-end-line="66" selection-end-column="63" />
+        <state relative-caret-position="312">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
