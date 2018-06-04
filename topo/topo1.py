@@ -74,4 +74,3 @@ class QuaggaTopo(Topo):
         self.addLink(quaggaContainers[1], quaggaContainers[2])
         self.addLink(quaggaContainers[1], quaggaContainers[3])
         self.addLink(quaggaContainers[1], quaggaContainers[4])
-        
