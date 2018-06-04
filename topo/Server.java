@@ -1,64 +1,123 @@
 
 import java.net.*;
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Enumeration;
 import java.io.*;
 
-public class Server extends Thread {
-    private ServerSocket serverSocket;
+public class Server{
+    private static ServerSocket serverSocket;
     public static int node_id;
     public static int server_port = 6006;
-    static String filename;
-    static String next_hop_ip;
-    static int next_hop_port;
-
-    public Server(int port) throws IOException {
-        serverSocket = new ServerSocket(port);
-        serverSocket.setSoTimeout(10000000);
-    }
+    public static Thread t1,t2;
+    public static final PC pc = new PC();
 
     private class Node {
         private static final int H1 = 0;
         private static final int R1 = 1;
-        private static final int H2 = 5;
+        private static final int H2 = 2;
     }
 
-    public void run() {
-	      while(true) {
-	         try {
-	            System.out.println("Waiting for client on port " +
-	            serverSocket.getLocalPort() + "...");
-	            Socket server = serverSocket.accept();
-	            System.out.println("Just connected to "
-	                  + server.getRemoteSocketAddress());
-	            DataInputStream in =
-	                  new DataInputStream(server.getInputStream());
-	            System.out.println(in.readUTF());
+    //producer-consumer
+    private static class PC{
+        private static Queue<Integer> queue = new LinkedList<>();
+        public static final int max_size = 100;
 
-                 OutputStream outToClient = server.getOutputStream();
-                 OutputStream outToServer = server.getOutputStream();
-                 DataOutputStream out = new DataOutputStream(outToServer);
-                 out.writeUTF("nigger"); // change in weight in the correct format
-	            server.close();
-	         }catch(SocketTimeoutException s)
-	         {
-	            System.out.println("Socket timed out!");
-	            break;
-	         }catch(IOException e)
-	         {
-	            e.printStackTrace();
-	            break;
-	         }
-	      }
-    }
-
-    public static void main(String[] args) {
-        identify_node();
-        try {
-            Thread t = new Server(server_port);
-            t.start();
-        }catch(IOException e) {
-            e.printStackTrace();
+        public void produce(String input) throws InterruptedException {
+            synchronized (this){
+                if (queue.size() < max_size){
+                    System.out.println("PRODUCE: Adding input to queue: " + input + "Queue now has size: " + queue.size());
+                    queue.add(Integer.parseInt(input));
+                }else{
+                    System.out.println("Full queue. Dropping packet: " + input);
+                }
+            }
         }
+        public void consume() throws InterruptedException {
+            while (true) {
+                synchronized (this) {
+                    // consumer thread waits while list
+                    // is empty
+                    if (!queue.isEmpty()) {
+                        Integer x = queue.remove();
+                        System.out.println("CONSUMER: Queue has: " + queue.size() + " objects. Just removed: " + Integer.toString(x));
+                    }else{
+                        System.out.println("CONSUMER: QUEUE IS EMPTY");
+                    }
+                }
+                Thread.sleep(5000);
+            }
+        }
+    }
+
+    public static void main(String[] args) throws InterruptedException{
+        identify_node();
+        thread1();
+        thread2();
+        t1.start();
+        t2.start();
+        t1.join();
+        t2.join();
+    }
+
+    public static void thread1(){
+        t1 = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try{
+                    serverSocket = new ServerSocket(server_port);
+                    serverSocket.setSoTimeout(10000000);
+                    while(true) {
+                        try{
+                            System.out.println("Waiting for client on port " +
+                                    serverSocket.getLocalPort() + "...");
+                            Socket server = serverSocket.accept();
+                            System.out.println("Just connected to "
+                                    + server.getRemoteSocketAddress());
+                            DataInputStream in = new DataInputStream(server.getInputStream());
+                            boolean flag = true;
+                            while (true){
+                                String input = in.readUTF();
+                                if (input.length() > 0){
+                                    pc.produce(input);
+                                }else{
+                                    flag = false;
+                                }
+                            }
+
+                            //OutputStream outToClient = server.getOutputStream();
+                            // OutputStream outToServer = server.getOutputStream();
+                            //DataOutputStream out = new DataOutputStream(outToServer);
+                            //out.writeUTF("nigger"); // change in weight in the correct format
+                            //server.close();
+                        }catch(SocketTimeoutException s) {
+                            System.out.println("Socket timed out!");
+                            break;
+                        }catch(IOException e) {
+                            e.printStackTrace();
+                            break;
+                        }
+                    }
+                }
+                catch(Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+    }
+
+    public static void thread2(){
+        t2 = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try{
+                    pc.consume();
+                }catch(Exception e){
+                    e.printStackTrace();
+                }
+
+            }
+        });
     }
 
 
@@ -103,7 +162,6 @@ public class Server extends Thread {
         }
     }
 }
-
         /*int port = 1024; //port number args[2] =next hop ip args[3] = next hop port
         next_hop_ip = "127.0.0.1";
         next_hop_port = 1044;
