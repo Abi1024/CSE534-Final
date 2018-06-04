@@ -2,11 +2,12 @@ import sys
 import subprocess
 import os
 
-os.system("ip route > R1_rt")
-weightfile = 'R1_rt'
-with open(weightfile) as f:
+node = sys.argv[0]
+fname = node + "_rt"
+os.system("ip route > " + fname)
+with open(fname) as f:
      data = [l for l in f.read().split('\n') if l.strip() != '']
-     f1 = open("R1_routes","w+")
+     f1 = open(node+"_routes","w+")
      for block in data:
          newline = block.strip()
          l = newline.split(' ')
