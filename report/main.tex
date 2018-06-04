@@ -16,7 +16,7 @@
 %----------------------------------------------------------------------------------------
 %       PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
-\documentclass[paper=letter, fontsize=12pt]{article}
+\documentclass[paper=letter, fontsize=13pt]{article}
 \usepackage[english]{babel} % English language/hyphenation
 \usepackage{amsmath,amsfonts,amsthm} % Math packages
 \usepackage[utf8]{inputenc}
@@ -77,7 +77,11 @@
 
 
 \section{Introduction}
+Queueing algorithms form a crucial part of router (or switch) functioning, and hence of the smooth functioning of a network as a whole. The purpose of queueing packets at a router is to allow for scenarios where packets reach the router faster than it sends them out, and prevents these `early' packets from getting dropped.
 
+The most natural (and widely used) way to perform queueing is to do it in a first-in-first-out manner: the earliest packet in the  queue is sent out first by the router, and the queue builds up in size as long as packets come in faster than they can be sent out. The queue however has a limited size and once it fills up, subsequent incoming packets are all dropped till the queue has space to accept more packets again.
+
+On the face of things, one would not expect anything more from the queueing algorithm; there seems to be no apparent reason why the functioning of the queue should be related to the network performance. However this is not the case.
 
 
 
