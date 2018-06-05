@@ -5,7 +5,6 @@ Example topology of Quagga routers
 import inspect
 import os
 from mininext.topo import Topo
-from mininet.cli import CLI
 from mininext.services.quagga import QuaggaService
 
 from collections import namedtuple

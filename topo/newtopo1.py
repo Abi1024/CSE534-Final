@@ -16,8 +16,9 @@ H4 ip route add 1.2.1.0/24 via 1.1.4.2 dev H4-eth0
 H4 ip route add 1.3.1.0/24 via 1.1.4.2 dev H4-eth0
 
 R1 iptables -t nat -A POSTROUTING -o R1-eth0 -j MASQUERADE
-R1 iptables -A FORWARD -i R1-eth0 -o R1-eth1 -m state --state RELATED,ESTABLISHED -j ACCEPT
-R1 iptables -A FORWARD -i R1-eth0 -o R1-eth1 -j ACCEPT
+R1 iptables -t nat -A POSTROUTING -o R1-eth1 -j MASQUERADE
+R1 iptables -t nat -A POSTROUTING -o R1-eth2 -j MASQUERADE
+R1 iptables -t nat -A POSTROUTING -o R1-eth3 -j MASQUERADE
 
 H1 echo 1 > /proc/sys/net/ipv4/ip_forward
 H2 echo 1 > /proc/sys/net/ipv4/ip_forward
