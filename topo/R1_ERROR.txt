@@ -1,35 +1,3252 @@
 THIS NODE's IP: 1.1.1.2
 THIS NODE's SERVER PORT: 10836
 THIS NODE's NAME: R1
+Link rate: 0.5
 SERVER: Waiting for client on port 10836...
+SERVER: Just connected to /1.1.1.1:49538
+CLIENT: Size of gateways: 2
+CLIENT: Size of out: 0
 CLIENT: IN function, setup_outgoing_connections
 CLIENT: Connecting to 1.1.1.1 on port 10835
 CLIENT: Pair key: 1.1.1.1
-SERVER: Just connected to /1.1.1.1:48992
 CLIENT: Just connected to /1.1.1.1:10835
 CLIENT: Connecting to 1.1.2.2 on port 6797
 CLIENT: Pair key: 1.1.2.2
 CLIENT: Just connected to /1.1.2.2:6797
 CONSUMER: QUEUE IS EMPTY
-PRODUCER: Adding input to queue: Packet@7a60332a Queue now has size: 0
-PRODUCER: Adding input to queue: Packet@54ed928c Queue now has size: 1
-PRODUCER: Adding input to queue: Packet@112e271d Queue now has size: 2
-PRODUCER: Adding input to queue: Packet@29fb4d91 Queue now has size: 3
-PRODUCER: Adding input to queue: Packet@5279d2e7 Queue now has size: 4
+PRODUCER: Receiving packet. Time: 928
+PRODUCER: Adding input to queue: Packet@399a3ed2 Queue now has size: 0
+PRODUCER: Receiving packet. Time: 929
+PRODUCER: Adding input to queue: Packet@59eaad45 Queue now has size: 1
+PRODUCER: Receiving packet. Time: 929
+PRODUCER: Adding input to queue: Packet@361caa87 Queue now has size: 2
+PRODUCER: Receiving packet. Time: 929
+PRODUCER: Adding input to queue: Packet@6d70b024 Queue now has size: 3
+PRODUCER: Receiving packet. Time: 1066
+PRODUCER: Adding input to queue: Packet@5747ff6 Queue now has size: 4
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 1267
+PRODUCER: Adding input to queue: Packet@9787a98 Queue now has size: 5
+PRODUCER: Receiving packet. Time: 1267
+PRODUCER: Adding input to queue: Packet@5a63b1a2 Queue now has size: 6
+PRODUCER: Receiving packet. Time: 1670
+PRODUCER: Adding input to queue: Packet@327acb5a Queue now has size: 7
+PRODUCER: Receiving packet. Time: 1670
+PRODUCER: Adding input to queue: Packet@1457892c Queue now has size: 8
+PRODUCER: Receiving packet. Time: 1670
+PRODUCER: Adding input to queue: Packet@5eb18d84 Queue now has size: 9
+PRODUCER: Receiving packet. Time: 1870
+PRODUCER: Adding input to queue: Packet@1998d951 Queue now has size: 10
 CLIENT (CONSUMER): The gateway router is:1.1.2.2
-PRODUCER: Adding input to queue: Packet@6ab853d6 Queue now has size: 4
-PRODUCER: Adding input to queue: Packet@ace9753 Queue now has size: 5
-PRODUCER: Adding input to queue: Packet@79aad45e Queue now has size: 6
-PRODUCER: Adding input to queue: Packet@65d8df66 Queue now has size: 7
-PRODUCER: Adding input to queue: Packet@4dd606e8 Queue now has size: 8
+PRODUCER: Receiving packet. Time: 2472
+PRODUCER: Adding input to queue: Packet@7d5ce123 Queue now has size: 10
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 2473
+PRODUCER: Adding input to queue: Packet@556a094d Queue now has size: 11
+PRODUCER: Receiving packet. Time: 2473
+PRODUCER: Adding input to queue: Packet@7e563c9 Queue now has size: 12
+PRODUCER: Receiving packet. Time: 2473
+PRODUCER: Adding input to queue: Packet@58687035 Queue now has size: 13
+PRODUCER: Receiving packet. Time: 2473
+PRODUCER: Adding input to queue: Packet@4227d7e2 Queue now has size: 14
+PRODUCER: Receiving packet. Time: 2473
+PRODUCER: Adding input to queue: Packet@47829e8a Queue now has size: 15
+PRODUCER: Receiving packet. Time: 2473
+PRODUCER: Adding input to queue: Packet@6bd55698 Queue now has size: 16
+PRODUCER: Receiving packet. Time: 2676
+PRODUCER: Adding input to queue: Packet@70276a0f Queue now has size: 17
+PRODUCER: Receiving packet. Time: 2677
+PRODUCER: Adding input to queue: Packet@cc33b2e Queue now has size: 18
+PRODUCER: Receiving packet. Time: 2678
+PRODUCER: Adding input to queue: Packet@5f6682f2 Queue now has size: 19
+PRODUCER: Receiving packet. Time: 2678
+PRODUCER: Adding input to queue: Packet@1ec66e10 Queue now has size: 20
+PRODUCER: Receiving packet. Time: 2679
+PRODUCER: Adding input to queue: Packet@55fa08d5 Queue now has size: 21
+PRODUCER: Receiving packet. Time: 3079
+PRODUCER: Adding input to queue: Packet@40f5530f Queue now has size: 22
+PRODUCER: Receiving packet. Time: 3280
+PRODUCER: Adding input to queue: Packet@2b6f38f1 Queue now has size: 23
+PRODUCER: Receiving packet. Time: 3485
+PRODUCER: Adding input to queue: Packet@6f47562 Queue now has size: 24
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 3487
+PRODUCER: Adding input to queue: Packet@3cd79c9 Queue now has size: 25
+PRODUCER: Receiving packet. Time: 3489
+PRODUCER: Adding input to queue: Packet@694a3f94 Queue now has size: 26
+PRODUCER: Receiving packet. Time: 3494
+PRODUCER: Adding input to queue: Packet@3b303afc Queue now has size: 27
+PRODUCER: Receiving packet. Time: 3896
+PRODUCER: Adding input to queue: Packet@1e4a079d Queue now has size: 28
+PRODUCER: Receiving packet. Time: 3897
+PRODUCER: Adding input to queue: Packet@762136ac Queue now has size: 29
 CLIENT (CONSUMER): The gateway router is:1.1.2.2
-PRODUCER: Adding input to queue: Packet@335c640e Queue now has size: 8
-PRODUCER: Adding input to queue: Packet@1c7b4e1f Queue now has size: 9
-PRODUCER: Adding input to queue: Packet@3f7b8119 Queue now has size: 10
-PRODUCER: Adding input to queue: Packet@42e72158 Queue now has size: 11
-PRODUCER: Adding input to queue: Packet@124b411e Queue now has size: 12
+PRODUCER: Receiving packet. Time: 4097
+PRODUCER: Adding input to queue: Packet@4e2f1163 Queue now has size: 29
+PRODUCER: Receiving packet. Time: 4097
+PRODUCER: Adding input to queue: Packet@74723580 Queue now has size: 30
+PRODUCER: Receiving packet. Time: 4298
+PRODUCER: Adding input to queue: Packet@3a4aa27c Queue now has size: 31
+PRODUCER: Receiving packet. Time: 4498
+PRODUCER: Adding input to queue: Packet@45a167cf Queue now has size: 32
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 4499
+PRODUCER: Adding input to queue: Packet@73b3c211 Queue now has size: 33
+PRODUCER: Receiving packet. Time: 4499
+PRODUCER: Adding input to queue: Packet@168837d2 Queue now has size: 34
+PRODUCER: Receiving packet. Time: 4500
+PRODUCER: Adding input to queue: Packet@79be2e3d Queue now has size: 35
+PRODUCER: Receiving packet. Time: 4500
+PRODUCER: Adding input to queue: Packet@376fa1da Queue now has size: 36
+PRODUCER: Receiving packet. Time: 4503
+PRODUCER: Adding input to queue: Packet@5aa14e6c Queue now has size: 37
+PRODUCER: Receiving packet. Time: 5704
+PRODUCER: Adding input to queue: Packet@dc0d44d Queue now has size: 38
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 5705
+PRODUCER: Adding input to queue: Packet@587dc0e Queue now has size: 39
 CLIENT (CONSUMER): The gateway router is:1.1.2.2
-PRODUCER: Adding input to queue: Packet@5486eefe Queue now has size: 12
-PRODUCER: Adding input to queue: Packet@3716de3e Queue now has size: 13
-PRODUCER: Adding input to queue: Packet@4c80c465 Queue now has size: 14
-PRODUCER: Adding input to queue: Packet@40b2f5a Queue now has size: 15
+PRODUCER: Receiving packet. Time: 6511
+PRODUCER: Adding input to queue: Packet@4facdc15 Queue now has size: 39
+PRODUCER: Receiving packet. Time: 6512
+PRODUCER: Adding input to queue: Packet@1f2e39a2 Queue now has size: 40
+PRODUCER: Receiving packet. Time: 6516
+PRODUCER: Adding input to queue: Packet@1447f4b6 Queue now has size: 41
+PRODUCER: Receiving packet. Time: 6517
+PRODUCER: Adding input to queue: Packet@2f9b2d9c Queue now has size: 42
+PRODUCER: Receiving packet. Time: 6517
+PRODUCER: Adding input to queue: Packet@67e100e Queue now has size: 43
+PRODUCER: Receiving packet. Time: 6517
+PRODUCER: Adding input to queue: Packet@6873ca4a Queue now has size: 44
+PRODUCER: Receiving packet. Time: 6519
+PRODUCER: Adding input to queue: Packet@433a61b6 Queue now has size: 45
+PRODUCER: Receiving packet. Time: 6720
+PRODUCER: Adding input to queue: Packet@353b4380 Queue now has size: 46
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 7323
+PRODUCER: Adding input to queue: Packet@43b3db49 Queue now has size: 47
+PRODUCER: Receiving packet. Time: 7325
+PRODUCER: Adding input to queue: Packet@356468ef Queue now has size: 48
+PRODUCER: Receiving packet. Time: 7528
+PRODUCER: Adding input to queue: Packet@25439824 Queue now has size: 49
+PRODUCER: Receiving packet. Time: 7531
+PRODUCER: Adding input to queue: Packet@4a8be84f Queue now has size: 50
+PRODUCER: Receiving packet. Time: 7737
+PRODUCER: Adding input to queue: Packet@173f1bc4 Queue now has size: 51
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 7937
+PRODUCER: Adding input to queue: Packet@18a3adc Queue now has size: 52
+PRODUCER: Receiving packet. Time: 7938
+PRODUCER: Adding input to queue: Packet@38b10071 Queue now has size: 53
+PRODUCER: Receiving packet. Time: 7938
+PRODUCER: Adding input to queue: Packet@2d6d4eb8 Queue now has size: 54
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 8339
+PRODUCER: Adding input to queue: Packet@42e381ea Queue now has size: 54
+PRODUCER: Receiving packet. Time: 8342
+PRODUCER: Adding input to queue: Packet@12ef1fb0 Queue now has size: 55
+PRODUCER: Receiving packet. Time: 8348
+PRODUCER: Adding input to queue: Packet@226d3714 Queue now has size: 56
+PRODUCER: Receiving packet. Time: 8351
+PRODUCER: Adding input to queue: Packet@65b2b56f Queue now has size: 57
+PRODUCER: Receiving packet. Time: 8352
+PRODUCER: Adding input to queue: Packet@3b8084e2 Queue now has size: 58
+PRODUCER: Receiving packet. Time: 8353
+PRODUCER: Adding input to queue: Packet@51781ebd Queue now has size: 59
+PRODUCER: Receiving packet. Time: 8354
+PRODUCER: Adding input to queue: Packet@1a665611 Queue now has size: 60
+PRODUCER: Receiving packet. Time: 8362
+PRODUCER: Adding input to queue: Packet@6a8f91ff Queue now has size: 61
+PRODUCER: Receiving packet. Time: 8364
+PRODUCER: Adding input to queue: Packet@5597afd8 Queue now has size: 62
+PRODUCER: Receiving packet. Time: 8364
+PRODUCER: Adding input to queue: Packet@448bce21 Queue now has size: 63
+PRODUCER: Receiving packet. Time: 8565
+PRODUCER: Adding input to queue: Packet@6cf5ce7f Queue now has size: 64
+PRODUCER: Receiving packet. Time: 8566
+PRODUCER: Adding input to queue: Packet@7ae3ba77 Queue now has size: 65
+PRODUCER: Receiving packet. Time: 8567
+PRODUCER: Adding input to queue: Packet@1262239c Queue now has size: 66
+PRODUCER: Receiving packet. Time: 8567
+PRODUCER: Adding input to queue: Packet@8820d37 Queue now has size: 67
+PRODUCER: Receiving packet. Time: 8767
+PRODUCER: Adding input to queue: Packet@4a46ac6e Queue now has size: 68
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 8968
+PRODUCER: Adding input to queue: Packet@2d918753 Queue now has size: 69
+PRODUCER: Receiving packet. Time: 8969
+PRODUCER: Adding input to queue: Packet@2e6c3fbe Queue now has size: 70
+PRODUCER: Receiving packet. Time: 8969
+PRODUCER: Adding input to queue: Packet@361f74f1 Queue now has size: 71
+PRODUCER: Receiving packet. Time: 9571
+PRODUCER: Adding input to queue: Packet@49c58b80 Queue now has size: 72
+PRODUCER: Receiving packet. Time: 9571
+PRODUCER: Adding input to queue: Packet@68cf26f4 Queue now has size: 73
+PRODUCER: Receiving packet. Time: 9572
+PRODUCER: Adding input to queue: Packet@2791759c Queue now has size: 74
+PRODUCER: Receiving packet. Time: 9573
+PRODUCER: Adding input to queue: Packet@6ae42563 Queue now has size: 75
+PRODUCER: Receiving packet. Time: 9775
+PRODUCER: Adding input to queue: Packet@f983a34 Queue now has size: 76
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 9778
+PRODUCER: Adding input to queue: Packet@1e7155b5 Queue now has size: 77
+PRODUCER: Receiving packet. Time: 9779
+PRODUCER: Adding input to queue: Packet@3260ee72 Queue now has size: 78
+PRODUCER: Receiving packet. Time: 9780
+PRODUCER: Adding input to queue: Packet@79e40a60 Queue now has size: 79
+PRODUCER: Receiving packet. Time: 9781
+PRODUCER: Adding input to queue: Packet@37e3c6f2 Queue now has size: 80
+PRODUCER: Receiving packet. Time: 9792
+PRODUCER: Adding input to queue: Packet@232bf146 Queue now has size: 81
+PRODUCER: Receiving packet. Time: 9799
+PRODUCER: Adding input to queue: Packet@168d882f Queue now has size: 82
+PRODUCER: Receiving packet. Time: 9799
+PRODUCER: Adding input to queue: Packet@4fe33794 Queue now has size: 83
+PRODUCER: Receiving packet. Time: 9800
+PRODUCER: Adding input to queue: Packet@669eaccc Queue now has size: 84
+PRODUCER: Receiving packet. Time: 9800
+PRODUCER: Adding input to queue: Packet@1ac3c098 Queue now has size: 85
+PRODUCER: Receiving packet. Time: 9800
+PRODUCER: Adding input to queue: Packet@6075ef1f Queue now has size: 86
+PRODUCER: Receiving packet. Time: 9801
+PRODUCER: Adding input to queue: Packet@36fc3b12 Queue now has size: 87
+PRODUCER: Receiving packet. Time: 9801
+PRODUCER: Adding input to queue: Packet@259709cd Queue now has size: 88
+PRODUCER: Receiving packet. Time: 10002
+PRODUCER: Adding input to queue: Packet@21d4dae7 Queue now has size: 89
+PRODUCER: Receiving packet. Time: 10002
+PRODUCER: Adding input to queue: Packet@6e96c4d5 Queue now has size: 90
+PRODUCER: Receiving packet. Time: 10002
+PRODUCER: Adding input to queue: Packet@396546be Queue now has size: 91
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 10203
+PRODUCER: Adding input to queue: Packet@24a1e93e Queue now has size: 91
+PRODUCER: Receiving packet. Time: 10203
+PRODUCER: Adding input to queue: Packet@23251caf Queue now has size: 92
+PRODUCER: Receiving packet. Time: 10203
+PRODUCER: Adding input to queue: Packet@7b4dc472 Queue now has size: 93
+PRODUCER: Receiving packet. Time: 10403
+PRODUCER: Adding input to queue: Packet@688e3d13 Queue now has size: 94
+PRODUCER: Receiving packet. Time: 10417
+PRODUCER: Adding input to queue: Packet@43cdc125 Queue now has size: 95
+PRODUCER: Receiving packet. Time: 10805
+PRODUCER: Adding input to queue: Packet@48067d97 Queue now has size: 96
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 10805
+PRODUCER: Adding input to queue: Packet@5dfd5eb1 Queue now has size: 97
+PRODUCER: Receiving packet. Time: 10806
+PRODUCER: Adding input to queue: Packet@448296b8 Queue now has size: 98
+PRODUCER: Receiving packet. Time: 10809
+PRODUCER: Adding input to queue: Packet@69ebb3e4 Queue now has size: 99
+PRODUCER: Receiving packet. Time: 10814
+PRODUCER: Full queue. Dropping packet: Packet@12fa818b
+PRODUCER: Receiving packet. Time: 10814
+PRODUCER: Full queue. Dropping packet: Packet@25455db3
+PRODUCER: Receiving packet. Time: 10814
+PRODUCER: Full queue. Dropping packet: Packet@752228f5
+PRODUCER: Receiving packet. Time: 11005
+PRODUCER: Full queue. Dropping packet: Packet@41e2d126
+PRODUCER: Receiving packet. Time: 11005
+PRODUCER: Full queue. Dropping packet: Packet@7d2f648
+PRODUCER: Receiving packet. Time: 11406
+PRODUCER: Full queue. Dropping packet: Packet@8f58bc4
+PRODUCER: Receiving packet. Time: 11406
+PRODUCER: Full queue. Dropping packet: Packet@6c746faf
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 12213
+PRODUCER: Adding input to queue: Packet@3b48f8e6 Queue now has size: 99
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 12615
+PRODUCER: Full queue. Dropping packet: Packet@2b383971
+PRODUCER: Receiving packet. Time: 12616
+PRODUCER: Full queue. Dropping packet: Packet@f372c79
+PRODUCER: Receiving packet. Time: 12818
+PRODUCER: Full queue. Dropping packet: Packet@40713327
+PRODUCER: Receiving packet. Time: 13019
+PRODUCER: Full queue. Dropping packet: Packet@3c027c07
+PRODUCER: Receiving packet. Time: 13019
+PRODUCER: Full queue. Dropping packet: Packet@569b2947
+PRODUCER: Receiving packet. Time: 13421
+PRODUCER: Full queue. Dropping packet: Packet@60798309
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 13422
+PRODUCER: Full queue. Dropping packet: Packet@29586c2a
+PRODUCER: Receiving packet. Time: 13423
+PRODUCER: Full queue. Dropping packet: Packet@615df42
+PRODUCER: Receiving packet. Time: 13425
+PRODUCER: Full queue. Dropping packet: Packet@9cb1fd6
+PRODUCER: Receiving packet. Time: 13431
+PRODUCER: Full queue. Dropping packet: Packet@2506b42d
+PRODUCER: Receiving packet. Time: 13432
+PRODUCER: Full queue. Dropping packet: Packet@4f55a59b
+PRODUCER: Receiving packet. Time: 13434
+PRODUCER: Full queue. Dropping packet: Packet@67129cfc
+PRODUCER: Receiving packet. Time: 13435
+PRODUCER: Full queue. Dropping packet: Packet@36760a67
+PRODUCER: Receiving packet. Time: 13435
+PRODUCER: Full queue. Dropping packet: Packet@26417758
+PRODUCER: Receiving packet. Time: 13435
+PRODUCER: Full queue. Dropping packet: Packet@445a6776
+PRODUCER: Receiving packet. Time: 13438
+PRODUCER: Full queue. Dropping packet: Packet@375cf67d
+PRODUCER: Receiving packet. Time: 13441
+PRODUCER: Full queue. Dropping packet: Packet@31ffe7c3
+PRODUCER: Receiving packet. Time: 13442
+PRODUCER: Full queue. Dropping packet: Packet@1ca9bd13
+PRODUCER: Receiving packet. Time: 13443
+PRODUCER: Full queue. Dropping packet: Packet@bdf0827
+PRODUCER: Receiving packet. Time: 13646
+PRODUCER: Full queue. Dropping packet: Packet@5be0f83f
+PRODUCER: Receiving packet. Time: 13646
+PRODUCER: Full queue. Dropping packet: Packet@156fdd7f
+PRODUCER: Receiving packet. Time: 13646
+PRODUCER: Full queue. Dropping packet: Packet@447fabe4
+PRODUCER: Receiving packet. Time: 13847
+PRODUCER: Full queue. Dropping packet: Packet@37121d7c
+PRODUCER: Receiving packet. Time: 13848
+PRODUCER: Full queue. Dropping packet: Packet@6bef3aa1
+PRODUCER: Receiving packet. Time: 14048
+PRODUCER: Full queue. Dropping packet: Packet@808686
+PRODUCER: Receiving packet. Time: 14049
+PRODUCER: Full queue. Dropping packet: Packet@39992df9
+PRODUCER: Receiving packet. Time: 14049
+PRODUCER: Full queue. Dropping packet: Packet@1ec72e4b
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 14450
+PRODUCER: Adding input to queue: Packet@c6f3500 Queue now has size: 99
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 14850
+PRODUCER: Full queue. Dropping packet: Packet@8df36bd
+PRODUCER: Receiving packet. Time: 15452
+PRODUCER: Full queue. Dropping packet: Packet@78d924ba
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 15452
+PRODUCER: Full queue. Dropping packet: Packet@5fcbf89c
+PRODUCER: Receiving packet. Time: 15452
+PRODUCER: Full queue. Dropping packet: Packet@2a790150
+PRODUCER: Receiving packet. Time: 15452
+PRODUCER: Full queue. Dropping packet: Packet@5be2b07c
+PRODUCER: Receiving packet. Time: 15652
+PRODUCER: Full queue. Dropping packet: Packet@6a2fa34e
+PRODUCER: Receiving packet. Time: 15652
+PRODUCER: Full queue. Dropping packet: Packet@6a20a98f
+PRODUCER: Receiving packet. Time: 15853
+PRODUCER: Full queue. Dropping packet: Packet@8b1461a
+PRODUCER: Receiving packet. Time: 15854
+PRODUCER: Full queue. Dropping packet: Packet@461e7620
+PRODUCER: Receiving packet. Time: 15854
+PRODUCER: Full queue. Dropping packet: Packet@51bc887e
+PRODUCER: Receiving packet. Time: 16054
+PRODUCER: Full queue. Dropping packet: Packet@3e3f3f17
+PRODUCER: Receiving packet. Time: 16054
+PRODUCER: Full queue. Dropping packet: Packet@3c3c3f5c
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 16456
+PRODUCER: Adding input to queue: Packet@9a6e18d Queue now has size: 99
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 16656
+PRODUCER: Full queue. Dropping packet: Packet@3cec67bf
+PRODUCER: Receiving packet. Time: 16656
+PRODUCER: Full queue. Dropping packet: Packet@7b6c30b2
+PRODUCER: Receiving packet. Time: 17259
+PRODUCER: Full queue. Dropping packet: Packet@2677365c
+PRODUCER: Receiving packet. Time: 17259
+PRODUCER: Full queue. Dropping packet: Packet@18e31196
+PRODUCER: Receiving packet. Time: 17259
+PRODUCER: Full queue. Dropping packet: Packet@47ed5caa
+PRODUCER: Receiving packet. Time: 17260
+PRODUCER: Full queue. Dropping packet: Packet@5d9e0d45
+PRODUCER: Receiving packet. Time: 17260
+PRODUCER: Full queue. Dropping packet: Packet@42c4157c
+PRODUCER: Receiving packet. Time: 17261
+PRODUCER: Full queue. Dropping packet: Packet@42abc313
+PRODUCER: Receiving packet. Time: 17466
+PRODUCER: Full queue. Dropping packet: Packet@6f0edfe0
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 17467
+PRODUCER: Full queue. Dropping packet: Packet@42570361
+PRODUCER: Receiving packet. Time: 17467
+PRODUCER: Full queue. Dropping packet: Packet@20da81a2
+PRODUCER: Receiving packet. Time: 17467
+PRODUCER: Full queue. Dropping packet: Packet@3cf56df1
+PRODUCER: Receiving packet. Time: 17468
+PRODUCER: Full queue. Dropping packet: Packet@251d5450
+PRODUCER: Receiving packet. Time: 17468
+PRODUCER: Full queue. Dropping packet: Packet@5f2b0799
+PRODUCER: Receiving packet. Time: 17468
+PRODUCER: Full queue. Dropping packet: Packet@2b085a4f
+PRODUCER: Receiving packet. Time: 17471
+PRODUCER: Full queue. Dropping packet: Packet@3c85203a
+PRODUCER: Receiving packet. Time: 17673
+PRODUCER: Full queue. Dropping packet: Packet@73754c2e
+PRODUCER: Receiving packet. Time: 17875
+PRODUCER: Full queue. Dropping packet: Packet@74e59a16
+PRODUCER: Receiving packet. Time: 18076
+PRODUCER: Full queue. Dropping packet: Packet@1d567ce7
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 18478
+PRODUCER: Adding input to queue: Packet@8c71b87 Queue now has size: 99
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 18478
+PRODUCER: Full queue. Dropping packet: Packet@510a228d
+PRODUCER: Receiving packet. Time: 18479
+PRODUCER: Full queue. Dropping packet: Packet@9e73790
+PRODUCER: Receiving packet. Time: 18479
+PRODUCER: Full queue. Dropping packet: Packet@2778d30f
+PRODUCER: Receiving packet. Time: 18479
+PRODUCER: Full queue. Dropping packet: Packet@17d3ff44
+PRODUCER: Receiving packet. Time: 18479
+PRODUCER: Full queue. Dropping packet: Packet@17cda979
+PRODUCER: Receiving packet. Time: 18680
+PRODUCER: Full queue. Dropping packet: Packet@272647a7
+PRODUCER: Receiving packet. Time: 18680
+PRODUCER: Full queue. Dropping packet: Packet@46a718e7
+PRODUCER: Receiving packet. Time: 18680
+PRODUCER: Full queue. Dropping packet: Packet@4e06f6a8
+PRODUCER: Receiving packet. Time: 19283
+PRODUCER: Full queue. Dropping packet: Packet@34fa1870
+PRODUCER: Receiving packet. Time: 19484
+PRODUCER: Full queue. Dropping packet: Packet@21747a37
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 19485
+PRODUCER: Full queue. Dropping packet: Packet@5fea2ede
+PRODUCER: Receiving packet. Time: 19485
+PRODUCER: Full queue. Dropping packet: Packet@2620203d
+PRODUCER: Receiving packet. Time: 19886
+PRODUCER: Full queue. Dropping packet: Packet@42fd8511
+PRODUCER: Receiving packet. Time: 19886
+PRODUCER: Full queue. Dropping packet: Packet@405afabb
+PRODUCER: Receiving packet. Time: 19886
+PRODUCER: Full queue. Dropping packet: Packet@4ec8a0b0
+PRODUCER: Receiving packet. Time: 20087
+PRODUCER: Full queue. Dropping packet: Packet@69ce509c
+PRODUCER: Receiving packet. Time: 20087
+PRODUCER: Full queue. Dropping packet: Packet@473595b9
+PRODUCER: Receiving packet. Time: 20088
+PRODUCER: Full queue. Dropping packet: Packet@50ad20c6
+PRODUCER: Receiving packet. Time: 20088
+PRODUCER: Full queue. Dropping packet: Packet@5bebd743
+PRODUCER: Receiving packet. Time: 20088
+PRODUCER: Full queue. Dropping packet: Packet@403a2612
+PRODUCER: Receiving packet. Time: 20088
+PRODUCER: Full queue. Dropping packet: Packet@2bc9fbf1
+PRODUCER: Receiving packet. Time: 20088
+PRODUCER: Full queue. Dropping packet: Packet@12db555e
+PRODUCER: Receiving packet. Time: 20089
+PRODUCER: Full queue. Dropping packet: Packet@178fc989
+PRODUCER: Receiving packet. Time: 20089
+PRODUCER: Full queue. Dropping packet: Packet@69477dc
+PRODUCER: Receiving packet. Time: 20089
+PRODUCER: Full queue. Dropping packet: Packet@6266128c
+PRODUCER: Receiving packet. Time: 20090
+PRODUCER: Full queue. Dropping packet: Packet@2adfda3b
+PRODUCER: Receiving packet. Time: 20090
+PRODUCER: Full queue. Dropping packet: Packet@43759d68
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 20292
+PRODUCER: Adding input to queue: Packet@66fa284d Queue now has size: 99
+PRODUCER: Receiving packet. Time: 20495
+PRODUCER: Full queue. Dropping packet: Packet@34dab46c
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 20495
+PRODUCER: Full queue. Dropping packet: Packet@6000bece
+PRODUCER: Receiving packet. Time: 20495
+PRODUCER: Full queue. Dropping packet: Packet@f71e17b
+PRODUCER: Receiving packet. Time: 20696
+PRODUCER: Full queue. Dropping packet: Packet@38fe1898
+PRODUCER: Receiving packet. Time: 21097
+PRODUCER: Full queue. Dropping packet: Packet@5966b23f
+PRODUCER: Receiving packet. Time: 21298
+PRODUCER: Full queue. Dropping packet: Packet@3c759113
+PRODUCER: Receiving packet. Time: 21298
+PRODUCER: Full queue. Dropping packet: Packet@3c8fd5df
+PRODUCER: Receiving packet. Time: 21298
+PRODUCER: Full queue. Dropping packet: Packet@747d200e
+PRODUCER: Receiving packet. Time: 21298
+PRODUCER: Full queue. Dropping packet: Packet@186693f4
+PRODUCER: Receiving packet. Time: 21299
+PRODUCER: Full queue. Dropping packet: Packet@80b74e2
+PRODUCER: Receiving packet. Time: 21912
+PRODUCER: Full queue. Dropping packet: Packet@4ae87911
+PRODUCER: WRITING TO GRAPH
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 22119
+PRODUCER: Adding input to queue: Packet@57084d12 Queue now has size: 99
+PRODUCER: Receiving packet. Time: 22119
+PRODUCER: Full queue. Dropping packet: Packet@7b5d8d34
+PRODUCER: Receiving packet. Time: 22119
+PRODUCER: Full queue. Dropping packet: Packet@28a25ad9
+PRODUCER: Receiving packet. Time: 22523
+PRODUCER: Full queue. Dropping packet: Packet@210b9e2d
+PRODUCER: Receiving packet. Time: 22523
+PRODUCER: Full queue. Dropping packet: Packet@347e27c3
+PRODUCER: Receiving packet. Time: 22532
+PRODUCER: Full queue. Dropping packet: Packet@235d3855
+PRODUCER: Receiving packet. Time: 22532
+PRODUCER: Full queue. Dropping packet: Packet@1993da75
+PRODUCER: Receiving packet. Time: 22532
+PRODUCER: Full queue. Dropping packet: Packet@6414c59c
+PRODUCER: Receiving packet. Time: 22532
+PRODUCER: Full queue. Dropping packet: Packet@2191a6e2
+PRODUCER: Receiving packet. Time: 22534
+PRODUCER: Full queue. Dropping packet: Packet@6bc4ad15
+PRODUCER: Receiving packet. Time: 22534
+PRODUCER: Full queue. Dropping packet: Packet@6c83826a
+PRODUCER: Receiving packet. Time: 22937
+PRODUCER: Full queue. Dropping packet: Packet@2ef98243
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 22937
+PRODUCER: Full queue. Dropping packet: Packet@2f387c8
+PRODUCER: Receiving packet. Time: 22937
+PRODUCER: Full queue. Dropping packet: Packet@4c912e86
+PRODUCER: Receiving packet. Time: 23139
+PRODUCER: Full queue. Dropping packet: Packet@3cf175ac
+PRODUCER: Receiving packet. Time: 23140
+PRODUCER: Full queue. Dropping packet: Packet@5e7803eb
+PRODUCER: Receiving packet. Time: 23141
+PRODUCER: Full queue. Dropping packet: Packet@402b022b
+PRODUCER: Receiving packet. Time: 23141
+PRODUCER: Full queue. Dropping packet: Packet@58be1b6
+PRODUCER: Receiving packet. Time: 23142
+PRODUCER: Full queue. Dropping packet: Packet@3260b8be
+PRODUCER: Receiving packet. Time: 23142
+PRODUCER: Full queue. Dropping packet: Packet@2c998242
+PRODUCER: Receiving packet. Time: 23545
+PRODUCER: Full queue. Dropping packet: Packet@343bf7a0
+PRODUCER: Receiving packet. Time: 23547
+PRODUCER: Full queue. Dropping packet: Packet@6e6726c0
+PRODUCER: Receiving packet. Time: 23547
+PRODUCER: Full queue. Dropping packet: Packet@59f5d6fa
+PRODUCER: Receiving packet. Time: 23547
+PRODUCER: Full queue. Dropping packet: Packet@391ed414
+PRODUCER: Receiving packet. Time: 23748
+PRODUCER: Full queue. Dropping packet: Packet@5273b260
+PRODUCER: Receiving packet. Time: 23749
+PRODUCER: Full queue. Dropping packet: Packet@5f5cfc8
+PRODUCER: Receiving packet. Time: 23949
+PRODUCER: Full queue. Dropping packet: Packet@72c09b8a
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 23950
+PRODUCER: Full queue. Dropping packet: Packet@3d314fb2
+PRODUCER: Receiving packet. Time: 23950
+PRODUCER: Full queue. Dropping packet: Packet@721e0ac6
+PRODUCER: Receiving packet. Time: 23950
+PRODUCER: Full queue. Dropping packet: Packet@59be00c2
+PRODUCER: Receiving packet. Time: 23951
+PRODUCER: Full queue. Dropping packet: Packet@2f54dcb4
+PRODUCER: Receiving packet. Time: 23952
+PRODUCER: Full queue. Dropping packet: Packet@182f5a33
+PRODUCER: Receiving packet. Time: 23952
+PRODUCER: Full queue. Dropping packet: Packet@1ae53bca
+PRODUCER: Receiving packet. Time: 23953
+PRODUCER: Full queue. Dropping packet: Packet@33f49044
+PRODUCER: Receiving packet. Time: 23953
+PRODUCER: Full queue. Dropping packet: Packet@3a4c4bf2
+PRODUCER: Receiving packet. Time: 23953
+PRODUCER: Full queue. Dropping packet: Packet@5850604a
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 24153
+PRODUCER: Adding input to queue: Packet@6b583be1 Queue now has size: 99
+PRODUCER: Receiving packet. Time: 24157
+PRODUCER: Full queue. Dropping packet: Packet@7c39f07e
+PRODUCER: Receiving packet. Time: 24160
+PRODUCER: Full queue. Dropping packet: Packet@24f237d0
+PRODUCER: Receiving packet. Time: 24363
+PRODUCER: Full queue. Dropping packet: Packet@7f7b4134
+PRODUCER: Receiving packet. Time: 24363
+PRODUCER: Full queue. Dropping packet: Packet@5556fa09
+PRODUCER: Receiving packet. Time: 24368
+PRODUCER: Full queue. Dropping packet: Packet@665f5add
+PRODUCER: Receiving packet. Time: 24571
+PRODUCER: Full queue. Dropping packet: Packet@5326ad71
+PRODUCER: Receiving packet. Time: 24972
+PRODUCER: Full queue. Dropping packet: Packet@76f134c0
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 24973
+PRODUCER: Full queue. Dropping packet: Packet@14151ea5
+PRODUCER: Receiving packet. Time: 24973
+PRODUCER: Full queue. Dropping packet: Packet@8003748
+PRODUCER: Receiving packet. Time: 24973
+PRODUCER: Full queue. Dropping packet: Packet@6e2b5e1c
+PRODUCER: Receiving packet. Time: 25375
+PRODUCER: Full queue. Dropping packet: Packet@1103302d
+PRODUCER: Receiving packet. Time: 25376
+PRODUCER: Full queue. Dropping packet: Packet@2ddfe49e
+PRODUCER: Receiving packet. Time: 25376
+PRODUCER: Full queue. Dropping packet: Packet@246c2c1a
+PRODUCER: Receiving packet. Time: 25376
+PRODUCER: Full queue. Dropping packet: Packet@10834d35
+PRODUCER: Receiving packet. Time: 25377
+PRODUCER: Full queue. Dropping packet: Packet@18099550
+PRODUCER: Receiving packet. Time: 25377
+PRODUCER: Full queue. Dropping packet: Packet@4a2079db
+PRODUCER: Receiving packet. Time: 25377
+PRODUCER: Full queue. Dropping packet: Packet@f699079
+PRODUCER: Receiving packet. Time: 25381
+PRODUCER: Full queue. Dropping packet: Packet@5898e44
+PRODUCER: Receiving packet. Time: 25381
+PRODUCER: Full queue. Dropping packet: Packet@517e28b0
+PRODUCER: Receiving packet. Time: 25381
+PRODUCER: Full queue. Dropping packet: Packet@18597de5
+PRODUCER: Receiving packet. Time: 25582
+PRODUCER: Full queue. Dropping packet: Packet@5b70cccf
+PRODUCER: Receiving packet. Time: 25582
+PRODUCER: Full queue. Dropping packet: Packet@1242824b
+PRODUCER: Receiving packet. Time: 25783
+PRODUCER: Full queue. Dropping packet: Packet@3259131b
+PRODUCER: Receiving packet. Time: 25984
+PRODUCER: Full queue. Dropping packet: Packet@613cf6e0
+PRODUCER: WRITING TO GRAPH
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 26185
+PRODUCER: Adding input to queue: Packet@3c7748bc Queue now has size: 99
+PRODUCER: Receiving packet. Time: 26385
+PRODUCER: Full queue. Dropping packet: Packet@3a21d5a3
+PRODUCER: Receiving packet. Time: 26386
+PRODUCER: Full queue. Dropping packet: Packet@401ac837
+PRODUCER: Receiving packet. Time: 26386
+PRODUCER: Full queue. Dropping packet: Packet@4697bd22
+PRODUCER: Receiving packet. Time: 26586
+PRODUCER: Full queue. Dropping packet: Packet@40a32fe4
+PRODUCER: Receiving packet. Time: 26787
+PRODUCER: Full queue. Dropping packet: Packet@749b669e
+PRODUCER: Receiving packet. Time: 26787
+PRODUCER: Full queue. Dropping packet: Packet@6256534a
+PRODUCER: Receiving packet. Time: 26788
+PRODUCER: Full queue. Dropping packet: Packet@19d38c8f
+PRODUCER: Receiving packet. Time: 26788
+PRODUCER: Full queue. Dropping packet: Packet@40564c5e
+PRODUCER: Receiving packet. Time: 27389
+PRODUCER: Full queue. Dropping packet: Packet@6fd66d5c
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 27389
+PRODUCER: Full queue. Dropping packet: Packet@3fcabfef
+PRODUCER: Receiving packet. Time: 27591
+PRODUCER: Full queue. Dropping packet: Packet@3a78fb6d
+PRODUCER: Receiving packet. Time: 27592
+PRODUCER: Full queue. Dropping packet: Packet@483e74c0
+PRODUCER: Receiving packet. Time: 27592
+PRODUCER: Full queue. Dropping packet: Packet@14de4c16
+PRODUCER: Receiving packet. Time: 27592
+PRODUCER: Full queue. Dropping packet: Packet@7e81bca5
+PRODUCER: Receiving packet. Time: 27593
+PRODUCER: Full queue. Dropping packet: Packet@3df838b
+PRODUCER: Receiving packet. Time: 27593
+PRODUCER: Full queue. Dropping packet: Packet@38fc7f44
+PRODUCER: Receiving packet. Time: 27594
+PRODUCER: Full queue. Dropping packet: Packet@5ea43ab1
+PRODUCER: Receiving packet. Time: 27795
+PRODUCER: Full queue. Dropping packet: Packet@2db3d154
+PRODUCER: Receiving packet. Time: 27795
+PRODUCER: Full queue. Dropping packet: Packet@520fdcb2
+PRODUCER: Receiving packet. Time: 27795
+PRODUCER: Full queue. Dropping packet: Packet@9d29fe8
+PRODUCER: Receiving packet. Time: 27795
+PRODUCER: Full queue. Dropping packet: Packet@765c5dd1
+PRODUCER: Receiving packet. Time: 27796
+PRODUCER: Full queue. Dropping packet: Packet@45560b3f
+PRODUCER: Receiving packet. Time: 27796
+PRODUCER: Full queue. Dropping packet: Packet@6910b56b
+PRODUCER: Receiving packet. Time: 27997
+PRODUCER: Full queue. Dropping packet: Packet@74a04a7e
+PRODUCER: Receiving packet. Time: 27997
+PRODUCER: Full queue. Dropping packet: Packet@600633ee
+PRODUCER: Receiving packet. Time: 27997
+PRODUCER: Full queue. Dropping packet: Packet@157cd322
+PRODUCER: Receiving packet. Time: 27997
+PRODUCER: Full queue. Dropping packet: Packet@792b970b
+PRODUCER: Receiving packet. Time: 27999
+PRODUCER: Full queue. Dropping packet: Packet@f2ed1ea
+PRODUCER: Receiving packet. Time: 27999
+PRODUCER: Full queue. Dropping packet: Packet@5e661aa2
+PRODUCER: Receiving packet. Time: 28000
+PRODUCER: Full queue. Dropping packet: Packet@2df0378f
+PRODUCER: Receiving packet. Time: 28000
+PRODUCER: Full queue. Dropping packet: Packet@8466ef5
+PRODUCER: Receiving packet. Time: 28000
+PRODUCER: Full queue. Dropping packet: Packet@711e4f96
+PRODUCER: Receiving packet. Time: 28000
+PRODUCER: Full queue. Dropping packet: Packet@1fc3e81d
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 28200
+PRODUCER: Adding input to queue: Packet@3323f825 Queue now has size: 99
+PRODUCER: Receiving packet. Time: 28401
+PRODUCER: Full queue. Dropping packet: Packet@8290972
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 28804
+PRODUCER: Full queue. Dropping packet: Packet@b48951e
+PRODUCER: Receiving packet. Time: 28805
+PRODUCER: Full queue. Dropping packet: Packet@b4b176a
+PRODUCER: Receiving packet. Time: 28805
+PRODUCER: Full queue. Dropping packet: Packet@278534f6
+PRODUCER: Receiving packet. Time: 28805
+PRODUCER: Full queue. Dropping packet: Packet@67a7dbed
+PRODUCER: Receiving packet. Time: 28805
+PRODUCER: Full queue. Dropping packet: Packet@28084262
+PRODUCER: Receiving packet. Time: 29006
+PRODUCER: Full queue. Dropping packet: Packet@7b2be04e
+PRODUCER: Receiving packet. Time: 29006
+PRODUCER: Full queue. Dropping packet: Packet@75874959
+PRODUCER: Receiving packet. Time: 29006
+PRODUCER: Full queue. Dropping packet: Packet@2c269cb7
+PRODUCER: Receiving packet. Time: 29208
+PRODUCER: Full queue. Dropping packet: Packet@46d7d003
+PRODUCER: Receiving packet. Time: 29209
+PRODUCER: Full queue. Dropping packet: Packet@62da7107
+PRODUCER: Receiving packet. Time: 29614
+PRODUCER: Full queue. Dropping packet: Packet@2dd82184
+PRODUCER: WRITING TO GRAPH
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 30616
+PRODUCER: Adding input to queue: Packet@3503c3ac Queue now has size: 99
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 31017
+PRODUCER: Full queue. Dropping packet: Packet@4d2c5ac7
+PRODUCER: Receiving packet. Time: 31417
+PRODUCER: Full queue. Dropping packet: Packet@7c4f482c
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 32220
+PRODUCER: Adding input to queue: Packet@10779220 Queue now has size: 99
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 32220
+PRODUCER: Full queue. Dropping packet: Packet@3b423d21
+PRODUCER: Receiving packet. Time: 32220
+PRODUCER: Full queue. Dropping packet: Packet@1497b2ec
+PRODUCER: Receiving packet. Time: 32421
+PRODUCER: Full queue. Dropping packet: Packet@129f867a
+PRODUCER: Receiving packet. Time: 32421
+PRODUCER: Full queue. Dropping packet: Packet@3e55e09b
+PRODUCER: Receiving packet. Time: 32421
+PRODUCER: Full queue. Dropping packet: Packet@14546945
+PRODUCER: Receiving packet. Time: 32823
+PRODUCER: Full queue. Dropping packet: Packet@3d7db9f1
+PRODUCER: Receiving packet. Time: 33023
+PRODUCER: Full queue. Dropping packet: Packet@53bf4472
+PRODUCER: Receiving packet. Time: 33024
+PRODUCER: Full queue. Dropping packet: Packet@42ff27a6
+PRODUCER: Receiving packet. Time: 33024
+PRODUCER: Full queue. Dropping packet: Packet@755670fd
+PRODUCER: Receiving packet. Time: 33025
+PRODUCER: Full queue. Dropping packet: Packet@2534ed97
+PRODUCER: Receiving packet. Time: 33025
+PRODUCER: Full queue. Dropping packet: Packet@c01a197
+PRODUCER: Receiving packet. Time: 33226
+PRODUCER: Full queue. Dropping packet: Packet@377865a6
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 33629
+PRODUCER: Full queue. Dropping packet: Packet@71ef2a2c
+PRODUCER: Receiving packet. Time: 33629
+PRODUCER: Full queue. Dropping packet: Packet@733529d3
+PRODUCER: Receiving packet. Time: 33629
+PRODUCER: Full queue. Dropping packet: Packet@72b9233b
+PRODUCER: Receiving packet. Time: 33838
+PRODUCER: Full queue. Dropping packet: Packet@6182d9f
+PRODUCER: Receiving packet. Time: 33839
+PRODUCER: Full queue. Dropping packet: Packet@eaec93a
+PRODUCER: Receiving packet. Time: 33839
+PRODUCER: Full queue. Dropping packet: Packet@548f128d
+PRODUCER: Receiving packet. Time: 33839
+PRODUCER: Full queue. Dropping packet: Packet@6f9453dc
+PRODUCER: Receiving packet. Time: 33839
+PRODUCER: Full queue. Dropping packet: Packet@28a7ff64
+PRODUCER: Receiving packet. Time: 33839
+PRODUCER: Full queue. Dropping packet: Packet@50b80453
+PRODUCER: Receiving packet. Time: 34043
+PRODUCER: Full queue. Dropping packet: Packet@7c0f7fb3
+PRODUCER: Receiving packet. Time: 34046
+PRODUCER: Full queue. Dropping packet: Packet@31c8c95d
+PRODUCER: Receiving packet. Time: 34046
+PRODUCER: Full queue. Dropping packet: Packet@26835cdf
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 34247
+PRODUCER: Adding input to queue: Packet@36094ec0 Queue now has size: 99
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 34247
+PRODUCER: Full queue. Dropping packet: Packet@31fc4d55
+PRODUCER: Receiving packet. Time: 34447
+PRODUCER: Full queue. Dropping packet: Packet@4689f816
+PRODUCER: Receiving packet. Time: 34448
+PRODUCER: Full queue. Dropping packet: Packet@7a5031bc
+PRODUCER: Receiving packet. Time: 35049
+PRODUCER: Full queue. Dropping packet: Packet@6d31f78
+PRODUCER: Receiving packet. Time: 35049
+PRODUCER: Full queue. Dropping packet: Packet@55166c12
+PRODUCER: Receiving packet. Time: 35049
+PRODUCER: Full queue. Dropping packet: Packet@5c5667ee
+PRODUCER: Receiving packet. Time: 35049
+PRODUCER: Full queue. Dropping packet: Packet@27f06009
+PRODUCER: Receiving packet. Time: 35049
+PRODUCER: Full queue. Dropping packet: Packet@39469350
+PRODUCER: Receiving packet. Time: 35852
+PRODUCER: Full queue. Dropping packet: Packet@5fd60e96
+PRODUCER: WRITING TO GRAPH
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 36253
+PRODUCER: Adding input to queue: Packet@30507b95 Queue now has size: 99
+PRODUCER: Receiving packet. Time: 36253
+PRODUCER: Full queue. Dropping packet: Packet@1404b5be
+PRODUCER: Receiving packet. Time: 36253
+PRODUCER: Full queue. Dropping packet: Packet@1955787d
+PRODUCER: Receiving packet. Time: 36253
+PRODUCER: Full queue. Dropping packet: Packet@7618777f
+PRODUCER: Receiving packet. Time: 36654
+PRODUCER: Full queue. Dropping packet: Packet@45a726fa
+PRODUCER: Receiving packet. Time: 36855
+PRODUCER: Full queue. Dropping packet: Packet@743fc2b5
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 36855
+PRODUCER: Full queue. Dropping packet: Packet@469bcadf
+PRODUCER: Receiving packet. Time: 37055
+PRODUCER: Full queue. Dropping packet: Packet@738deefc
+PRODUCER: Receiving packet. Time: 37056
+PRODUCER: Full queue. Dropping packet: Packet@f619681
+PRODUCER: Receiving packet. Time: 37256
+PRODUCER: Full queue. Dropping packet: Packet@5c1c7b2
+PRODUCER: Receiving packet. Time: 37257
+PRODUCER: Full queue. Dropping packet: Packet@1d9438e7
+PRODUCER: Receiving packet. Time: 37458
+PRODUCER: Full queue. Dropping packet: Packet@1f2dfa7
+PRODUCER: Receiving packet. Time: 37459
+PRODUCER: Full queue. Dropping packet: Packet@2a49486
+PRODUCER: Receiving packet. Time: 37459
+PRODUCER: Full queue. Dropping packet: Packet@9532f37
+PRODUCER: Receiving packet. Time: 37461
+PRODUCER: Full queue. Dropping packet: Packet@353c6dfa
+PRODUCER: Receiving packet. Time: 37662
+PRODUCER: Full queue. Dropping packet: Packet@22a4931d
+PRODUCER: Receiving packet. Time: 37663
+PRODUCER: Full queue. Dropping packet: Packet@402336b
+PRODUCER: Receiving packet. Time: 37663
+PRODUCER: Full queue. Dropping packet: Packet@14389e4b
+PRODUCER: Receiving packet. Time: 37664
+PRODUCER: Full queue. Dropping packet: Packet@423d628b
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 38267
+PRODUCER: Adding input to queue: Packet@44073daa Queue now has size: 99
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 38267
+PRODUCER: Full queue. Dropping packet: Packet@510bd72a
+PRODUCER: Receiving packet. Time: 38668
+PRODUCER: Full queue. Dropping packet: Packet@191d186
+PRODUCER: Receiving packet. Time: 38869
+PRODUCER: Full queue. Dropping packet: Packet@2891c205
+PRODUCER: Receiving packet. Time: 39470
+PRODUCER: Full queue. Dropping packet: Packet@558640d0
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 39479
+PRODUCER: Full queue. Dropping packet: Packet@5a3b6fcd
+PRODUCER: Receiving packet. Time: 39483
+PRODUCER: Full queue. Dropping packet: Packet@55a988ed
+PRODUCER: Receiving packet. Time: 39884
+PRODUCER: Full queue. Dropping packet: Packet@738ee9b7
+PRODUCER: Receiving packet. Time: 39884
+PRODUCER: Full queue. Dropping packet: Packet@14e9b7d6
+PRODUCER: Receiving packet. Time: 39884
+PRODUCER: Full queue. Dropping packet: Packet@15adf781
+PRODUCER: Receiving packet. Time: 40084
+PRODUCER: Full queue. Dropping packet: Packet@c5afb39
+PRODUCER: Receiving packet. Time: 40084
+PRODUCER: Full queue. Dropping packet: Packet@81d6854
+PRODUCER: Receiving packet. Time: 40084
+PRODUCER: Full queue. Dropping packet: Packet@51132986
+PRODUCER: Receiving packet. Time: 40084
+PRODUCER: Full queue. Dropping packet: Packet@2b78ddda
+PRODUCER: Receiving packet. Time: 40084
+PRODUCER: Full queue. Dropping packet: Packet@702078bf
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 40285
+PRODUCER: Adding input to queue: Packet@131ce127 Queue now has size: 99
+PRODUCER: Receiving packet. Time: 40285
+PRODUCER: Full queue. Dropping packet: Packet@5b0ba5db
+PRODUCER: Receiving packet. Time: 40485
+PRODUCER: Full queue. Dropping packet: Packet@36f0356d
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 40485
+PRODUCER: Full queue. Dropping packet: Packet@4566568c
+PRODUCER: Receiving packet. Time: 40686
+PRODUCER: Full queue. Dropping packet: Packet@318792de
+PRODUCER: Receiving packet. Time: 40686
+PRODUCER: Full queue. Dropping packet: Packet@37a4dc48
+PRODUCER: Receiving packet. Time: 40686
+PRODUCER: Full queue. Dropping packet: Packet@48cc8c
+PRODUCER: Receiving packet. Time: 40686
+PRODUCER: Full queue. Dropping packet: Packet@77ed283f
+PRODUCER: Receiving packet. Time: 40686
+PRODUCER: Full queue. Dropping packet: Packet@7a71557e
+PRODUCER: Receiving packet. Time: 40686
+PRODUCER: Full queue. Dropping packet: Packet@6ba690e4
+PRODUCER: Receiving packet. Time: 40686
+PRODUCER: Full queue. Dropping packet: Packet@2dcc1db0
+PRODUCER: Receiving packet. Time: 40686
+PRODUCER: Full queue. Dropping packet: Packet@337e64e6
+PRODUCER: Receiving packet. Time: 40686
+PRODUCER: Full queue. Dropping packet: Packet@43d41d52
+PRODUCER: Receiving packet. Time: 40686
+PRODUCER: Full queue. Dropping packet: Packet@1caa847c
+PRODUCER: Receiving packet. Time: 40888
+PRODUCER: Full queue. Dropping packet: Packet@51c63bc4
+PRODUCER: Receiving packet. Time: 41295
+PRODUCER: Full queue. Dropping packet: Packet@115f3c4e
+PRODUCER: Receiving packet. Time: 41496
+PRODUCER: Full queue. Dropping packet: Packet@72829dba
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 41496
+PRODUCER: Full queue. Dropping packet: Packet@3a437ef2
+PRODUCER: Receiving packet. Time: 41496
+PRODUCER: Full queue. Dropping packet: Packet@5a3b7a65
+PRODUCER: Receiving packet. Time: 41496
+PRODUCER: Full queue. Dropping packet: Packet@32ee8020
+PRODUCER: Receiving packet. Time: 41698
+PRODUCER: Full queue. Dropping packet: Packet@54e7a48a
+PRODUCER: Receiving packet. Time: 41698
+PRODUCER: Full queue. Dropping packet: Packet@7572f40a
+PRODUCER: Receiving packet. Time: 41698
+PRODUCER: Full queue. Dropping packet: Packet@741b4093
+PRODUCER: Receiving packet. Time: 41698
+PRODUCER: Full queue. Dropping packet: Packet@32b231b0
+PRODUCER: Receiving packet. Time: 41698
+PRODUCER: Full queue. Dropping packet: Packet@5b181098
+PRODUCER: Receiving packet. Time: 41899
+PRODUCER: Full queue. Dropping packet: Packet@39287d55
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 42501
+PRODUCER: Adding input to queue: Packet@1719bd3b Queue now has size: 99
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 42501
+PRODUCER: Full queue. Dropping packet: Packet@340531d9
+PRODUCER: Receiving packet. Time: 42701
+PRODUCER: Full queue. Dropping packet: Packet@2f827b11
+PRODUCER: Receiving packet. Time: 43504
+PRODUCER: Full queue. Dropping packet: Packet@553a6961
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 43504
+PRODUCER: Full queue. Dropping packet: Packet@f10f698
+PRODUCER: Receiving packet. Time: 43705
+PRODUCER: Full queue. Dropping packet: Packet@1286955a
+PRODUCER: Receiving packet. Time: 43705
+PRODUCER: Full queue. Dropping packet: Packet@2ee02ee8
+PRODUCER: Receiving packet. Time: 43705
+PRODUCER: Full queue. Dropping packet: Packet@28172b34
+PRODUCER: Receiving packet. Time: 43905
+PRODUCER: Full queue. Dropping packet: Packet@20bbbc98
+PRODUCER: Receiving packet. Time: 43906
+PRODUCER: Full queue. Dropping packet: Packet@631d190
+PRODUCER: Receiving packet. Time: 43906
+PRODUCER: Full queue. Dropping packet: Packet@290938d0
+PRODUCER: Receiving packet. Time: 43906
+PRODUCER: Full queue. Dropping packet: Packet@38d6f84e
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 44508
+PRODUCER: Adding input to queue: Packet@4574ccb0 Queue now has size: 99
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 44509
+PRODUCER: Full queue. Dropping packet: Packet@4dc128df
+PRODUCER: Receiving packet. Time: 44509
+PRODUCER: Full queue. Dropping packet: Packet@2d6e560f
+PRODUCER: Receiving packet. Time: 44509
+PRODUCER: Full queue. Dropping packet: Packet@2275cf64
+PRODUCER: Receiving packet. Time: 44712
+PRODUCER: Full queue. Dropping packet: Packet@418796d6
+PRODUCER: Receiving packet. Time: 44712
+PRODUCER: Full queue. Dropping packet: Packet@544d9e9
+PRODUCER: Receiving packet. Time: 44912
+PRODUCER: Full queue. Dropping packet: Packet@5ac53960
+PRODUCER: Receiving packet. Time: 44913
+PRODUCER: Full queue. Dropping packet: Packet@5647c3b3
+PRODUCER: Receiving packet. Time: 44913
+PRODUCER: Full queue. Dropping packet: Packet@2b8bde8b
+PRODUCER: Receiving packet. Time: 44913
+PRODUCER: Full queue. Dropping packet: Packet@8a3d182
+PRODUCER: Receiving packet. Time: 44913
+PRODUCER: Full queue. Dropping packet: Packet@7b5ee7cf
+PRODUCER: Receiving packet. Time: 45115
+PRODUCER: Full queue. Dropping packet: Packet@136cf94c
+PRODUCER: Receiving packet. Time: 45115
+PRODUCER: Full queue. Dropping packet: Packet@66e6122c
+PRODUCER: Receiving packet. Time: 45115
+PRODUCER: Full queue. Dropping packet: Packet@70dff0b3
+PRODUCER: Receiving packet. Time: 45116
+PRODUCER: Full queue. Dropping packet: Packet@7cb301f8
+PRODUCER: Receiving packet. Time: 45117
+PRODUCER: Full queue. Dropping packet: Packet@8e131bb
+PRODUCER: Receiving packet. Time: 45317
+PRODUCER: Full queue. Dropping packet: Packet@5ec025f9
+PRODUCER: Receiving packet. Time: 45518
+PRODUCER: Full queue. Dropping packet: Packet@51150cfa
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 45518
+PRODUCER: Full queue. Dropping packet: Packet@354d7be1
+PRODUCER: Receiving packet. Time: 45518
+PRODUCER: Full queue. Dropping packet: Packet@34a0e81a
+PRODUCER: Receiving packet. Time: 45719
+PRODUCER: Full queue. Dropping packet: Packet@6b90ec9a
+PRODUCER: Receiving packet. Time: 45919
+PRODUCER: Full queue. Dropping packet: Packet@121b5fce
+PRODUCER: Receiving packet. Time: 45919
+PRODUCER: Full queue. Dropping packet: Packet@4c57bc1f
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 46120
+PRODUCER: Adding input to queue: Packet@7f847db7 Queue now has size: 99
+PRODUCER: Receiving packet. Time: 46120
+PRODUCER: Full queue. Dropping packet: Packet@131caae1
+PRODUCER: Receiving packet. Time: 46120
+PRODUCER: Full queue. Dropping packet: Packet@5b317263
+PRODUCER: Receiving packet. Time: 46120
+PRODUCER: Full queue. Dropping packet: Packet@2af78a5e
+PRODUCER: Receiving packet. Time: 46321
+PRODUCER: Full queue. Dropping packet: Packet@76422372
+PRODUCER: Receiving packet. Time: 46321
+PRODUCER: Full queue. Dropping packet: Packet@7fd4f9
+PRODUCER: Receiving packet. Time: 46321
+PRODUCER: Full queue. Dropping packet: Packet@500d0cff
+PRODUCER: Receiving packet. Time: 46321
+PRODUCER: Full queue. Dropping packet: Packet@463ed9da
+PRODUCER: Receiving packet. Time: 46321
+PRODUCER: Full queue. Dropping packet: Packet@21802bdc
+PRODUCER: Receiving packet. Time: 46321
+PRODUCER: Full queue. Dropping packet: Packet@5f26eb09
+PRODUCER: Receiving packet. Time: 46322
+PRODUCER: Full queue. Dropping packet: Packet@67747ee6
+PRODUCER: Receiving packet. Time: 46322
+PRODUCER: Full queue. Dropping packet: Packet@57b48bdb
+PRODUCER: Receiving packet. Time: 46723
+PRODUCER: Full queue. Dropping packet: Packet@774a943a
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 46729
+PRODUCER: Full queue. Dropping packet: Packet@1f5c4779
+PRODUCER: Receiving packet. Time: 47133
+PRODUCER: Full queue. Dropping packet: Packet@5b1b893a
+PRODUCER: Receiving packet. Time: 47133
+PRODUCER: Full queue. Dropping packet: Packet@28022bd1
+PRODUCER: Receiving packet. Time: 47134
+PRODUCER: Full queue. Dropping packet: Packet@bca81af
+PRODUCER: Receiving packet. Time: 47134
+PRODUCER: Full queue. Dropping packet: Packet@76506820
+PRODUCER: Receiving packet. Time: 47134
+PRODUCER: Full queue. Dropping packet: Packet@71057d89
+PRODUCER: Receiving packet. Time: 47735
+PRODUCER: Full queue. Dropping packet: Packet@48609cdb
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 47735
+PRODUCER: Full queue. Dropping packet: Packet@17f8bb81
+PRODUCER: Receiving packet. Time: 47736
+PRODUCER: Full queue. Dropping packet: Packet@629cd036
+PRODUCER: Receiving packet. Time: 47736
+PRODUCER: Full queue. Dropping packet: Packet@38af10d9
+PRODUCER: Receiving packet. Time: 47736
+PRODUCER: Full queue. Dropping packet: Packet@74e5d553
+PRODUCER: Receiving packet. Time: 47736
+PRODUCER: Full queue. Dropping packet: Packet@26935cfd
+PRODUCER: Receiving packet. Time: 47736
+PRODUCER: Full queue. Dropping packet: Packet@228a3579
+PRODUCER: Receiving packet. Time: 47937
+PRODUCER: Full queue. Dropping packet: Packet@62e3d029
+PRODUCER: Receiving packet. Time: 47937
+PRODUCER: Full queue. Dropping packet: Packet@3876ce6b
+PRODUCER: Receiving packet. Time: 47937
+PRODUCER: Full queue. Dropping packet: Packet@43e092c
+PRODUCER: Receiving packet. Time: 47937
+PRODUCER: Full queue. Dropping packet: Packet@77ecd52f
+PRODUCER: Receiving packet. Time: 47938
+PRODUCER: Full queue. Dropping packet: Packet@b723163
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 48540
+PRODUCER: Adding input to queue: Packet@5f9a3f0 Queue now has size: 99
+PRODUCER: Receiving packet. Time: 48741
+PRODUCER: Full queue. Dropping packet: Packet@717aad0a
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 48742
+PRODUCER: Full queue. Dropping packet: Packet@60ae4ba7
+PRODUCER: Receiving packet. Time: 48743
+PRODUCER: Full queue. Dropping packet: Packet@7acd87f8
+PRODUCER: Receiving packet. Time: 48743
+PRODUCER: Full queue. Dropping packet: Packet@32634d72
+PRODUCER: Receiving packet. Time: 48743
+PRODUCER: Full queue. Dropping packet: Packet@16d5a4c9
+PRODUCER: Receiving packet. Time: 49346
+PRODUCER: Full queue. Dropping packet: Packet@4b436c7
+PRODUCER: Receiving packet. Time: 49347
+PRODUCER: Full queue. Dropping packet: Packet@125083ee
+PRODUCER: Receiving packet. Time: 49347
+PRODUCER: Full queue. Dropping packet: Packet@3a70540b
+PRODUCER: Receiving packet. Time: 49547
+PRODUCER: Full queue. Dropping packet: Packet@1b84c60
+PRODUCER: Receiving packet. Time: 49948
+PRODUCER: Full queue. Dropping packet: Packet@241f409e
+PRODUCER: WRITING TO GRAPH
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 50350
+PRODUCER: Adding input to queue: Packet@32c6e800 Queue now has size: 99
+PRODUCER: Receiving packet. Time: 50350
+PRODUCER: Full queue. Dropping packet: Packet@aae325f
+PRODUCER: Receiving packet. Time: 50350
+PRODUCER: Full queue. Dropping packet: Packet@49b6b426
+PRODUCER: Receiving packet. Time: 50350
+PRODUCER: Full queue. Dropping packet: Packet@17f3163e
+PRODUCER: Receiving packet. Time: 50551
+PRODUCER: Full queue. Dropping packet: Packet@12707a28
+PRODUCER: Receiving packet. Time: 50551
+PRODUCER: Full queue. Dropping packet: Packet@69b78ef3
+PRODUCER: Receiving packet. Time: 50551
+PRODUCER: Full queue. Dropping packet: Packet@155c0067
+PRODUCER: Receiving packet. Time: 50551
+PRODUCER: Full queue. Dropping packet: Packet@1a91a614
+PRODUCER: Receiving packet. Time: 50953
+PRODUCER: Full queue. Dropping packet: Packet@ba12e54
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 50953
+PRODUCER: Full queue. Dropping packet: Packet@5e34f9c5
+PRODUCER: Receiving packet. Time: 51153
+PRODUCER: Full queue. Dropping packet: Packet@2b9e955c
+PRODUCER: Receiving packet. Time: 51154
+PRODUCER: Full queue. Dropping packet: Packet@3c28273d
+PRODUCER: Receiving packet. Time: 51154
+PRODUCER: Full queue. Dropping packet: Packet@3ef96d62
+PRODUCER: Receiving packet. Time: 51354
+PRODUCER: Full queue. Dropping packet: Packet@47fa51a9
+PRODUCER: Receiving packet. Time: 51362
+PRODUCER: Full queue. Dropping packet: Packet@1891187f
+PRODUCER: Receiving packet. Time: 51562
+PRODUCER: Full queue. Dropping packet: Packet@657dc59f
+PRODUCER: Receiving packet. Time: 51762
+PRODUCER: Full queue. Dropping packet: Packet@109a362f
+PRODUCER: Receiving packet. Time: 51763
+PRODUCER: Full queue. Dropping packet: Packet@5784a8c
+PRODUCER: Receiving packet. Time: 51964
+PRODUCER: Full queue. Dropping packet: Packet@15baf8bc
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 51964
+PRODUCER: Full queue. Dropping packet: Packet@1ee086a9
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 52371
+PRODUCER: Adding input to queue: Packet@5f8af014 Queue now has size: 99
+PRODUCER: Receiving packet. Time: 52371
+PRODUCER: Full queue. Dropping packet: Packet@1861ed43
+PRODUCER: Receiving packet. Time: 52772
+PRODUCER: Full queue. Dropping packet: Packet@5a5c89eb
+PRODUCER: Receiving packet. Time: 52773
+PRODUCER: Full queue. Dropping packet: Packet@401399c7
+PRODUCER: Receiving packet. Time: 53174
+PRODUCER: Full queue. Dropping packet: Packet@4891db81
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 53184
+PRODUCER: Full queue. Dropping packet: Packet@5f8d2c25
+PRODUCER: Receiving packet. Time: 53184
+PRODUCER: Full queue. Dropping packet: Packet@6120e5ee
+PRODUCER: Receiving packet. Time: 53184
+PRODUCER: Full queue. Dropping packet: Packet@3da185ac
+PRODUCER: Receiving packet. Time: 53184
+PRODUCER: Full queue. Dropping packet: Packet@7b2a0c4a
+PRODUCER: Receiving packet. Time: 53385
+PRODUCER: Full queue. Dropping packet: Packet@4df0eb0e
+PRODUCER: Receiving packet. Time: 53385
+PRODUCER: Full queue. Dropping packet: Packet@2b1978cb
+PRODUCER: Receiving packet. Time: 53386
+PRODUCER: Full queue. Dropping packet: Packet@1a2404e1
+PRODUCER: Receiving packet. Time: 53386
+PRODUCER: Full queue. Dropping packet: Packet@314713b3
+PRODUCER: Receiving packet. Time: 53386
+PRODUCER: Full queue. Dropping packet: Packet@7b25260e
+PRODUCER: Receiving packet. Time: 53386
+PRODUCER: Full queue. Dropping packet: Packet@1b9ac681
+PRODUCER: Receiving packet. Time: 53987
+PRODUCER: Full queue. Dropping packet: Packet@21a3da1f
+PRODUCER: Receiving packet. Time: 53988
+PRODUCER: Full queue. Dropping packet: Packet@28709f13
+PRODUCER: Receiving packet. Time: 53988
+PRODUCER: Full queue. Dropping packet: Packet@7ab7c945
+PRODUCER: Receiving packet. Time: 53988
+PRODUCER: Full queue. Dropping packet: Packet@3754a65c
+PRODUCER: Receiving packet. Time: 53988
+PRODUCER: Full queue. Dropping packet: Packet@898f18b
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 54188
+PRODUCER: Adding input to queue: Packet@243c6f8c Queue now has size: 99
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 54592
+PRODUCER: Full queue. Dropping packet: Packet@600567af
+PRODUCER: Receiving packet. Time: 54592
+PRODUCER: Full queue. Dropping packet: Packet@72f14bb5
+PRODUCER: Receiving packet. Time: 54996
+PRODUCER: Full queue. Dropping packet: Packet@3daae8c9
+PRODUCER: Receiving packet. Time: 55798
+PRODUCER: Full queue. Dropping packet: Packet@7aadb0ff
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 55998
+PRODUCER: Full queue. Dropping packet: Packet@31de881a
+PRODUCER: Receiving packet. Time: 55999
+PRODUCER: Full queue. Dropping packet: Packet@490ad177
+PRODUCER: Receiving packet. Time: 55999
+PRODUCER: Full queue. Dropping packet: Packet@230c843f
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 56199
+PRODUCER: Adding input to queue: Packet@34b1e2e9 Queue now has size: 99
+PRODUCER: Receiving packet. Time: 56199
+PRODUCER: Full queue. Dropping packet: Packet@716a323d
+PRODUCER: Receiving packet. Time: 56400
+PRODUCER: Full queue. Dropping packet: Packet@6e74c40e
+PRODUCER: Receiving packet. Time: 56400
+PRODUCER: Full queue. Dropping packet: Packet@291e9883
+PRODUCER: Receiving packet. Time: 56400
+PRODUCER: Full queue. Dropping packet: Packet@128391e3
+PRODUCER: Receiving packet. Time: 56401
+PRODUCER: Full queue. Dropping packet: Packet@32d8b254
+PRODUCER: Receiving packet. Time: 56801
+PRODUCER: Full queue. Dropping packet: Packet@7a4444b5
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 56802
+PRODUCER: Full queue. Dropping packet: Packet@274311fe
+PRODUCER: Receiving packet. Time: 56802
+PRODUCER: Full queue. Dropping packet: Packet@2941807c
+PRODUCER: Receiving packet. Time: 56802
+PRODUCER: Full queue. Dropping packet: Packet@5e7ccd12
+PRODUCER: Receiving packet. Time: 57002
+PRODUCER: Full queue. Dropping packet: Packet@6455b84
+PRODUCER: Receiving packet. Time: 57202
+PRODUCER: Full queue. Dropping packet: Packet@39366653
+PRODUCER: Receiving packet. Time: 57403
+PRODUCER: Full queue. Dropping packet: Packet@1cd14369
+PRODUCER: Receiving packet. Time: 57603
+PRODUCER: Full queue. Dropping packet: Packet@24fd19bc
+PRODUCER: Receiving packet. Time: 57604
+PRODUCER: Full queue. Dropping packet: Packet@8c8efdc
+PRODUCER: Receiving packet. Time: 57805
+PRODUCER: Full queue. Dropping packet: Packet@2461468
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 57805
+PRODUCER: Full queue. Dropping packet: Packet@149ac542
+PRODUCER: Receiving packet. Time: 57805
+PRODUCER: Full queue. Dropping packet: Packet@58e61e94
+PRODUCER: Receiving packet. Time: 57805
+PRODUCER: Full queue. Dropping packet: Packet@171fbc5b
+PRODUCER: Receiving packet. Time: 57805
+PRODUCER: Full queue. Dropping packet: Packet@25481f84
+PRODUCER: Receiving packet. Time: 57805
+PRODUCER: Full queue. Dropping packet: Packet@67ba7eba
+PRODUCER: Receiving packet. Time: 57805
+PRODUCER: Full queue. Dropping packet: Packet@f40de67
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 58208
+PRODUCER: Adding input to queue: Packet@65d756b0 Queue now has size: 99
+PRODUCER: Receiving packet. Time: 58609
+PRODUCER: Full queue. Dropping packet: Packet@6c1b1
+PRODUCER: Receiving packet. Time: 59012
+PRODUCER: Full queue. Dropping packet: Packet@34fd30a5
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 59213
+PRODUCER: Full queue. Dropping packet: Packet@3dc763bb
+PRODUCER: Receiving packet. Time: 59213
+PRODUCER: Full queue. Dropping packet: Packet@62fac065
+PRODUCER: Receiving packet. Time: 59814
+PRODUCER: Full queue. Dropping packet: Packet@54479ec2
+PRODUCER: Receiving packet. Time: 59814
+PRODUCER: Full queue. Dropping packet: Packet@9e2f4f7
+PRODUCER: Receiving packet. Time: 60015
+PRODUCER: Full queue. Dropping packet: Packet@fbe84cb
+PRODUCER: WRITING TO GRAPH
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 60215
+PRODUCER: Adding input to queue: Packet@3b7394b1 Queue now has size: 99
+PRODUCER: Receiving packet. Time: 60215
+PRODUCER: Full queue. Dropping packet: Packet@53aaac93
+PRODUCER: Receiving packet. Time: 60216
+PRODUCER: Full queue. Dropping packet: Packet@4d71af5d
+PRODUCER: Receiving packet. Time: 60216
+PRODUCER: Full queue. Dropping packet: Packet@3612f2e4
+PRODUCER: Receiving packet. Time: 60216
+PRODUCER: Full queue. Dropping packet: Packet@11633e8b
+PRODUCER: Receiving packet. Time: 60216
+PRODUCER: Full queue. Dropping packet: Packet@17abd600
+PRODUCER: Receiving packet. Time: 60216
+PRODUCER: Full queue. Dropping packet: Packet@57e088ef
+PRODUCER: Receiving packet. Time: 60216
+PRODUCER: Full queue. Dropping packet: Packet@76c4c525
+PRODUCER: Receiving packet. Time: 60216
+PRODUCER: Full queue. Dropping packet: Packet@7edb3a10
+PRODUCER: Receiving packet. Time: 60216
+PRODUCER: Full queue. Dropping packet: Packet@3709e81d
+PRODUCER: Receiving packet. Time: 60216
+PRODUCER: Full queue. Dropping packet: Packet@647db9e3
+PRODUCER: Receiving packet. Time: 60217
+PRODUCER: Full queue. Dropping packet: Packet@34c0a5a4
+PRODUCER: Receiving packet. Time: 60217
+PRODUCER: Full queue. Dropping packet: Packet@13ec0296
+PRODUCER: Receiving packet. Time: 60617
+PRODUCER: Full queue. Dropping packet: Packet@6bdd59f6
+PRODUCER: Receiving packet. Time: 60617
+PRODUCER: Full queue. Dropping packet: Packet@626657cf
+PRODUCER: Receiving packet. Time: 60617
+PRODUCER: Full queue. Dropping packet: Packet@533a23a2
+PRODUCER: Receiving packet. Time: 60617
+PRODUCER: Full queue. Dropping packet: Packet@203163e1
+PRODUCER: Receiving packet. Time: 60618
+PRODUCER: Full queue. Dropping packet: Packet@21228cf8
+PRODUCER: Receiving packet. Time: 60818
+PRODUCER: Full queue. Dropping packet: Packet@712a6f3c
+PRODUCER: Receiving packet. Time: 60818
+PRODUCER: Full queue. Dropping packet: Packet@738f7588
+PRODUCER: Receiving packet. Time: 61019
+PRODUCER: Full queue. Dropping packet: Packet@588a2e73
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 61019
+PRODUCER: Full queue. Dropping packet: Packet@6d7a3cd6
+PRODUCER: Receiving packet. Time: 61019
+PRODUCER: Full queue. Dropping packet: Packet@4f0bedca
+PRODUCER: Receiving packet. Time: 61019
+PRODUCER: Full queue. Dropping packet: Packet@47a0f296
+PRODUCER: Receiving packet. Time: 61019
+PRODUCER: Full queue. Dropping packet: Packet@4ed0a5a7
+PRODUCER: Receiving packet. Time: 61019
+PRODUCER: Full queue. Dropping packet: Packet@72f0bc27
+PRODUCER: Receiving packet. Time: 61621
+PRODUCER: Full queue. Dropping packet: Packet@62857a0e
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 62222
+PRODUCER: Adding input to queue: Packet@2271108a Queue now has size: 99
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 62222
+PRODUCER: Full queue. Dropping packet: Packet@694774fe
+PRODUCER: Receiving packet. Time: 62223
+PRODUCER: Full queue. Dropping packet: Packet@1e21fc75
+PRODUCER: Receiving packet. Time: 62223
+PRODUCER: Full queue. Dropping packet: Packet@57bdb0b5
+PRODUCER: Receiving packet. Time: 62424
+PRODUCER: Full queue. Dropping packet: Packet@7de20f88
+PRODUCER: Receiving packet. Time: 62424
+PRODUCER: Full queue. Dropping packet: Packet@2fd0744e
+PRODUCER: Receiving packet. Time: 62424
+PRODUCER: Full queue. Dropping packet: Packet@3e83e795
+PRODUCER: Receiving packet. Time: 62424
+PRODUCER: Full queue. Dropping packet: Packet@401d0e8
+PRODUCER: Receiving packet. Time: 62425
+PRODUCER: Full queue. Dropping packet: Packet@697201af
+PRODUCER: Receiving packet. Time: 62425
+PRODUCER: Full queue. Dropping packet: Packet@45ac6acb
+PRODUCER: Receiving packet. Time: 62425
+PRODUCER: Full queue. Dropping packet: Packet@64b292a4
+PRODUCER: Receiving packet. Time: 62626
+PRODUCER: Full queue. Dropping packet: Packet@6e3e984a
+PRODUCER: Receiving packet. Time: 63032
+PRODUCER: Full queue. Dropping packet: Packet@1738835b
+PRODUCER: Receiving packet. Time: 63032
+PRODUCER: Full queue. Dropping packet: Packet@31e45945
+PRODUCER: Receiving packet. Time: 63032
+PRODUCER: Full queue. Dropping packet: Packet@41b3da6f
+PRODUCER: Receiving packet. Time: 63032
+PRODUCER: Full queue. Dropping packet: Packet@5b55f6db
+PRODUCER: Receiving packet. Time: 63032
+PRODUCER: Full queue. Dropping packet: Packet@82494b1
+PRODUCER: Receiving packet. Time: 63032
+PRODUCER: Full queue. Dropping packet: Packet@1b99da81
+PRODUCER: Receiving packet. Time: 63032
+PRODUCER: Full queue. Dropping packet: Packet@44a61b3f
+PRODUCER: Receiving packet. Time: 63032
+PRODUCER: Full queue. Dropping packet: Packet@3031de5e
+PRODUCER: Receiving packet. Time: 63033
+PRODUCER: Full queue. Dropping packet: Packet@1c1c45f5
+PRODUCER: Receiving packet. Time: 63033
+PRODUCER: Full queue. Dropping packet: Packet@4984c925
+PRODUCER: Receiving packet. Time: 63033
+PRODUCER: Full queue. Dropping packet: Packet@3d8f5cc9
+PRODUCER: Receiving packet. Time: 63033
+PRODUCER: Full queue. Dropping packet: Packet@3f2b608
+PRODUCER: Receiving packet. Time: 63033
+PRODUCER: Full queue. Dropping packet: Packet@7dbf786e
+PRODUCER: Receiving packet. Time: 63434
+PRODUCER: Full queue. Dropping packet: Packet@121d4b1d
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 63434
+PRODUCER: Full queue. Dropping packet: Packet@55332483
+PRODUCER: Receiving packet. Time: 63435
+PRODUCER: Full queue. Dropping packet: Packet@43678adb
+PRODUCER: Receiving packet. Time: 63435
+PRODUCER: Full queue. Dropping packet: Packet@451de6d1
+PRODUCER: Receiving packet. Time: 63635
+PRODUCER: Full queue. Dropping packet: Packet@3d2018cc
+PRODUCER: Receiving packet. Time: 63635
+PRODUCER: Full queue. Dropping packet: Packet@717b24d7
+PRODUCER: Receiving packet. Time: 63635
+PRODUCER: Full queue. Dropping packet: Packet@eb55971
+PRODUCER: Receiving packet. Time: 63636
+PRODUCER: Full queue. Dropping packet: Packet@24b41d18
+PRODUCER: Receiving packet. Time: 63836
+PRODUCER: Full queue. Dropping packet: Packet@19ef873a
+PRODUCER: Receiving packet. Time: 63836
+PRODUCER: Full queue. Dropping packet: Packet@319a554c
+PRODUCER: Receiving packet. Time: 63836
+PRODUCER: Full queue. Dropping packet: Packet@1540ecdf
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 64237
+PRODUCER: Adding input to queue: Packet@11986fb2 Queue now has size: 99
+PRODUCER: Receiving packet. Time: 64238
+PRODUCER: Full queue. Dropping packet: Packet@74abfcec
+PRODUCER: Receiving packet. Time: 64238
+PRODUCER: Full queue. Dropping packet: Packet@17f8f700
+PRODUCER: Receiving packet. Time: 64238
+PRODUCER: Full queue. Dropping packet: Packet@5ccc734
+PRODUCER: Receiving packet. Time: 64238
+PRODUCER: Full queue. Dropping packet: Packet@577bddc0
+PRODUCER: Receiving packet. Time: 64640
+PRODUCER: Full queue. Dropping packet: Packet@7c1c075f
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 64844
+PRODUCER: Full queue. Dropping packet: Packet@2c8cbf2b
+PRODUCER: Receiving packet. Time: 64845
+PRODUCER: Full queue. Dropping packet: Packet@4f1a38e9
+PRODUCER: Receiving packet. Time: 64846
+PRODUCER: Full queue. Dropping packet: Packet@46066917
+PRODUCER: Receiving packet. Time: 65447
+PRODUCER: Full queue. Dropping packet: Packet@5abcb877
+PRODUCER: Receiving packet. Time: 65447
+PRODUCER: Full queue. Dropping packet: Packet@130031ec
+PRODUCER: Receiving packet. Time: 65447
+PRODUCER: Full queue. Dropping packet: Packet@dc39e15
+PRODUCER: Receiving packet. Time: 65648
+PRODUCER: Full queue. Dropping packet: Packet@78f8006b
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 65648
+PRODUCER: Full queue. Dropping packet: Packet@47b87003
+PRODUCER: Receiving packet. Time: 65649
+PRODUCER: Full queue. Dropping packet: Packet@5525a649
+PRODUCER: Receiving packet. Time: 65649
+PRODUCER: Full queue. Dropping packet: Packet@4407a9ce
+PRODUCER: Receiving packet. Time: 65853
+PRODUCER: Full queue. Dropping packet: Packet@7c44027d
+PRODUCER: Receiving packet. Time: 66054
+PRODUCER: Full queue. Dropping packet: Packet@78f84d9e
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 66257
+PRODUCER: Adding input to queue: Packet@97bb26 Queue now has size: 99
+PRODUCER: Receiving packet. Time: 66257
+PRODUCER: Full queue. Dropping packet: Packet@79a72b23
+PRODUCER: Receiving packet. Time: 66459
+PRODUCER: Full queue. Dropping packet: Packet@252c9980
+PRODUCER: Receiving packet. Time: 67062
+PRODUCER: Full queue. Dropping packet: Packet@1f02a406
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 67262
+PRODUCER: Full queue. Dropping packet: Packet@22f1624b
+PRODUCER: Receiving packet. Time: 67262
+PRODUCER: Full queue. Dropping packet: Packet@624fbb05
+PRODUCER: Receiving packet. Time: 67463
+PRODUCER: Full queue. Dropping packet: Packet@236ede55
+PRODUCER: Receiving packet. Time: 67665
+PRODUCER: Full queue. Dropping packet: Packet@29466caa
+PRODUCER: Receiving packet. Time: 67665
+PRODUCER: Full queue. Dropping packet: Packet@8cb0f3
+PRODUCER: Receiving packet. Time: 67665
+PRODUCER: Full queue. Dropping packet: Packet@1f84b474
+PRODUCER: Receiving packet. Time: 67665
+PRODUCER: Full queue. Dropping packet: Packet@4a4d4da7
+PRODUCER: Receiving packet. Time: 67666
+PRODUCER: Full queue. Dropping packet: Packet@50744b78
+PRODUCER: Receiving packet. Time: 67666
+PRODUCER: Full queue. Dropping packet: Packet@351a72ad
+PRODUCER: Receiving packet. Time: 67871
+PRODUCER: Full queue. Dropping packet: Packet@f87576e
+PRODUCER: Receiving packet. Time: 67871
+PRODUCER: Full queue. Dropping packet: Packet@2f07034c
+PRODUCER: Receiving packet. Time: 68078
+PRODUCER: Full queue. Dropping packet: Packet@5d5ab25f
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 68082
+PRODUCER: Full queue. Dropping packet: Packet@3bb33c43
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 68284
+PRODUCER: Adding input to queue: Packet@eba307c Queue now has size: 99
+PRODUCER: Receiving packet. Time: 68284
+PRODUCER: Full queue. Dropping packet: Packet@19305f84
+PRODUCER: Receiving packet. Time: 68284
+PRODUCER: Full queue. Dropping packet: Packet@11f0deb7
+PRODUCER: Receiving packet. Time: 68484
+PRODUCER: Full queue. Dropping packet: Packet@3383a9ee
+PRODUCER: Receiving packet. Time: 68886
+PRODUCER: Full queue. Dropping packet: Packet@6ce54632
+PRODUCER: Receiving packet. Time: 68886
+PRODUCER: Full queue. Dropping packet: Packet@77b2f855
+PRODUCER: Receiving packet. Time: 68889
+PRODUCER: Full queue. Dropping packet: Packet@60208572
+PRODUCER: Receiving packet. Time: 68889
+PRODUCER: Full queue. Dropping packet: Packet@4ec29c41
+PRODUCER: Receiving packet. Time: 69090
+PRODUCER: Full queue. Dropping packet: Packet@850977d
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 69090
+PRODUCER: Full queue. Dropping packet: Packet@6840b672
+PRODUCER: Receiving packet. Time: 69090
+PRODUCER: Full queue. Dropping packet: Packet@c2fa51d
+PRODUCER: Receiving packet. Time: 69292
+PRODUCER: Full queue. Dropping packet: Packet@5655104d
+PRODUCER: Receiving packet. Time: 69292
+PRODUCER: Full queue. Dropping packet: Packet@5a328e85
+PRODUCER: Receiving packet. Time: 69895
+PRODUCER: Full queue. Dropping packet: Packet@37ac4097
+PRODUCER: Receiving packet. Time: 70099
+PRODUCER: Full queue. Dropping packet: Packet@46da1c32
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 70099
+PRODUCER: Full queue. Dropping packet: Packet@38f3abdc
+PRODUCER: Receiving packet. Time: 70100
+PRODUCER: Full queue. Dropping packet: Packet@76fb4ce1
+PRODUCER: Receiving packet. Time: 70100
+PRODUCER: Full queue. Dropping packet: Packet@23861251
+PRODUCER: Receiving packet. Time: 70100
+PRODUCER: Full queue. Dropping packet: Packet@35abb19f
+PRODUCER: Receiving packet. Time: 70100
+PRODUCER: Full queue. Dropping packet: Packet@10a341bd
+PRODUCER: Receiving packet. Time: 70100
+PRODUCER: Full queue. Dropping packet: Packet@3c939b0c
+PRODUCER: Receiving packet. Time: 70100
+PRODUCER: Full queue. Dropping packet: Packet@2f140255
+PRODUCER: Receiving packet. Time: 70100
+PRODUCER: Full queue. Dropping packet: Packet@47db6961
+PRODUCER: Receiving packet. Time: 70100
+PRODUCER: Full queue. Dropping packet: Packet@4d7f768e
+PRODUCER: Receiving packet. Time: 70100
+PRODUCER: Full queue. Dropping packet: Packet@6d14dfd6
+PRODUCER: Receiving packet. Time: 70100
+PRODUCER: Full queue. Dropping packet: Packet@629d6e8b
+PRODUCER: Receiving packet. Time: 70101
+PRODUCER: Full queue. Dropping packet: Packet@7e1193d8
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 70301
+PRODUCER: Adding input to queue: Packet@48ec5192 Queue now has size: 99
+PRODUCER: Receiving packet. Time: 70703
+PRODUCER: Full queue. Dropping packet: Packet@34ddd36
+PRODUCER: Receiving packet. Time: 70703
+PRODUCER: Full queue. Dropping packet: Packet@a2d02e2
+PRODUCER: Receiving packet. Time: 70703
+PRODUCER: Full queue. Dropping packet: Packet@7850cf2c
+PRODUCER: Receiving packet. Time: 70904
+PRODUCER: Full queue. Dropping packet: Packet@521a6175
+PRODUCER: Receiving packet. Time: 71104
+PRODUCER: Full queue. Dropping packet: Packet@3fd3a26d
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 71104
+PRODUCER: Full queue. Dropping packet: Packet@5d0b8d67
+PRODUCER: Receiving packet. Time: 71104
+PRODUCER: Full queue. Dropping packet: Packet@23dc1045
+PRODUCER: Receiving packet. Time: 71505
+PRODUCER: Full queue. Dropping packet: Packet@224ccc82
+PRODUCER: Receiving packet. Time: 71506
+PRODUCER: Full queue. Dropping packet: Packet@2ed26c
+PRODUCER: Receiving packet. Time: 72108
+PRODUCER: Full queue. Dropping packet: Packet@1cf07bb
+PRODUCER: WRITING TO GRAPH
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 72710
+PRODUCER: Adding input to queue: Packet@425271ff Queue now has size: 99
+PRODUCER: Receiving packet. Time: 72710
+PRODUCER: Full queue. Dropping packet: Packet@6be8deb
+PRODUCER: Receiving packet. Time: 72711
+PRODUCER: Full queue. Dropping packet: Packet@707592e2
+PRODUCER: Receiving packet. Time: 72913
+PRODUCER: Full queue. Dropping packet: Packet@97ea188
+PRODUCER: Receiving packet. Time: 73114
+PRODUCER: Full queue. Dropping packet: Packet@5872f4d1
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 73114
+PRODUCER: Full queue. Dropping packet: Packet@2ad1ebe1
+PRODUCER: Receiving packet. Time: 73114
+PRODUCER: Full queue. Dropping packet: Packet@766f9edb
+PRODUCER: Receiving packet. Time: 73114
+PRODUCER: Full queue. Dropping packet: Packet@ae1137f
+PRODUCER: Receiving packet. Time: 73315
+PRODUCER: Full queue. Dropping packet: Packet@457aba8e
+PRODUCER: Receiving packet. Time: 73515
+PRODUCER: Full queue. Dropping packet: Packet@60d1df23
+PRODUCER: Receiving packet. Time: 73716
+PRODUCER: Full queue. Dropping packet: Packet@6ac20ca4
+PRODUCER: Receiving packet. Time: 73716
+PRODUCER: Full queue. Dropping packet: Packet@68ba8068
+PRODUCER: Receiving packet. Time: 73716
+PRODUCER: Full queue. Dropping packet: Packet@7884f93b
+PRODUCER: Receiving packet. Time: 73716
+PRODUCER: Full queue. Dropping packet: Packet@164219cf
+PRODUCER: Receiving packet. Time: 73916
+PRODUCER: Full queue. Dropping packet: Packet@6c1f808f
+PRODUCER: Receiving packet. Time: 74117
+PRODUCER: Full queue. Dropping packet: Packet@509af4a4
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 74118
+PRODUCER: Full queue. Dropping packet: Packet@f8892ad
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 74319
+PRODUCER: Adding input to queue: Packet@9827ef2 Queue now has size: 99
+PRODUCER: Receiving packet. Time: 74319
+PRODUCER: Full queue. Dropping packet: Packet@19098cb5
+PRODUCER: Receiving packet. Time: 74920
+PRODUCER: Full queue. Dropping packet: Packet@1eb164e4
+PRODUCER: Receiving packet. Time: 74920
+PRODUCER: Full queue. Dropping packet: Packet@55e79065
+PRODUCER: Receiving packet. Time: 74920
+PRODUCER: Full queue. Dropping packet: Packet@4f0811c5
+PRODUCER: Receiving packet. Time: 75321
+PRODUCER: Full queue. Dropping packet: Packet@1a3150b5
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 75522
+PRODUCER: Full queue. Dropping packet: Packet@fb28153
+PRODUCER: Receiving packet. Time: 75523
+PRODUCER: Full queue. Dropping packet: Packet@663f5c78
+PRODUCER: Receiving packet. Time: 75723
+PRODUCER: Full queue. Dropping packet: Packet@69b6ff43
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 76529
+PRODUCER: Adding input to queue: Packet@7992ae38 Queue now has size: 99
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 76530
+PRODUCER: Full queue. Dropping packet: Packet@62b10040
+PRODUCER: Receiving packet. Time: 76530
+PRODUCER: Full queue. Dropping packet: Packet@7e715cf2
+PRODUCER: Receiving packet. Time: 76530
+PRODUCER: Full queue. Dropping packet: Packet@2063e898
+PRODUCER: Receiving packet. Time: 76530
+PRODUCER: Full queue. Dropping packet: Packet@4c6c71c2
+PRODUCER: Receiving packet. Time: 77133
+PRODUCER: Full queue. Dropping packet: Packet@26b5cb0f
+PRODUCER: Receiving packet. Time: 77134
+PRODUCER: Full queue. Dropping packet: Packet@525795e7
+PRODUCER: Receiving packet. Time: 77335
+PRODUCER: Full queue. Dropping packet: Packet@6dcf901d
+PRODUCER: Receiving packet. Time: 77335
+PRODUCER: Full queue. Dropping packet: Packet@42020e07
+PRODUCER: Receiving packet. Time: 77335
+PRODUCER: Full queue. Dropping packet: Packet@4a6748fb
+PRODUCER: Receiving packet. Time: 77335
+PRODUCER: Full queue. Dropping packet: Packet@247114fd
+PRODUCER: Receiving packet. Time: 77336
+PRODUCER: Full queue. Dropping packet: Packet@35af3716
+PRODUCER: Receiving packet. Time: 77536
+PRODUCER: Full queue. Dropping packet: Packet@670f7592
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 77536
+PRODUCER: Full queue. Dropping packet: Packet@175fd918
+PRODUCER: Receiving packet. Time: 77536
+PRODUCER: Full queue. Dropping packet: Packet@3ba5e1f2
+PRODUCER: Receiving packet. Time: 77537
+PRODUCER: Full queue. Dropping packet: Packet@77fe6617
+PRODUCER: Receiving packet. Time: 77938
+PRODUCER: Full queue. Dropping packet: Packet@6bc13e9f
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 78338
+PRODUCER: Adding input to queue: Packet@23fbde6 Queue now has size: 99
+PRODUCER: Receiving packet. Time: 78339
+PRODUCER: Full queue. Dropping packet: Packet@16016622
+PRODUCER: Receiving packet. Time: 78339
+PRODUCER: Full queue. Dropping packet: Packet@12cb642b
+PRODUCER: Receiving packet. Time: 78339
+PRODUCER: Full queue. Dropping packet: Packet@709c852b
+PRODUCER: Receiving packet. Time: 78339
+PRODUCER: Full queue. Dropping packet: Packet@fb3c653
+PRODUCER: Receiving packet. Time: 78541
+PRODUCER: Full queue. Dropping packet: Packet@121e81f1
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 78750
+PRODUCER: Full queue. Dropping packet: Packet@5b3d45a5
+PRODUCER: Receiving packet. Time: 78750
+PRODUCER: Full queue. Dropping packet: Packet@4f9c2634
+PRODUCER: Receiving packet. Time: 78750
+PRODUCER: Full queue. Dropping packet: Packet@5e8cf0ca
+PRODUCER: Receiving packet. Time: 79151
+PRODUCER: Full queue. Dropping packet: Packet@38fbf3e3
+PRODUCER: Receiving packet. Time: 79151
+PRODUCER: Full queue. Dropping packet: Packet@95a9934
+PRODUCER: Receiving packet. Time: 79151
+PRODUCER: Full queue. Dropping packet: Packet@2759b3ad
+PRODUCER: Receiving packet. Time: 79351
+PRODUCER: Full queue. Dropping packet: Packet@1eea0d2c
+PRODUCER: Receiving packet. Time: 79552
+PRODUCER: Full queue. Dropping packet: Packet@79e981f9
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 79753
+PRODUCER: Full queue. Dropping packet: Packet@24a724c9
+PRODUCER: Receiving packet. Time: 79954
+PRODUCER: Full queue. Dropping packet: Packet@4e092f2b
+PRODUCER: Receiving packet. Time: 79954
+PRODUCER: Full queue. Dropping packet: Packet@c4d8ab
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 80563
+PRODUCER: Adding input to queue: Packet@35176703 Queue now has size: 99
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 80764
+PRODUCER: Full queue. Dropping packet: Packet@280b9c04
+PRODUCER: Receiving packet. Time: 80765
+PRODUCER: Full queue. Dropping packet: Packet@2ffc9e59
+PRODUCER: Receiving packet. Time: 80765
+PRODUCER: Full queue. Dropping packet: Packet@95b0a8d
+PRODUCER: Receiving packet. Time: 80765
+PRODUCER: Full queue. Dropping packet: Packet@77a5bda
+PRODUCER: Receiving packet. Time: 80965
+PRODUCER: Full queue. Dropping packet: Packet@73e50c8d
+PRODUCER: Receiving packet. Time: 81566
+PRODUCER: Full queue. Dropping packet: Packet@38a05afe
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 81566
+PRODUCER: Full queue. Dropping packet: Packet@697e3005
+PRODUCER: Receiving packet. Time: 81566
+PRODUCER: Full queue. Dropping packet: Packet@3c0f027b
+PRODUCER: Receiving packet. Time: 81566
+PRODUCER: Full queue. Dropping packet: Packet@67d5e013
+PRODUCER: Receiving packet. Time: 81566
+PRODUCER: Full queue. Dropping packet: Packet@5d9831bd
+PRODUCER: Receiving packet. Time: 81766
+PRODUCER: Full queue. Dropping packet: Packet@457edc13
+PRODUCER: Receiving packet. Time: 81766
+PRODUCER: Full queue. Dropping packet: Packet@126121d
+PRODUCER: Receiving packet. Time: 81766
+PRODUCER: Full queue. Dropping packet: Packet@493bbf52
+PRODUCER: Receiving packet. Time: 81966
+PRODUCER: Full queue. Dropping packet: Packet@55b26a11
+PRODUCER: Receiving packet. Time: 81966
+PRODUCER: Full queue. Dropping packet: Packet@669fbaf0
+PRODUCER: Receiving packet. Time: 81966
+PRODUCER: Full queue. Dropping packet: Packet@5718eac4
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 82367
+PRODUCER: Adding input to queue: Packet@43cd1e5a Queue now has size: 99
+PRODUCER: Receiving packet. Time: 82567
+PRODUCER: Full queue. Dropping packet: Packet@5e906d0
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 82567
+PRODUCER: Full queue. Dropping packet: Packet@1eba74a7
+PRODUCER: Receiving packet. Time: 82968
+PRODUCER: Full queue. Dropping packet: Packet@ee4f37e
+PRODUCER: Receiving packet. Time: 82968
+PRODUCER: Full queue. Dropping packet: Packet@25700336
+PRODUCER: Receiving packet. Time: 83371
+PRODUCER: Full queue. Dropping packet: Packet@68e24ece
+PRODUCER: Receiving packet. Time: 83371
+PRODUCER: Full queue. Dropping packet: Packet@25300039
+PRODUCER: Receiving packet. Time: 83371
+PRODUCER: Full queue. Dropping packet: Packet@c6678e2
+PRODUCER: Receiving packet. Time: 83371
+PRODUCER: Full queue. Dropping packet: Packet@292aa3eb
+PRODUCER: Receiving packet. Time: 83371
+PRODUCER: Full queue. Dropping packet: Packet@53440c3e
+PRODUCER: Receiving packet. Time: 83782
+PRODUCER: Full queue. Dropping packet: Packet@76d0efa7
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 83783
+PRODUCER: Full queue. Dropping packet: Packet@494e28f7
+PRODUCER: Receiving packet. Time: 83783
+PRODUCER: Full queue. Dropping packet: Packet@3507efce
+PRODUCER: Receiving packet. Time: 83783
+PRODUCER: Full queue. Dropping packet: Packet@46d130ac
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 84183
+PRODUCER: Adding input to queue: Packet@378d5206 Queue now has size: 99
+PRODUCER: Receiving packet. Time: 84184
+PRODUCER: Full queue. Dropping packet: Packet@fbccd90
+PRODUCER: Receiving packet. Time: 84184
+PRODUCER: Full queue. Dropping packet: Packet@5cf2a36
+PRODUCER: Receiving packet. Time: 84184
+PRODUCER: Full queue. Dropping packet: Packet@4ad42e73
+PRODUCER: Receiving packet. Time: 84185
+PRODUCER: Full queue. Dropping packet: Packet@1794584d
+PRODUCER: Receiving packet. Time: 84185
+PRODUCER: Full queue. Dropping packet: Packet@7eadc762
+PRODUCER: Receiving packet. Time: 84593
+PRODUCER: Full queue. Dropping packet: Packet@24fdc1b
+PRODUCER: Receiving packet. Time: 84594
+PRODUCER: Full queue. Dropping packet: Packet@6903dd97
+PRODUCER: Receiving packet. Time: 84795
+PRODUCER: Full queue. Dropping packet: Packet@5ce0b6ca
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 84996
+PRODUCER: Full queue. Dropping packet: Packet@4ce6ece3
+PRODUCER: Receiving packet. Time: 84996
+PRODUCER: Full queue. Dropping packet: Packet@30b54e60
+PRODUCER: Receiving packet. Time: 84996
+PRODUCER: Full queue. Dropping packet: Packet@472dd284
+PRODUCER: Receiving packet. Time: 85197
+PRODUCER: Full queue. Dropping packet: Packet@1ea27a4d
+PRODUCER: Receiving packet. Time: 85197
+PRODUCER: Full queue. Dropping packet: Packet@65580c8e
+PRODUCER: Receiving packet. Time: 85602
+PRODUCER: Full queue. Dropping packet: Packet@7f84880b
+PRODUCER: Receiving packet. Time: 85602
+PRODUCER: Full queue. Dropping packet: Packet@5694cc8d
+PRODUCER: Receiving packet. Time: 85602
+PRODUCER: Full queue. Dropping packet: Packet@5be9b400
+PRODUCER: Receiving packet. Time: 85602
+PRODUCER: Full queue. Dropping packet: Packet@7e70ef8f
+PRODUCER: Receiving packet. Time: 85602
+PRODUCER: Full queue. Dropping packet: Packet@25eff49a
+PRODUCER: Receiving packet. Time: 86003
+PRODUCER: Full queue. Dropping packet: Packet@556fa40e
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 86003
+PRODUCER: Full queue. Dropping packet: Packet@43b05317
+PRODUCER: Receiving packet. Time: 86003
+PRODUCER: Full queue. Dropping packet: Packet@3a45d079
+PRODUCER: Receiving packet. Time: 86003
+PRODUCER: Full queue. Dropping packet: Packet@6054b88f
+PRODUCER: Receiving packet. Time: 86003
+PRODUCER: Full queue. Dropping packet: Packet@48332f5f
+PRODUCER: Receiving packet. Time: 86003
+PRODUCER: Full queue. Dropping packet: Packet@95ae5a5
+PRODUCER: Receiving packet. Time: 86004
+PRODUCER: Full queue. Dropping packet: Packet@1d883aef
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 86204
+PRODUCER: Adding input to queue: Packet@58dd6911 Queue now has size: 99
+PRODUCER: Receiving packet. Time: 86204
+PRODUCER: Full queue. Dropping packet: Packet@945ec82
+PRODUCER: Receiving packet. Time: 86805
+PRODUCER: Full queue. Dropping packet: Packet@57ec57c2
+PRODUCER: Receiving packet. Time: 86805
+PRODUCER: Full queue. Dropping packet: Packet@bef5092
+PRODUCER: Receiving packet. Time: 87206
+PRODUCER: Full queue. Dropping packet: Packet@3849351f
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 87207
+PRODUCER: Full queue. Dropping packet: Packet@1e4eff68
+PRODUCER: Receiving packet. Time: 87207
+PRODUCER: Full queue. Dropping packet: Packet@2ba9f924
+PRODUCER: Receiving packet. Time: 87409
+PRODUCER: Full queue. Dropping packet: Packet@5a335703
+PRODUCER: Receiving packet. Time: 87409
+PRODUCER: Full queue. Dropping packet: Packet@2b236097
+PRODUCER: Receiving packet. Time: 87410
+PRODUCER: Full queue. Dropping packet: Packet@427f6f24
+PRODUCER: Receiving packet. Time: 87410
+PRODUCER: Full queue. Dropping packet: Packet@267bce96
+PRODUCER: Receiving packet. Time: 87612
+PRODUCER: Full queue. Dropping packet: Packet@66b01e15
+PRODUCER: Receiving packet. Time: 87612
+PRODUCER: Full queue. Dropping packet: Packet@56a7fd8c
+PRODUCER: Receiving packet. Time: 87612
+PRODUCER: Full queue. Dropping packet: Packet@6f98ae33
+PRODUCER: Receiving packet. Time: 87612
+PRODUCER: Full queue. Dropping packet: Packet@17efc228
+PRODUCER: Receiving packet. Time: 88013
+PRODUCER: Full queue. Dropping packet: Packet@71c92676
+PRODUCER: Receiving packet. Time: 88013
+PRODUCER: Full queue. Dropping packet: Packet@186bee5e
+PRODUCER: Receiving packet. Time: 88013
+PRODUCER: Full queue. Dropping packet: Packet@32a83256
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 88415
+PRODUCER: Adding input to queue: Packet@5bbf48a9 Queue now has size: 99
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 88415
+PRODUCER: Full queue. Dropping packet: Packet@63fd3f3e
+PRODUCER: Receiving packet. Time: 88415
+PRODUCER: Full queue. Dropping packet: Packet@24a33401
+PRODUCER: Receiving packet. Time: 88615
+PRODUCER: Full queue. Dropping packet: Packet@57ea8841
+PRODUCER: Receiving packet. Time: 88615
+PRODUCER: Full queue. Dropping packet: Packet@76317815
+PRODUCER: Receiving packet. Time: 88616
+PRODUCER: Full queue. Dropping packet: Packet@7cbfbd22
+PRODUCER: Receiving packet. Time: 88816
+PRODUCER: Full queue. Dropping packet: Packet@41819d88
+PRODUCER: Receiving packet. Time: 89617
+PRODUCER: Full queue. Dropping packet: Packet@422aad79
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 89617
+PRODUCER: Full queue. Dropping packet: Packet@3f2694f9
+PRODUCER: Receiving packet. Time: 90018
+PRODUCER: Full queue. Dropping packet: Packet@3e716892
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 90219
+PRODUCER: Adding input to queue: Packet@73d1df09 Queue now has size: 99
+PRODUCER: Receiving packet. Time: 90219
+PRODUCER: Full queue. Dropping packet: Packet@6407e56f
+PRODUCER: Receiving packet. Time: 90219
+PRODUCER: Full queue. Dropping packet: Packet@6f8d344a
+PRODUCER: Receiving packet. Time: 90219
+PRODUCER: Full queue. Dropping packet: Packet@5a0df4d1
+PRODUCER: Receiving packet. Time: 90219
+PRODUCER: Full queue. Dropping packet: Packet@2759510e
+PRODUCER: Receiving packet. Time: 90219
+PRODUCER: Full queue. Dropping packet: Packet@7c2ef417
+PRODUCER: Receiving packet. Time: 91221
+PRODUCER: Full queue. Dropping packet: Packet@7a07a0bc
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 91221
+PRODUCER: Full queue. Dropping packet: Packet@4f196851
+PRODUCER: Receiving packet. Time: 91422
+PRODUCER: Full queue. Dropping packet: Packet@22a5919d
+PRODUCER: Receiving packet. Time: 91624
+PRODUCER: Full queue. Dropping packet: Packet@29a05792
+PRODUCER: Receiving packet. Time: 91624
+PRODUCER: Full queue. Dropping packet: Packet@6e65005a
+PRODUCER: Receiving packet. Time: 91825
+PRODUCER: Full queue. Dropping packet: Packet@6abab627
+PRODUCER: Receiving packet. Time: 91825
+PRODUCER: Full queue. Dropping packet: Packet@649dfb94
+PRODUCER: Receiving packet. Time: 92026
+PRODUCER: Full queue. Dropping packet: Packet@4f2a3c52
+PRODUCER: Receiving packet. Time: 92026
+PRODUCER: Full queue. Dropping packet: Packet@90b823d
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 92228
+PRODUCER: Adding input to queue: Packet@363f06b5 Queue now has size: 99
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 92228
+PRODUCER: Full queue. Dropping packet: Packet@3d751abd
+PRODUCER: Receiving packet. Time: 92229
+PRODUCER: Full queue. Dropping packet: Packet@23a379ed
+PRODUCER: Receiving packet. Time: 92229
+PRODUCER: Full queue. Dropping packet: Packet@76ec0dce
+PRODUCER: Receiving packet. Time: 92229
+PRODUCER: Full queue. Dropping packet: Packet@3828a708
+PRODUCER: Receiving packet. Time: 92429
+PRODUCER: Full queue. Dropping packet: Packet@2d1de242
+PRODUCER: Receiving packet. Time: 92631
+PRODUCER: Full queue. Dropping packet: Packet@15499a1d
+PRODUCER: Receiving packet. Time: 92633
+PRODUCER: Full queue. Dropping packet: Packet@3dd6707
+PRODUCER: Receiving packet. Time: 92634
+PRODUCER: Full queue. Dropping packet: Packet@7e309093
+PRODUCER: Receiving packet. Time: 92634
+PRODUCER: Full queue. Dropping packet: Packet@3cfd72e5
+PRODUCER: Receiving packet. Time: 92835
+PRODUCER: Full queue. Dropping packet: Packet@653d9e15
+PRODUCER: Receiving packet. Time: 92835
+PRODUCER: Full queue. Dropping packet: Packet@d3028ea
+PRODUCER: Receiving packet. Time: 93036
+PRODUCER: Full queue. Dropping packet: Packet@77fe85d7
+PRODUCER: Receiving packet. Time: 93036
+PRODUCER: Full queue. Dropping packet: Packet@2043ab97
+PRODUCER: Receiving packet. Time: 93036
+PRODUCER: Full queue. Dropping packet: Packet@290754bc
+PRODUCER: Receiving packet. Time: 93237
+PRODUCER: Full queue. Dropping packet: Packet@257c4e0e
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 93438
+PRODUCER: Full queue. Dropping packet: Packet@26afb74b
+PRODUCER: Receiving packet. Time: 93438
+PRODUCER: Full queue. Dropping packet: Packet@1b8daf1a
+PRODUCER: Receiving packet. Time: 93438
+PRODUCER: Full queue. Dropping packet: Packet@8bcaa63
+PRODUCER: Receiving packet. Time: 93438
+PRODUCER: Full queue. Dropping packet: Packet@4ff79944
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 94239
+PRODUCER: Adding input to queue: Packet@14396a1e Queue now has size: 99
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 94440
+PRODUCER: Full queue. Dropping packet: Packet@623af2fc
+PRODUCER: Receiving packet. Time: 94842
+PRODUCER: Full queue. Dropping packet: Packet@f38a36a
+PRODUCER: Receiving packet. Time: 94847
+PRODUCER: Full queue. Dropping packet: Packet@7cf63670
+PRODUCER: Receiving packet. Time: 95048
+PRODUCER: Full queue. Dropping packet: Packet@23c0ca6a
+PRODUCER: Receiving packet. Time: 95048
+PRODUCER: Full queue. Dropping packet: Packet@16d871fc
+PRODUCER: Receiving packet. Time: 95449
+PRODUCER: Full queue. Dropping packet: Packet@5cb1b3be
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 95450
+PRODUCER: Full queue. Dropping packet: Packet@11395bee
+PRODUCER: Receiving packet. Time: 95450
+PRODUCER: Full queue. Dropping packet: Packet@348f5039
+PRODUCER: Receiving packet. Time: 95851
+PRODUCER: Full queue. Dropping packet: Packet@618d90c5
+PRODUCER: Receiving packet. Time: 95851
+PRODUCER: Full queue. Dropping packet: Packet@30f0f309
+PRODUCER: Receiving packet. Time: 96051
+PRODUCER: Full queue. Dropping packet: Packet@6bcd38d2
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 96252
+PRODUCER: Adding input to queue: Packet@258db30a Queue now has size: 99
+PRODUCER: Receiving packet. Time: 96854
+PRODUCER: Full queue. Dropping packet: Packet@288b14c6
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 96854
+PRODUCER: Full queue. Dropping packet: Packet@1f54d265
+PRODUCER: Receiving packet. Time: 97856
+PRODUCER: Full queue. Dropping packet: Packet@1ddd72f5
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 97856
+PRODUCER: Full queue. Dropping packet: Packet@550097a7
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 98258
+PRODUCER: Adding input to queue: Packet@25dd94e5 Queue now has size: 99
+PRODUCER: Receiving packet. Time: 98259
+PRODUCER: Full queue. Dropping packet: Packet@1ca3bdc1
+PRODUCER: Receiving packet. Time: 98259
+PRODUCER: Full queue. Dropping packet: Packet@6a9f2e7a
+PRODUCER: Receiving packet. Time: 98259
+PRODUCER: Full queue. Dropping packet: Packet@3b733121
+PRODUCER: Receiving packet. Time: 98259
+PRODUCER: Full queue. Dropping packet: Packet@7240f016
+PRODUCER: Receiving packet. Time: 98260
+PRODUCER: Full queue. Dropping packet: Packet@730c062a
+PRODUCER: Receiving packet. Time: 98463
+PRODUCER: Full queue. Dropping packet: Packet@60731acf
+PRODUCER: Receiving packet. Time: 99066
+PRODUCER: Full queue. Dropping packet: Packet@422bc5d9
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 99066
+PRODUCER: Full queue. Dropping packet: Packet@379e4dca
+PRODUCER: Receiving packet. Time: 99066
+PRODUCER: Full queue. Dropping packet: Packet@24b02045
+PRODUCER: Receiving packet. Time: 99266
+PRODUCER: Full queue. Dropping packet: Packet@5c6de37e
+PRODUCER: Receiving packet. Time: 99467
+PRODUCER: Full queue. Dropping packet: Packet@4074e027
+PRODUCER: Receiving packet. Time: 99467
+PRODUCER: Full queue. Dropping packet: Packet@54105fe
+PRODUCER: Receiving packet. Time: 99868
+PRODUCER: Full queue. Dropping packet: Packet@2056af1b
+PRODUCER: Receiving packet. Time: 99868
+PRODUCER: Full queue. Dropping packet: Packet@1313ce7c
+PRODUCER: Receiving packet. Time: 100069
+PRODUCER: Full queue. Dropping packet: Packet@748161e1
+PRODUCER: WRITING TO GRAPH
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 100671
+PRODUCER: Adding input to queue: Packet@7962e47a Queue now has size: 99
+PRODUCER: Receiving packet. Time: 101073
+PRODUCER: Full queue. Dropping packet: Packet@6cd9b23a
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 101073
+PRODUCER: Full queue. Dropping packet: Packet@6134e1f3
+PRODUCER: Receiving packet. Time: 101073
+PRODUCER: Full queue. Dropping packet: Packet@1e450a5d
+PRODUCER: Receiving packet. Time: 101073
+PRODUCER: Full queue. Dropping packet: Packet@706a6cdb
+PRODUCER: Receiving packet. Time: 101474
+PRODUCER: Full queue. Dropping packet: Packet@5103588e
+PRODUCER: Receiving packet. Time: 101474
+PRODUCER: Full queue. Dropping packet: Packet@17fe0024
+PRODUCER: Receiving packet. Time: 101474
+PRODUCER: Full queue. Dropping packet: Packet@215ff764
+PRODUCER: Receiving packet. Time: 101474
+PRODUCER: Full queue. Dropping packet: Packet@2f05b20
+PRODUCER: Receiving packet. Time: 101474
+PRODUCER: Full queue. Dropping packet: Packet@49fcb4d8
+PRODUCER: Receiving packet. Time: 101475
+PRODUCER: Full queue. Dropping packet: Packet@2ee472e3
+PRODUCER: Receiving packet. Time: 101476
+PRODUCER: Full queue. Dropping packet: Packet@705e448c
+PRODUCER: Receiving packet. Time: 101677
+PRODUCER: Full queue. Dropping packet: Packet@70f738fc
+PRODUCER: Receiving packet. Time: 101677
+PRODUCER: Full queue. Dropping packet: Packet@5c81084e
+PRODUCER: Receiving packet. Time: 101879
+PRODUCER: Full queue. Dropping packet: Packet@51ff0a57
+PRODUCER: Receiving packet. Time: 101879
+PRODUCER: Full queue. Dropping packet: Packet@53074ec0
+PRODUCER: Receiving packet. Time: 102080
+PRODUCER: Full queue. Dropping packet: Packet@1a7eac84
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 102080
+PRODUCER: Full queue. Dropping packet: Packet@4e6914fd
+PRODUCER: Receiving packet. Time: 102080
+PRODUCER: Full queue. Dropping packet: Packet@67ed12d5
+PRODUCER: Receiving packet. Time: 102080
+PRODUCER: Full queue. Dropping packet: Packet@ef531a6
+PRODUCER: Receiving packet. Time: 102080
+PRODUCER: Full queue. Dropping packet: Packet@6100b670
+PRODUCER: Receiving packet. Time: 102081
+PRODUCER: Full queue. Dropping packet: Packet@67488851
+PRODUCER: Receiving packet. Time: 102081
+PRODUCER: Full queue. Dropping packet: Packet@68bc55d7
+PRODUCER: Receiving packet. Time: 102081
+PRODUCER: Full queue. Dropping packet: Packet@4fe32167
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 102484
+PRODUCER: Adding input to queue: Packet@2b34addd Queue now has size: 99
+PRODUCER: Receiving packet. Time: 102684
+PRODUCER: Full queue. Dropping packet: Packet@89da2ea
+PRODUCER: Receiving packet. Time: 102685
+PRODUCER: Full queue. Dropping packet: Packet@2054cc3
+PRODUCER: Receiving packet. Time: 102685
+PRODUCER: Full queue. Dropping packet: Packet@54bbbdfd
+PRODUCER: Receiving packet. Time: 102685
+PRODUCER: Full queue. Dropping packet: Packet@5a6fa8f2
+PRODUCER: Receiving packet. Time: 102885
+PRODUCER: Full queue. Dropping packet: Packet@3f80cba7
+PRODUCER: Receiving packet. Time: 103285
+PRODUCER: Full queue. Dropping packet: Packet@17cbebc0
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 103286
+PRODUCER: Full queue. Dropping packet: Packet@1e16f891
+PRODUCER: Receiving packet. Time: 103286
+PRODUCER: Full queue. Dropping packet: Packet@3999eb99
+PRODUCER: Receiving packet. Time: 103286
+PRODUCER: Full queue. Dropping packet: Packet@fdd2fe
+PRODUCER: Receiving packet. Time: 103487
+PRODUCER: Full queue. Dropping packet: Packet@48a0acca
+PRODUCER: Receiving packet. Time: 103487
+PRODUCER: Full queue. Dropping packet: Packet@61db173f
+PRODUCER: Receiving packet. Time: 103687
+PRODUCER: Full queue. Dropping packet: Packet@1768fdbe
+PRODUCER: Receiving packet. Time: 103687
+PRODUCER: Full queue. Dropping packet: Packet@79ecb78f
+PRODUCER: Receiving packet. Time: 103688
+PRODUCER: Full queue. Dropping packet: Packet@34e79284
+PRODUCER: Receiving packet. Time: 103688
+PRODUCER: Full queue. Dropping packet: Packet@d3c19c8
+PRODUCER: Receiving packet. Time: 103688
+PRODUCER: Full queue. Dropping packet: Packet@5de980dc
+PRODUCER: Receiving packet. Time: 103688
+PRODUCER: Full queue. Dropping packet: Packet@41250421
+PRODUCER: Receiving packet. Time: 103688
+PRODUCER: Full queue. Dropping packet: Packet@495ecd33
+PRODUCER: Receiving packet. Time: 103688
+PRODUCER: Full queue. Dropping packet: Packet@24c16f89
+PRODUCER: Receiving packet. Time: 103889
+PRODUCER: Full queue. Dropping packet: Packet@35bfe4ad
+PRODUCER: Receiving packet. Time: 103889
+PRODUCER: Full queue. Dropping packet: Packet@5cd2fa37
+PRODUCER: Receiving packet. Time: 103889
+PRODUCER: Full queue. Dropping packet: Packet@635a83cb
+PRODUCER: Receiving packet. Time: 103889
+PRODUCER: Full queue. Dropping packet: Packet@4cc8150e
+PRODUCER: Receiving packet. Time: 103889
+PRODUCER: Full queue. Dropping packet: Packet@6180ab6
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 104290
+PRODUCER: Adding input to queue: Packet@4d504b00 Queue now has size: 99
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 104291
+PRODUCER: Full queue. Dropping packet: Packet@7aa3ddba
+PRODUCER: Receiving packet. Time: 104492
+PRODUCER: Full queue. Dropping packet: Packet@76cfc785
+PRODUCER: Receiving packet. Time: 104492
+PRODUCER: Full queue. Dropping packet: Packet@30442e50
+PRODUCER: Receiving packet. Time: 104896
+PRODUCER: Full queue. Dropping packet: Packet@7f836b13
+PRODUCER: Receiving packet. Time: 104897
+PRODUCER: Full queue. Dropping packet: Packet@1b293754
+PRODUCER: Receiving packet. Time: 105098
+PRODUCER: Full queue. Dropping packet: Packet@1352285b
+PRODUCER: Receiving packet. Time: 105098
+PRODUCER: Full queue. Dropping packet: Packet@275a2cf
+PRODUCER: Receiving packet. Time: 105098
+PRODUCER: Full queue. Dropping packet: Packet@664a9a61
+PRODUCER: Receiving packet. Time: 105103
+PRODUCER: Full queue. Dropping packet: Packet@348b926b
+PRODUCER: Receiving packet. Time: 105103
+PRODUCER: Full queue. Dropping packet: Packet@36997451
+PRODUCER: Receiving packet. Time: 105704
+PRODUCER: Full queue. Dropping packet: Packet@19d5cb97
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 105704
+PRODUCER: Full queue. Dropping packet: Packet@2b7ec35e
+PRODUCER: Receiving packet. Time: 105905
+PRODUCER: Full queue. Dropping packet: Packet@430e1490
+PRODUCER: Receiving packet. Time: 105905
+PRODUCER: Full queue. Dropping packet: Packet@3ec8db5c
+PRODUCER: Receiving packet. Time: 105905
+PRODUCER: Full queue. Dropping packet: Packet@9f63661
+PRODUCER: Receiving packet. Time: 105905
+PRODUCER: Full queue. Dropping packet: Packet@544f6032
+PRODUCER: Receiving packet. Time: 105905
+PRODUCER: Full queue. Dropping packet: Packet@67d644bf
+PRODUCER: Receiving packet. Time: 105905
+PRODUCER: Full queue. Dropping packet: Packet@1f3c7122
+PRODUCER: Receiving packet. Time: 106105
+PRODUCER: Full queue. Dropping packet: Packet@27c1099a
+PRODUCER: Receiving packet. Time: 106105
+PRODUCER: Full queue. Dropping packet: Packet@820a3a0
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 106305
+PRODUCER: Adding input to queue: Packet@5d86eda7 Queue now has size: 99
+PRODUCER: Receiving packet. Time: 106506
+PRODUCER: Full queue. Dropping packet: Packet@21cf3254
+PRODUCER: Receiving packet. Time: 107107
+PRODUCER: Full queue. Dropping packet: Packet@eed722e
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 107107
+PRODUCER: Full queue. Dropping packet: Packet@3ddedf0
+PRODUCER: Receiving packet. Time: 107107
+PRODUCER: Full queue. Dropping packet: Packet@695cd3f9
+PRODUCER: Receiving packet. Time: 107107
+PRODUCER: Full queue. Dropping packet: Packet@31d91114
+PRODUCER: Receiving packet. Time: 107307
+PRODUCER: Full queue. Dropping packet: Packet@54c07903
+PRODUCER: Receiving packet. Time: 107307
+PRODUCER: Full queue. Dropping packet: Packet@389ebc06
+PRODUCER: Receiving packet. Time: 107307
+PRODUCER: Full queue. Dropping packet: Packet@37d263f7
+PRODUCER: Receiving packet. Time: 107307
+PRODUCER: Full queue. Dropping packet: Packet@4efa95a8
+PRODUCER: Receiving packet. Time: 107307
+PRODUCER: Full queue. Dropping packet: Packet@1925e515
+PRODUCER: Receiving packet. Time: 107307
+PRODUCER: Full queue. Dropping packet: Packet@549614bb
+PRODUCER: Receiving packet. Time: 107307
+PRODUCER: Full queue. Dropping packet: Packet@707f1805
+PRODUCER: Receiving packet. Time: 107508
+PRODUCER: Full queue. Dropping packet: Packet@6a328477
+PRODUCER: Receiving packet. Time: 107508
+PRODUCER: Full queue. Dropping packet: Packet@5c09d969
+PRODUCER: Receiving packet. Time: 107508
+PRODUCER: Full queue. Dropping packet: Packet@385e3d9f
+PRODUCER: Receiving packet. Time: 107508
+PRODUCER: Full queue. Dropping packet: Packet@30e9a5a1
+PRODUCER: Receiving packet. Time: 107508
+PRODUCER: Full queue. Dropping packet: Packet@4e869ef7
+PRODUCER: Receiving packet. Time: 107508
+PRODUCER: Full queue. Dropping packet: Packet@5cd6d4df
+PRODUCER: Receiving packet. Time: 107508
+PRODUCER: Full queue. Dropping packet: Packet@152da81f
+PRODUCER: Receiving packet. Time: 107508
+PRODUCER: Full queue. Dropping packet: Packet@6814c3b6
+PRODUCER: Receiving packet. Time: 107508
+PRODUCER: Full queue. Dropping packet: Packet@129f8965
+PRODUCER: Receiving packet. Time: 107711
+PRODUCER: Full queue. Dropping packet: Packet@7805d7c5
+PRODUCER: Receiving packet. Time: 107711
+PRODUCER: Full queue. Dropping packet: Packet@10f58a
+PRODUCER: Receiving packet. Time: 107711
+PRODUCER: Full queue. Dropping packet: Packet@4e579f4d
+PRODUCER: Receiving packet. Time: 107711
+PRODUCER: Full queue. Dropping packet: Packet@206df343
+PRODUCER: Receiving packet. Time: 107711
+PRODUCER: Full queue. Dropping packet: Packet@7600b374
+PRODUCER: Receiving packet. Time: 107711
+PRODUCER: Full queue. Dropping packet: Packet@71bbb49b
+PRODUCER: Receiving packet. Time: 107711
+PRODUCER: Full queue. Dropping packet: Packet@364f016
+PRODUCER: Receiving packet. Time: 107712
+PRODUCER: Full queue. Dropping packet: Packet@4cdcfcd2
+PRODUCER: Receiving packet. Time: 107712
+PRODUCER: Full queue. Dropping packet: Packet@3fb46d2e
+PRODUCER: Receiving packet. Time: 108113
+PRODUCER: Full queue. Dropping packet: Packet@1387192f
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 108113
+PRODUCER: Full queue. Dropping packet: Packet@37c7bf09
+PRODUCER: Receiving packet. Time: 108113
+PRODUCER: Full queue. Dropping packet: Packet@1cd6ff4f
+PRODUCER: Receiving packet. Time: 108113
+PRODUCER: Full queue. Dropping packet: Packet@972ce6
+PRODUCER: Receiving packet. Time: 108113
+PRODUCER: Full queue. Dropping packet: Packet@2bf203ba
+PRODUCER: Receiving packet. Time: 108113
+PRODUCER: Full queue. Dropping packet: Packet@2147ce3a
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 108314
+PRODUCER: Adding input to queue: Packet@a4071da Queue now has size: 99
+PRODUCER: Receiving packet. Time: 108515
+PRODUCER: Full queue. Dropping packet: Packet@33098c68
+PRODUCER: Receiving packet. Time: 108515
+PRODUCER: Full queue. Dropping packet: Packet@85db660
+PRODUCER: Receiving packet. Time: 108516
+PRODUCER: Full queue. Dropping packet: Packet@17f48f4f
+PRODUCER: Receiving packet. Time: 108716
+PRODUCER: Full queue. Dropping packet: Packet@1eb3e2ca
+PRODUCER: Receiving packet. Time: 108916
+PRODUCER: Full queue. Dropping packet: Packet@61a657b8
+PRODUCER: Receiving packet. Time: 109117
+PRODUCER: Full queue. Dropping packet: Packet@42d135a
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 109118
+PRODUCER: Full queue. Dropping packet: Packet@37107a67
+PRODUCER: Receiving packet. Time: 109318
+PRODUCER: Full queue. Dropping packet: Packet@36b46bfd
+PRODUCER: Receiving packet. Time: 109319
+PRODUCER: Full queue. Dropping packet: Packet@657ce104
+PRODUCER: Receiving packet. Time: 109319
+PRODUCER: Full queue. Dropping packet: Packet@9278932
+PRODUCER: Receiving packet. Time: 109520
+PRODUCER: Full queue. Dropping packet: Packet@3d500933
+PRODUCER: Receiving packet. Time: 109520
+PRODUCER: Full queue. Dropping packet: Packet@282e76e7
+PRODUCER: Receiving packet. Time: 109520
+PRODUCER: Full queue. Dropping packet: Packet@2a58c627
+PRODUCER: Receiving packet. Time: 109520
+PRODUCER: Full queue. Dropping packet: Packet@1f03b447
+PRODUCER: Receiving packet. Time: 109520
+PRODUCER: Full queue. Dropping packet: Packet@22273f05
+PRODUCER: Receiving packet. Time: 109520
+PRODUCER: Full queue. Dropping packet: Packet@79e5ece8
+PRODUCER: Receiving packet. Time: 109521
+PRODUCER: Full queue. Dropping packet: Packet@1560740d
+PRODUCER: Receiving packet. Time: 109521
+PRODUCER: Full queue. Dropping packet: Packet@17c34b6a
+PRODUCER: Receiving packet. Time: 109521
+PRODUCER: Full queue. Dropping packet: Packet@c079180
+PRODUCER: Receiving packet. Time: 109521
+PRODUCER: Full queue. Dropping packet: Packet@5ad3ae44
+PRODUCER: Receiving packet. Time: 109721
+PRODUCER: Full queue. Dropping packet: Packet@4c85690f
+PRODUCER: Receiving packet. Time: 109922
+PRODUCER: Full queue. Dropping packet: Packet@4190e3ee
+PRODUCER: Receiving packet. Time: 109922
+PRODUCER: Full queue. Dropping packet: Packet@71abe1cd
+PRODUCER: Receiving packet. Time: 109923
+PRODUCER: Full queue. Dropping packet: Packet@364dc032
+PRODUCER: Receiving packet. Time: 109923
+PRODUCER: Full queue. Dropping packet: Packet@51e71ae5
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 110324
+PRODUCER: Adding input to queue: Packet@172e0ca4 Queue now has size: 99
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 110324
+PRODUCER: Full queue. Dropping packet: Packet@39a52205
+PRODUCER: Receiving packet. Time: 110324
+PRODUCER: Full queue. Dropping packet: Packet@61b13953
+PRODUCER: Receiving packet. Time: 110324
+PRODUCER: Full queue. Dropping packet: Packet@8e837b2
+PRODUCER: Receiving packet. Time: 110325
+PRODUCER: Full queue. Dropping packet: Packet@6fc45127
+PRODUCER: Receiving packet. Time: 110527
+PRODUCER: Full queue. Dropping packet: Packet@7f61e3d0
+PRODUCER: Receiving packet. Time: 110529
+PRODUCER: Full queue. Dropping packet: Packet@17f236ce
+PRODUCER: Receiving packet. Time: 110731
+PRODUCER: Full queue. Dropping packet: Packet@5eeed625
+PRODUCER: Receiving packet. Time: 110932
+PRODUCER: Full queue. Dropping packet: Packet@13eee9b6
+PRODUCER: Receiving packet. Time: 110932
+PRODUCER: Full queue. Dropping packet: Packet@63e1e778
+PRODUCER: Receiving packet. Time: 111735
+PRODUCER: Full queue. Dropping packet: Packet@65a3f98c
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 111735
+PRODUCER: Full queue. Dropping packet: Packet@4d5444e3
+PRODUCER: Receiving packet. Time: 111736
+PRODUCER: Full queue. Dropping packet: Packet@2913b7a6
+PRODUCER: Receiving packet. Time: 111936
+PRODUCER: Full queue. Dropping packet: Packet@45255fdb
+PRODUCER: Receiving packet. Time: 111936
+PRODUCER: Full queue. Dropping packet: Packet@3fb0a16a
+PRODUCER: Receiving packet. Time: 111936
+PRODUCER: Full queue. Dropping packet: Packet@502c9923
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 112337
+PRODUCER: Adding input to queue: Packet@64b6ba07 Queue now has size: 99
+PRODUCER: Receiving packet. Time: 113339
+PRODUCER: Full queue. Dropping packet: Packet@b02eacd
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 113339
+PRODUCER: Full queue. Dropping packet: Packet@3183a136
+PRODUCER: Receiving packet. Time: 113543
+PRODUCER: Full queue. Dropping packet: Packet@552c3a4
+PRODUCER: Receiving packet. Time: 113543
+PRODUCER: Full queue. Dropping packet: Packet@54e5278b
+PRODUCER: Receiving packet. Time: 113543
+PRODUCER: Full queue. Dropping packet: Packet@48adeb58
+PRODUCER: Receiving packet. Time: 113744
+PRODUCER: Full queue. Dropping packet: Packet@640b696a
+PRODUCER: Receiving packet. Time: 113744
+PRODUCER: Full queue. Dropping packet: Packet@77d7d9ac
+PRODUCER: Receiving packet. Time: 113744
+PRODUCER: Full queue. Dropping packet: Packet@af371a2
+PRODUCER: Receiving packet. Time: 113945
+PRODUCER: Full queue. Dropping packet: Packet@2da3bc8f
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 114146
+PRODUCER: Adding input to queue: Packet@125cc068 Queue now has size: 99
+PRODUCER: Receiving packet. Time: 114146
+PRODUCER: Full queue. Dropping packet: Packet@5b8f7136
+PRODUCER: Receiving packet. Time: 114146
+PRODUCER: Full queue. Dropping packet: Packet@4ae06584
+PRODUCER: Receiving packet. Time: 114547
+PRODUCER: Full queue. Dropping packet: Packet@7a97ef93
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 114547
+PRODUCER: Full queue. Dropping packet: Packet@ebc3f29
+PRODUCER: Receiving packet. Time: 114547
+PRODUCER: Full queue. Dropping packet: Packet@2e9af909
+PRODUCER: Receiving packet. Time: 114748
+PRODUCER: Full queue. Dropping packet: Packet@671f751b
+PRODUCER: Receiving packet. Time: 115150
+PRODUCER: Full queue. Dropping packet: Packet@2231e51c
+PRODUCER: Receiving packet. Time: 115150
+PRODUCER: Full queue. Dropping packet: Packet@4d9bc304
+PRODUCER: Receiving packet. Time: 115150
+PRODUCER: Full queue. Dropping packet: Packet@3430290f
+PRODUCER: Receiving packet. Time: 115150
+PRODUCER: Full queue. Dropping packet: Packet@281b253f
+PRODUCER: Receiving packet. Time: 115150
+PRODUCER: Full queue. Dropping packet: Packet@52f3c25
+PRODUCER: Receiving packet. Time: 115150
+PRODUCER: Full queue. Dropping packet: Packet@163f5c67
+PRODUCER: Receiving packet. Time: 115351
+PRODUCER: Full queue. Dropping packet: Packet@237267fe
+PRODUCER: Receiving packet. Time: 115352
+PRODUCER: Full queue. Dropping packet: Packet@52b19c72
+PRODUCER: Receiving packet. Time: 115352
+PRODUCER: Full queue. Dropping packet: Packet@2e034c15
+PRODUCER: Receiving packet. Time: 115352
+PRODUCER: Full queue. Dropping packet: Packet@42b3f1d6
+PRODUCER: Receiving packet. Time: 115352
+PRODUCER: Full queue. Dropping packet: Packet@72ce23e9
+PRODUCER: Receiving packet. Time: 115352
+PRODUCER: Full queue. Dropping packet: Packet@2c4273ce
+PRODUCER: Receiving packet. Time: 115352
+PRODUCER: Full queue. Dropping packet: Packet@1815e1b7
+PRODUCER: Receiving packet. Time: 115352
+PRODUCER: Full queue. Dropping packet: Packet@45f58e22
+PRODUCER: Receiving packet. Time: 115353
+PRODUCER: Full queue. Dropping packet: Packet@46273c1e
+PRODUCER: Receiving packet. Time: 115353
+PRODUCER: Full queue. Dropping packet: Packet@7944eb17
+PRODUCER: Receiving packet. Time: 115353
+PRODUCER: Full queue. Dropping packet: Packet@4e6bb5d1
+PRODUCER: Receiving packet. Time: 115553
+PRODUCER: Full queue. Dropping packet: Packet@2706b6a0
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 115754
+PRODUCER: Full queue. Dropping packet: Packet@58beb992
+PRODUCER: Receiving packet. Time: 115754
+PRODUCER: Full queue. Dropping packet: Packet@67cfdc1
+PRODUCER: Receiving packet. Time: 115754
+PRODUCER: Full queue. Dropping packet: Packet@152a15e2
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 116156
+PRODUCER: Adding input to queue: Packet@78b1251 Queue now has size: 99
+PRODUCER: Receiving packet. Time: 116358
+PRODUCER: Full queue. Dropping packet: Packet@2a54491b
+PRODUCER: Receiving packet. Time: 116760
+PRODUCER: Full queue. Dropping packet: Packet@4ba73b65
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 116960
+PRODUCER: Full queue. Dropping packet: Packet@e67a2f6
+PRODUCER: Receiving packet. Time: 116960
+PRODUCER: Full queue. Dropping packet: Packet@512130f1
+PRODUCER: Receiving packet. Time: 116960
+PRODUCER: Full queue. Dropping packet: Packet@5935a75f
+PRODUCER: Receiving packet. Time: 116960
+PRODUCER: Full queue. Dropping packet: Packet@2bbbd30f
+PRODUCER: Receiving packet. Time: 116961
+PRODUCER: Full queue. Dropping packet: Packet@1878b49c
+PRODUCER: Receiving packet. Time: 117162
+PRODUCER: Full queue. Dropping packet: Packet@4006b9da
+PRODUCER: Receiving packet. Time: 117363
+PRODUCER: Full queue. Dropping packet: Packet@347de1da
+PRODUCER: Receiving packet. Time: 117363
+PRODUCER: Full queue. Dropping packet: Packet@41ab6ff1
+PRODUCER: Receiving packet. Time: 117564
+PRODUCER: Full queue. Dropping packet: Packet@1c2aff0c
+PRODUCER: Receiving packet. Time: 117564
+PRODUCER: Full queue. Dropping packet: Packet@69974d3a
+PRODUCER: Receiving packet. Time: 117564
+PRODUCER: Full queue. Dropping packet: Packet@323f12e3
+PRODUCER: Receiving packet. Time: 117765
+PRODUCER: Full queue. Dropping packet: Packet@287127b2
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 117765
+PRODUCER: Full queue. Dropping packet: Packet@63687f2f
+PRODUCER: Receiving packet. Time: 117965
+PRODUCER: Full queue. Dropping packet: Packet@30c510e5
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 118768
+PRODUCER: Adding input to queue: Packet@7aa7b414 Queue now has size: 99
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 118768
+PRODUCER: Full queue. Dropping packet: Packet@5bca5045
+PRODUCER: Receiving packet. Time: 118768
+PRODUCER: Full queue. Dropping packet: Packet@7b7bdd14
+PRODUCER: Receiving packet. Time: 118768
+PRODUCER: Full queue. Dropping packet: Packet@6321b8a6
+PRODUCER: Receiving packet. Time: 118968
+PRODUCER: Full queue. Dropping packet: Packet@24e1b7c2
+PRODUCER: Receiving packet. Time: 119771
+PRODUCER: Full queue. Dropping packet: Packet@2d208363
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 119771
+PRODUCER: Full queue. Dropping packet: Packet@89678ae
+PRODUCER: Receiving packet. Time: 119772
+PRODUCER: Full queue. Dropping packet: Packet@669c0592
+PRODUCER: Receiving packet. Time: 119772
+PRODUCER: Full queue. Dropping packet: Packet@4feaf124
+PRODUCER: Receiving packet. Time: 119772
+PRODUCER: Full queue. Dropping packet: Packet@66785821
+PRODUCER: Receiving packet. Time: 119772
+PRODUCER: Full queue. Dropping packet: Packet@5d101f48
+PRODUCER: Receiving packet. Time: 119772
+PRODUCER: Full queue. Dropping packet: Packet@5b2621ed
+PRODUCER: Receiving packet. Time: 119973
+PRODUCER: Full queue. Dropping packet: Packet@435d987c
+PRODUCER: Receiving packet. Time: 119973
+PRODUCER: Full queue. Dropping packet: Packet@67c07966
+PRODUCER: Receiving packet. Time: 119974
+PRODUCER: Full queue. Dropping packet: Packet@3a77c089
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 120175
+PRODUCER: Adding input to queue: Packet@5034a763 Queue now has size: 99
+PRODUCER: Receiving packet. Time: 120175
+PRODUCER: Full queue. Dropping packet: Packet@7f054b61
+PRODUCER: Receiving packet. Time: 120376
+PRODUCER: Full queue. Dropping packet: Packet@1b6a16ae
+PRODUCER: Receiving packet. Time: 120576
+PRODUCER: Full queue. Dropping packet: Packet@1f9dfec2
+PRODUCER: Receiving packet. Time: 120576
+PRODUCER: Full queue. Dropping packet: Packet@6a674ded
+PRODUCER: Receiving packet. Time: 120577
+PRODUCER: Full queue. Dropping packet: Packet@3fec4d83
+PRODUCER: Receiving packet. Time: 120978
+PRODUCER: Full queue. Dropping packet: Packet@74f8f3b6
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 120978
+PRODUCER: Full queue. Dropping packet: Packet@4636805
+PRODUCER: Receiving packet. Time: 120979
+PRODUCER: Full queue. Dropping packet: Packet@54bb4541
+PRODUCER: Receiving packet. Time: 120979
+PRODUCER: Full queue. Dropping packet: Packet@9668a00
+PRODUCER: Receiving packet. Time: 120979
+PRODUCER: Full queue. Dropping packet: Packet@3a30bdd9
+PRODUCER: Receiving packet. Time: 120979
+PRODUCER: Full queue. Dropping packet: Packet@250cc9da
+PRODUCER: Receiving packet. Time: 120979
+PRODUCER: Full queue. Dropping packet: Packet@2b930177
+PRODUCER: Receiving packet. Time: 120979
+PRODUCER: Full queue. Dropping packet: Packet@1618a88f
+PRODUCER: Receiving packet. Time: 121381
+PRODUCER: Full queue. Dropping packet: Packet@29f901e0
+PRODUCER: Receiving packet. Time: 121382
+PRODUCER: Full queue. Dropping packet: Packet@6a785f1c
+PRODUCER: Receiving packet. Time: 121382
+PRODUCER: Full queue. Dropping packet: Packet@59d3639d
+PRODUCER: Receiving packet. Time: 121382
+PRODUCER: Full queue. Dropping packet: Packet@a5cf4f8
+PRODUCER: Receiving packet. Time: 121590
+PRODUCER: Full queue. Dropping packet: Packet@6b4b0252
+PRODUCER: Receiving packet. Time: 121591
+PRODUCER: Full queue. Dropping packet: Packet@43e32098
+PRODUCER: Receiving packet. Time: 121791
+PRODUCER: Full queue. Dropping packet: Packet@16e7cf2
+PRODUCER: Receiving packet. Time: 121791
+PRODUCER: Full queue. Dropping packet: Packet@6c78a313
+PRODUCER: Receiving packet. Time: 121792
+PRODUCER: Full queue. Dropping packet: Packet@5f92655c
+PRODUCER: Receiving packet. Time: 121792
+PRODUCER: Full queue. Dropping packet: Packet@5af79d6
+PRODUCER: Receiving packet. Time: 121792
+PRODUCER: Full queue. Dropping packet: Packet@77d41c7d
+PRODUCER: Receiving packet. Time: 121792
+PRODUCER: Full queue. Dropping packet: Packet@5e1d59af
+PRODUCER: Receiving packet. Time: 121792
+PRODUCER: Full queue. Dropping packet: Packet@12e96fb5
+PRODUCER: Receiving packet. Time: 121792
+PRODUCER: Full queue. Dropping packet: Packet@6cf6c5f7
+PRODUCER: Receiving packet. Time: 121792
+PRODUCER: Full queue. Dropping packet: Packet@3b960be0
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 122394
+PRODUCER: Adding input to queue: Packet@ff2fd1c Queue now has size: 99
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 122795
+PRODUCER: Full queue. Dropping packet: Packet@563fbf90
+PRODUCER: Receiving packet. Time: 122996
+PRODUCER: Full queue. Dropping packet: Packet@c3c01dd
+PRODUCER: Receiving packet. Time: 123197
+PRODUCER: Full queue. Dropping packet: Packet@77ec2b1
+PRODUCER: Receiving packet. Time: 123398
+PRODUCER: Full queue. Dropping packet: Packet@1f7cd55f
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 123398
+PRODUCER: Full queue. Dropping packet: Packet@34943a1f
+PRODUCER: Receiving packet. Time: 123398
+PRODUCER: Full queue. Dropping packet: Packet@584af7b9
+PRODUCER: Receiving packet. Time: 123398
+PRODUCER: Full queue. Dropping packet: Packet@2950dd4b
+PRODUCER: Receiving packet. Time: 123599
+PRODUCER: Full queue. Dropping packet: Packet@50ff2313
+PRODUCER: Receiving packet. Time: 123800
+PRODUCER: Full queue. Dropping packet: Packet@45aeafd1
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 124201
+PRODUCER: Adding input to queue: Packet@4a566fe2 Queue now has size: 99
+PRODUCER: Receiving packet. Time: 124202
+PRODUCER: Full queue. Dropping packet: Packet@65435966
+PRODUCER: Receiving packet. Time: 124202
+PRODUCER: Full queue. Dropping packet: Packet@4c0d1966
+PRODUCER: Receiving packet. Time: 124202
+PRODUCER: Full queue. Dropping packet: Packet@7cede711
+PRODUCER: Receiving packet. Time: 124202
+PRODUCER: Full queue. Dropping packet: Packet@53dbe11
+PRODUCER: Receiving packet. Time: 124202
+PRODUCER: Full queue. Dropping packet: Packet@7a4a4fb9
+PRODUCER: Receiving packet. Time: 124202
+PRODUCER: Full queue. Dropping packet: Packet@5ea8afbf
+PRODUCER: Receiving packet. Time: 124202
+PRODUCER: Full queue. Dropping packet: Packet@4d6e1e14
+PRODUCER: Receiving packet. Time: 124202
+PRODUCER: Full queue. Dropping packet: Packet@25cbec9e
+PRODUCER: Receiving packet. Time: 124202
+PRODUCER: Full queue. Dropping packet: Packet@dd45819
+PRODUCER: Receiving packet. Time: 124203
+PRODUCER: Full queue. Dropping packet: Packet@161adb4b
+PRODUCER: Receiving packet. Time: 124203
+PRODUCER: Full queue. Dropping packet: Packet@2bb9f922
+PRODUCER: Receiving packet. Time: 124203
+PRODUCER: Full queue. Dropping packet: Packet@516c4fd7
+PRODUCER: Receiving packet. Time: 124207
+PRODUCER: Full queue. Dropping packet: Packet@7ed7c173
+PRODUCER: Receiving packet. Time: 124409
+PRODUCER: Full queue. Dropping packet: Packet@3ed79d61
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 124409
+PRODUCER: Full queue. Dropping packet: Packet@5a430370
+PRODUCER: Receiving packet. Time: 124409
+PRODUCER: Full queue. Dropping packet: Packet@6962fd18
+PRODUCER: Receiving packet. Time: 124409
+PRODUCER: Full queue. Dropping packet: Packet@29fe651e
+PRODUCER: Receiving packet. Time: 124409
+PRODUCER: Full queue. Dropping packet: Packet@2b40d9d5
+PRODUCER: Receiving packet. Time: 124409
+PRODUCER: Full queue. Dropping packet: Packet@69da074e
+PRODUCER: Receiving packet. Time: 124409
+PRODUCER: Full queue. Dropping packet: Packet@17aead50
+PRODUCER: Receiving packet. Time: 124409
+PRODUCER: Full queue. Dropping packet: Packet@4d22ec2e
+PRODUCER: Receiving packet. Time: 124409
+PRODUCER: Full queue. Dropping packet: Packet@60811a2e
+PRODUCER: Receiving packet. Time: 124409
+PRODUCER: Full queue. Dropping packet: Packet@59588107
+PRODUCER: Receiving packet. Time: 124609
+PRODUCER: Full queue. Dropping packet: Packet@3bfe6351
+PRODUCER: Receiving packet. Time: 124609
+PRODUCER: Full queue. Dropping packet: Packet@61e7bb9c
+PRODUCER: Receiving packet. Time: 124609
+PRODUCER: Full queue. Dropping packet: Packet@9df8de4
+PRODUCER: Receiving packet. Time: 124609
+PRODUCER: Full queue. Dropping packet: Packet@14126561
+PRODUCER: Receiving packet. Time: 124810
+PRODUCER: Full queue. Dropping packet: Packet@5c3e7859
+PRODUCER: Receiving packet. Time: 125010
+PRODUCER: Full queue. Dropping packet: Packet@591319
+PRODUCER: Receiving packet. Time: 125010
+PRODUCER: Full queue. Dropping packet: Packet@751c0e5b
+PRODUCER: Receiving packet. Time: 125010
+PRODUCER: Full queue. Dropping packet: Packet@722244f4
+PRODUCER: Receiving packet. Time: 125010
+PRODUCER: Full queue. Dropping packet: Packet@5d711659
+PRODUCER: Receiving packet. Time: 125010
+PRODUCER: Full queue. Dropping packet: Packet@15780735
+PRODUCER: Receiving packet. Time: 125611
+PRODUCER: Full queue. Dropping packet: Packet@3ad17
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 125611
+PRODUCER: Full queue. Dropping packet: Packet@60e65c07
+PRODUCER: Receiving packet. Time: 125812
+PRODUCER: Full queue. Dropping packet: Packet@35f04d9c
+PRODUCER: Receiving packet. Time: 126012
+PRODUCER: Full queue. Dropping packet: Packet@60e4b5b8
+PRODUCER: Receiving packet. Time: 126012
+PRODUCER: Full queue. Dropping packet: Packet@7d12d7a6
+PRODUCER: Receiving packet. Time: 126012
+PRODUCER: Full queue. Dropping packet: Packet@2f46ba67
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 126212
+PRODUCER: Adding input to queue: Packet@18ed8ebe Queue now has size: 99
+PRODUCER: Receiving packet. Time: 126212
+PRODUCER: Full queue. Dropping packet: Packet@5d61b16e
+PRODUCER: Receiving packet. Time: 126413
+PRODUCER: Full queue. Dropping packet: Packet@3625e283
+PRODUCER: Receiving packet. Time: 126413
+PRODUCER: Full queue. Dropping packet: Packet@2caaf3a2
+PRODUCER: Receiving packet. Time: 126413
+PRODUCER: Full queue. Dropping packet: Packet@584610f7
+PRODUCER: Receiving packet. Time: 126413
+PRODUCER: Full queue. Dropping packet: Packet@87c3050
+PRODUCER: Receiving packet. Time: 126413
+PRODUCER: Full queue. Dropping packet: Packet@1154ea26
+PRODUCER: Receiving packet. Time: 126413
+PRODUCER: Full queue. Dropping packet: Packet@6a182c4d
+PRODUCER: Receiving packet. Time: 126413
+PRODUCER: Full queue. Dropping packet: Packet@2b15851
+PRODUCER: Receiving packet. Time: 126613
+PRODUCER: Full queue. Dropping packet: Packet@6b2606e7
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 126613
+PRODUCER: Full queue. Dropping packet: Packet@5d15c47f
+PRODUCER: Receiving packet. Time: 126613
+PRODUCER: Full queue. Dropping packet: Packet@7644e1d4
+PRODUCER: Receiving packet. Time: 126613
+PRODUCER: Full queue. Dropping packet: Packet@7e3f5c9d
+PRODUCER: Receiving packet. Time: 126613
+PRODUCER: Full queue. Dropping packet: Packet@25f56c83
+PRODUCER: Receiving packet. Time: 126613
+PRODUCER: Full queue. Dropping packet: Packet@56b0627e
+PRODUCER: Receiving packet. Time: 126813
+PRODUCER: Full queue. Dropping packet: Packet@72b633d
+PRODUCER: Receiving packet. Time: 127019
+PRODUCER: Full queue. Dropping packet: Packet@3f41cf1
+PRODUCER: Receiving packet. Time: 127019
+PRODUCER: Full queue. Dropping packet: Packet@debe978
+PRODUCER: Receiving packet. Time: 128022
+PRODUCER: Full queue. Dropping packet: Packet@589dd929
+PRODUCER: WRITING TO GRAPH
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 128423
+PRODUCER: Adding input to queue: Packet@4737b8c Queue now has size: 99
+PRODUCER: Receiving packet. Time: 128423
+PRODUCER: Full queue. Dropping packet: Packet@2743fc67
+PRODUCER: Receiving packet. Time: 128427
+PRODUCER: Full queue. Dropping packet: Packet@75b171de
+PRODUCER: Receiving packet. Time: 128427
+PRODUCER: Full queue. Dropping packet: Packet@43d3bad0
+PRODUCER: Receiving packet. Time: 128627
+PRODUCER: Full queue. Dropping packet: Packet@5ce3063d
+PRODUCER: Receiving packet. Time: 128828
+PRODUCER: Full queue. Dropping packet: Packet@647b7902
+PRODUCER: Receiving packet. Time: 128828
+PRODUCER: Full queue. Dropping packet: Packet@1abadbd2
+PRODUCER: Receiving packet. Time: 128829
+PRODUCER: Full queue. Dropping packet: Packet@4461e76f
+PRODUCER: Receiving packet. Time: 129029
+PRODUCER: Full queue. Dropping packet: Packet@77c330
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 129430
+PRODUCER: Full queue. Dropping packet: Packet@3ffb1955
+PRODUCER: Receiving packet. Time: 129430
+PRODUCER: Full queue. Dropping packet: Packet@73533133
+PRODUCER: Receiving packet. Time: 129430
+PRODUCER: Full queue. Dropping packet: Packet@38c2eaa9
+PRODUCER: Receiving packet. Time: 129630
+PRODUCER: Full queue. Dropping packet: Packet@612c0c2
+PRODUCER: Receiving packet. Time: 129631
+PRODUCER: Full queue. Dropping packet: Packet@61c450e4
+PRODUCER: Receiving packet. Time: 129631
+PRODUCER: Full queue. Dropping packet: Packet@b742f46
+PRODUCER: Receiving packet. Time: 129631
+PRODUCER: Full queue. Dropping packet: Packet@24cc1b23
+PRODUCER: Receiving packet. Time: 129832
+PRODUCER: Full queue. Dropping packet: Packet@34c8dba8
+PRODUCER: Receiving packet. Time: 130033
+PRODUCER: Full queue. Dropping packet: Packet@77c8eea5
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 130033
+PRODUCER: Full queue. Dropping packet: Packet@5d6cf105
+PRODUCER: Receiving packet. Time: 130033
+PRODUCER: Full queue. Dropping packet: Packet@193dfc88
+PRODUCER: Receiving packet. Time: 130033
+PRODUCER: Full queue. Dropping packet: Packet@6b5a619c
+PRODUCER: Receiving packet. Time: 130033
+PRODUCER: Full queue. Dropping packet: Packet@5bd70794
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 130239
+PRODUCER: Adding input to queue: Packet@61892132 Queue now has size: 99
+PRODUCER: Receiving packet. Time: 130440
+PRODUCER: Full queue. Dropping packet: Packet@17264837
+PRODUCER: Receiving packet. Time: 130840
+PRODUCER: Full queue. Dropping packet: Packet@2f489dce
+PRODUCER: Receiving packet. Time: 130841
+PRODUCER: Full queue. Dropping packet: Packet@4cc0d414
+PRODUCER: Receiving packet. Time: 131041
+PRODUCER: Full queue. Dropping packet: Packet@6468ec0f
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 131041
+PRODUCER: Full queue. Dropping packet: Packet@412a7745
+PRODUCER: Receiving packet. Time: 131041
+PRODUCER: Full queue. Dropping packet: Packet@2ae73443
+PRODUCER: Receiving packet. Time: 131041
+PRODUCER: Full queue. Dropping packet: Packet@60cd257f
+PRODUCER: Receiving packet. Time: 131042
+PRODUCER: Full queue. Dropping packet: Packet@43e6b5fd
+PRODUCER: Receiving packet. Time: 131042
+PRODUCER: Full queue. Dropping packet: Packet@5164729b
+PRODUCER: Receiving packet. Time: 131243
+PRODUCER: Full queue. Dropping packet: Packet@423211d8
+PRODUCER: Receiving packet. Time: 131243
+PRODUCER: Full queue. Dropping packet: Packet@4bdd223c
+PRODUCER: Receiving packet. Time: 131243
+PRODUCER: Full queue. Dropping packet: Packet@3de23fe7
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 132246
+PRODUCER: Adding input to queue: Packet@4f60626a Queue now has size: 99
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 132447
+PRODUCER: Full queue. Dropping packet: Packet@1d0e068f
+PRODUCER: Receiving packet. Time: 132448
+PRODUCER: Full queue. Dropping packet: Packet@3f601bd0
+PRODUCER: Receiving packet. Time: 132452
+PRODUCER: Full queue. Dropping packet: Packet@135106dc
+PRODUCER: Receiving packet. Time: 132452
+PRODUCER: Full queue. Dropping packet: Packet@5f6e45ee
+PRODUCER: Receiving packet. Time: 132452
+PRODUCER: Full queue. Dropping packet: Packet@32b90af2
+PRODUCER: Receiving packet. Time: 132452
+PRODUCER: Full queue. Dropping packet: Packet@d3839ee
+PRODUCER: Receiving packet. Time: 132453
+PRODUCER: Full queue. Dropping packet: Packet@16c4a973
+PRODUCER: Receiving packet. Time: 132453
+PRODUCER: Full queue. Dropping packet: Packet@3ba8df70
+PRODUCER: Receiving packet. Time: 132453
+PRODUCER: Full queue. Dropping packet: Packet@413cac6d
+PRODUCER: Receiving packet. Time: 132854
+PRODUCER: Full queue. Dropping packet: Packet@d871aed
+PRODUCER: Receiving packet. Time: 133255
+PRODUCER: Full queue. Dropping packet: Packet@3e3ba51f
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 133456
+PRODUCER: Full queue. Dropping packet: Packet@4315aef7
+PRODUCER: Receiving packet. Time: 133456
+PRODUCER: Full queue. Dropping packet: Packet@67ee3d3c
+PRODUCER: Receiving packet. Time: 133456
+PRODUCER: Full queue. Dropping packet: Packet@528b035e
+PRODUCER: Receiving packet. Time: 133858
+PRODUCER: Full queue. Dropping packet: Packet@317b574d
+PRODUCER: Receiving packet. Time: 134059
+PRODUCER: Full queue. Dropping packet: Packet@5ff72583
+PRODUCER: Receiving packet. Time: 134059
+PRODUCER: Full queue. Dropping packet: Packet@4966e49c
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 134259
+PRODUCER: Adding input to queue: Packet@437d8f1d Queue now has size: 99
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 134259
+PRODUCER: Full queue. Dropping packet: Packet@28576900
+PRODUCER: Receiving packet. Time: 134460
+PRODUCER: Full queue. Dropping packet: Packet@4eea8ab4
+PRODUCER: Receiving packet. Time: 134460
+PRODUCER: Full queue. Dropping packet: Packet@30d6c5f1
+PRODUCER: Receiving packet. Time: 134460
+PRODUCER: Full queue. Dropping packet: Packet@1ffca191
+PRODUCER: Receiving packet. Time: 134460
+PRODUCER: Full queue. Dropping packet: Packet@c70d407
+PRODUCER: Receiving packet. Time: 134861
+PRODUCER: Full queue. Dropping packet: Packet@16d55017
+PRODUCER: Receiving packet. Time: 134871
+PRODUCER: Full queue. Dropping packet: Packet@10aaf671
+PRODUCER: Receiving packet. Time: 134871
+PRODUCER: Full queue. Dropping packet: Packet@6aa02ddc
+PRODUCER: Receiving packet. Time: 134871
+PRODUCER: Full queue. Dropping packet: Packet@607a0c63
+PRODUCER: Receiving packet. Time: 135071
+PRODUCER: Full queue. Dropping packet: Packet@5c13ad93
+PRODUCER: Receiving packet. Time: 135071
+PRODUCER: Full queue. Dropping packet: Packet@1b4dd11e
+PRODUCER: Receiving packet. Time: 135071
+PRODUCER: Full queue. Dropping packet: Packet@7068c166
+PRODUCER: Receiving packet. Time: 135071
+PRODUCER: Full queue. Dropping packet: Packet@4041c21c
+PRODUCER: Receiving packet. Time: 135071
+PRODUCER: Full queue. Dropping packet: Packet@17f80b2
+PRODUCER: Receiving packet. Time: 135271
+PRODUCER: Full queue. Dropping packet: Packet@744f64a2
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 135271
+PRODUCER: Full queue. Dropping packet: Packet@421ae8bc
+PRODUCER: Receiving packet. Time: 135271
+PRODUCER: Full queue. Dropping packet: Packet@c0583c1
+PRODUCER: Receiving packet. Time: 135271
+PRODUCER: Full queue. Dropping packet: Packet@7182f8e3
+PRODUCER: Receiving packet. Time: 135672
+PRODUCER: Full queue. Dropping packet: Packet@7e67e805
+PRODUCER: Receiving packet. Time: 135672
+PRODUCER: Full queue. Dropping packet: Packet@6b2da07d
+PRODUCER: Receiving packet. Time: 135672
+PRODUCER: Full queue. Dropping packet: Packet@4b962d52
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 137476
+PRODUCER: Adding input to queue: Packet@2db58123 Queue now has size: 99
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 137477
+PRODUCER: Full queue. Dropping packet: Packet@6c536350
+PRODUCER: Receiving packet. Time: 137477
+PRODUCER: Full queue. Dropping packet: Packet@6afb18ef
+PRODUCER: Receiving packet. Time: 137877
+PRODUCER: Full queue. Dropping packet: Packet@10fd545f
+PRODUCER: Receiving packet. Time: 137878
+PRODUCER: Full queue. Dropping packet: Packet@11c063fa
+PRODUCER: Receiving packet. Time: 137878
+PRODUCER: Full queue. Dropping packet: Packet@66fecb71
+PRODUCER: Receiving packet. Time: 137878
+PRODUCER: Full queue. Dropping packet: Packet@54709b21
+PRODUCER: Receiving packet. Time: 137878
+PRODUCER: Full queue. Dropping packet: Packet@2e55725c
+PRODUCER: Receiving packet. Time: 137878
+PRODUCER: Full queue. Dropping packet: Packet@3c980bdf
+PRODUCER: Receiving packet. Time: 137878
+PRODUCER: Full queue. Dropping packet: Packet@2cadfa7e
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 138681
+PRODUCER: Adding input to queue: Packet@7c54c559 Queue now has size: 99
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 138681
+PRODUCER: Full queue. Dropping packet: Packet@79969f1d
+PRODUCER: Receiving packet. Time: 138883
+PRODUCER: Full queue. Dropping packet: Packet@52ca503
+PRODUCER: Receiving packet. Time: 138883
+PRODUCER: Full queue. Dropping packet: Packet@4611d1d2
+PRODUCER: Receiving packet. Time: 138883
+PRODUCER: Full queue. Dropping packet: Packet@1cb5aa44
+PRODUCER: Receiving packet. Time: 138883
+PRODUCER: Full queue. Dropping packet: Packet@5116a0b8
+PRODUCER: Receiving packet. Time: 138883
+PRODUCER: Full queue. Dropping packet: Packet@31721324
+PRODUCER: Receiving packet. Time: 138883
+PRODUCER: Full queue. Dropping packet: Packet@7925cb99
+PRODUCER: Receiving packet. Time: 138883
+PRODUCER: Full queue. Dropping packet: Packet@48f3b973
+PRODUCER: Receiving packet. Time: 138883
+PRODUCER: Full queue. Dropping packet: Packet@2c04d3b5
+PRODUCER: Receiving packet. Time: 138883
+PRODUCER: Full queue. Dropping packet: Packet@d4e0e22
+PRODUCER: Receiving packet. Time: 139083
+PRODUCER: Full queue. Dropping packet: Packet@5ae06511
+PRODUCER: Receiving packet. Time: 139284
+PRODUCER: Full queue. Dropping packet: Packet@f8d771f
+PRODUCER: Receiving packet. Time: 139284
+PRODUCER: Full queue. Dropping packet: Packet@51e9420
+PRODUCER: Receiving packet. Time: 139284
+PRODUCER: Full queue. Dropping packet: Packet@78dcb5bf
+PRODUCER: Receiving packet. Time: 139284
+PRODUCER: Full queue. Dropping packet: Packet@214d8f58
+PRODUCER: Receiving packet. Time: 139284
+PRODUCER: Full queue. Dropping packet: Packet@451c21e1
+PRODUCER: Receiving packet. Time: 139485
+PRODUCER: Full queue. Dropping packet: Packet@345212f6
+PRODUCER: Receiving packet. Time: 139486
+PRODUCER: Full queue. Dropping packet: Packet@293e288e
+PRODUCER: Receiving packet. Time: 139687
+PRODUCER: Full queue. Dropping packet: Packet@64c455be
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 139687
+PRODUCER: Full queue. Dropping packet: Packet@40f373ee
+PRODUCER: Receiving packet. Time: 140088
+PRODUCER: Full queue. Dropping packet: Packet@64920ca4
+PRODUCER: Receiving packet. Time: 140088
+PRODUCER: Full queue. Dropping packet: Packet@3c3022e0
+PRODUCER: Receiving packet. Time: 140088
+PRODUCER: Full queue. Dropping packet: Packet@7a9ff97d
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 140288
+PRODUCER: Adding input to queue: Packet@21a899c3 Queue now has size: 99
+PRODUCER: Receiving packet. Time: 140288
+PRODUCER: Full queue. Dropping packet: Packet@55ab467e
+PRODUCER: Receiving packet. Time: 140288
+PRODUCER: Full queue. Dropping packet: Packet@68b15909
+PRODUCER: Receiving packet. Time: 140489
+PRODUCER: Full queue. Dropping packet: Packet@6d600173
+PRODUCER: Receiving packet. Time: 140489
+PRODUCER: Full queue. Dropping packet: Packet@863eb9d
+PRODUCER: Receiving packet. Time: 140489
+PRODUCER: Full queue. Dropping packet: Packet@774c459
+PRODUCER: Receiving packet. Time: 140489
+PRODUCER: Full queue. Dropping packet: Packet@656fbcaf
+PRODUCER: Receiving packet. Time: 140489
+PRODUCER: Full queue. Dropping packet: Packet@86952e8
+PRODUCER: Receiving packet. Time: 140489
+PRODUCER: Full queue. Dropping packet: Packet@1f417f7b
+PRODUCER: Receiving packet. Time: 140690
+PRODUCER: Full queue. Dropping packet: Packet@3e3636c6
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 140690
+PRODUCER: Full queue. Dropping packet: Packet@26246f6b
+PRODUCER: Receiving packet. Time: 140890
+PRODUCER: Full queue. Dropping packet: Packet@64188755
+PRODUCER: Receiving packet. Time: 141091
+PRODUCER: Full queue. Dropping packet: Packet@7036860a
+PRODUCER: Receiving packet. Time: 141091
+PRODUCER: Full queue. Dropping packet: Packet@7fb90ecc
+PRODUCER: Receiving packet. Time: 141091
+PRODUCER: Full queue. Dropping packet: Packet@7ae36967
+PRODUCER: Receiving packet. Time: 141491
+PRODUCER: Full queue. Dropping packet: Packet@5ae16b41
+PRODUCER: Receiving packet. Time: 141491
+PRODUCER: Full queue. Dropping packet: Packet@1e23b0c1
+PRODUCER: Receiving packet. Time: 141491
+PRODUCER: Full queue. Dropping packet: Packet@295b02a7
+PRODUCER: Receiving packet. Time: 141491
+PRODUCER: Full queue. Dropping packet: Packet@4892feba
+PRODUCER: Receiving packet. Time: 141892
+PRODUCER: Full queue. Dropping packet: Packet@19782f8a
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 141892
+PRODUCER: Full queue. Dropping packet: Packet@1a5e31dc
+PRODUCER: Receiving packet. Time: 141892
+PRODUCER: Full queue. Dropping packet: Packet@6be1560a
+PRODUCER: Receiving packet. Time: 141892
+PRODUCER: Full queue. Dropping packet: Packet@345912e2
+PRODUCER: Receiving packet. Time: 141892
+PRODUCER: Full queue. Dropping packet: Packet@6c857f9c
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 142294
+PRODUCER: Adding input to queue: Packet@73e7301 Queue now has size: 99
+PRODUCER: Receiving packet. Time: 142696
+PRODUCER: Full queue. Dropping packet: Packet@660e24ea
+PRODUCER: Receiving packet. Time: 142696
+PRODUCER: Full queue. Dropping packet: Packet@1abce4cb
+PRODUCER: Receiving packet. Time: 142897
+PRODUCER: Full queue. Dropping packet: Packet@5d82019f
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 142897
+PRODUCER: Full queue. Dropping packet: Packet@29d0d755
+PRODUCER: Receiving packet. Time: 143098
+PRODUCER: Full queue. Dropping packet: Packet@3eee9ff1
+PRODUCER: Receiving packet. Time: 143299
+PRODUCER: Full queue. Dropping packet: Packet@4389ae5b
+PRODUCER: Receiving packet. Time: 143500
+PRODUCER: Full queue. Dropping packet: Packet@e4ad14c
+PRODUCER: Receiving packet. Time: 143500
+PRODUCER: Full queue. Dropping packet: Packet@210fc5af
+PRODUCER: Receiving packet. Time: 143500
+PRODUCER: Full queue. Dropping packet: Packet@6bd4c768
+PRODUCER: Receiving packet. Time: 143702
+PRODUCER: Full queue. Dropping packet: Packet@6521573f
+PRODUCER: Receiving packet. Time: 143702
+PRODUCER: Full queue. Dropping packet: Packet@3db93a66
+PRODUCER: Receiving packet. Time: 143702
+PRODUCER: Full queue. Dropping packet: Packet@62c4b2c3
+PRODUCER: Receiving packet. Time: 143702
+PRODUCER: Full queue. Dropping packet: Packet@2f66c674
+PRODUCER: Receiving packet. Time: 143702
+PRODUCER: Full queue. Dropping packet: Packet@4011e408
+PRODUCER: Receiving packet. Time: 143703
+PRODUCER: Full queue. Dropping packet: Packet@340f8c66
+PRODUCER: Receiving packet. Time: 144103
+PRODUCER: Full queue. Dropping packet: Packet@739a728e
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 144103
+PRODUCER: Full queue. Dropping packet: Packet@6a565fef
+PRODUCER: Receiving packet. Time: 144104
+PRODUCER: Full queue. Dropping packet: Packet@25a8c709
+PRODUCER: Receiving packet. Time: 144104
+PRODUCER: Full queue. Dropping packet: Packet@6d8c0366
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 144705
+PRODUCER: Adding input to queue: Packet@4da2125b Queue now has size: 99
+PRODUCER: Receiving packet. Time: 144711
+PRODUCER: Full queue. Dropping packet: Packet@15d38527
+PRODUCER: Receiving packet. Time: 144711
+PRODUCER: Full queue. Dropping packet: Packet@76a0981b
+PRODUCER: Receiving packet. Time: 144715
+PRODUCER: Full queue. Dropping packet: Packet@7bba229a
+PRODUCER: Receiving packet. Time: 144715
+PRODUCER: Full queue. Dropping packet: Packet@2657d77c
+PRODUCER: Receiving packet. Time: 144715
+PRODUCER: Full queue. Dropping packet: Packet@2f24842c
+PRODUCER: Receiving packet. Time: 144715
+PRODUCER: Full queue. Dropping packet: Packet@5db6a193
+PRODUCER: Receiving packet. Time: 144715
+PRODUCER: Full queue. Dropping packet: Packet@77b2e64d
+PRODUCER: Receiving packet. Time: 144916
+PRODUCER: Full queue. Dropping packet: Packet@6f4633f0
+PRODUCER: Receiving packet. Time: 144916
+PRODUCER: Full queue. Dropping packet: Packet@6448dfd0
+PRODUCER: Receiving packet. Time: 145116
+PRODUCER: Full queue. Dropping packet: Packet@c9a50f3
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 145117
+PRODUCER: Full queue. Dropping packet: Packet@6cfa5fa3
+PRODUCER: Receiving packet. Time: 145117
+PRODUCER: Full queue. Dropping packet: Packet@327d287f
+PRODUCER: Receiving packet. Time: 145117
+PRODUCER: Full queue. Dropping packet: Packet@10e9d7bf
+PRODUCER: Receiving packet. Time: 145117
+PRODUCER: Full queue. Dropping packet: Packet@4e2a1099
+PRODUCER: Receiving packet. Time: 145117
+PRODUCER: Full queue. Dropping packet: Packet@701359b8
+PRODUCER: Receiving packet. Time: 145717
+PRODUCER: Full queue. Dropping packet: Packet@2b76b915
+PRODUCER: Receiving packet. Time: 145717
+PRODUCER: Full queue. Dropping packet: Packet@75fcc7eb
+PRODUCER: Receiving packet. Time: 145717
+PRODUCER: Full queue. Dropping packet: Packet@6b4caf15
+PRODUCER: Receiving packet. Time: 145717
+PRODUCER: Full queue. Dropping packet: Packet@178f55d
+PRODUCER: Receiving packet. Time: 145717
+PRODUCER: Full queue. Dropping packet: Packet@1f585a76
+PRODUCER: Receiving packet. Time: 145717
+PRODUCER: Full queue. Dropping packet: Packet@c8815e9
+PRODUCER: Receiving packet. Time: 145717
+PRODUCER: Full queue. Dropping packet: Packet@232376a
+PRODUCER: Receiving packet. Time: 145717
+PRODUCER: Full queue. Dropping packet: Packet@4426f86c
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 146318
+PRODUCER: Adding input to queue: Packet@19f08174 Queue now has size: 99
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 146319
+PRODUCER: Full queue. Dropping packet: Packet@551be8fe
+PRODUCER: Receiving packet. Time: 146519
+PRODUCER: Full queue. Dropping packet: Packet@46010c50
+PRODUCER: Receiving packet. Time: 146519
+PRODUCER: Full queue. Dropping packet: Packet@35176964
+PRODUCER: Receiving packet. Time: 146519
+PRODUCER: Full queue. Dropping packet: Packet@28f1b593
+PRODUCER: Receiving packet. Time: 146519
+PRODUCER: Full queue. Dropping packet: Packet@2227f46b
+PRODUCER: Receiving packet. Time: 146519
+PRODUCER: Full queue. Dropping packet: Packet@6c8a0ff3
+PRODUCER: Receiving packet. Time: 146519
+PRODUCER: Full queue. Dropping packet: Packet@6258174f
+PRODUCER: Receiving packet. Time: 146519
+PRODUCER: Full queue. Dropping packet: Packet@47a07bba
+PRODUCER: Receiving packet. Time: 147120
+PRODUCER: Full queue. Dropping packet: Packet@5ab95b89
+PRODUCER: Receiving packet. Time: 147321
+PRODUCER: Full queue. Dropping packet: Packet@667022ba
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 147321
+PRODUCER: Full queue. Dropping packet: Packet@44b0b354
+PRODUCER: Receiving packet. Time: 148124
+PRODUCER: Full queue. Dropping packet: Packet@897dd3
+PRODUCER: Receiving packet. Time: 148124
+PRODUCER: Full queue. Dropping packet: Packet@10fc1b58
+PRODUCER: Receiving packet. Time: 148124
+PRODUCER: Full queue. Dropping packet: Packet@77fe9e0f
+PRODUCER: Receiving packet. Time: 148124
+PRODUCER: Full queue. Dropping packet: Packet@3695b9b7
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 148525
+PRODUCER: Adding input to queue: Packet@7d392d53 Queue now has size: 99
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 148525
+PRODUCER: Full queue. Dropping packet: Packet@d6fdf77
+PRODUCER: Receiving packet. Time: 148525
+PRODUCER: Full queue. Dropping packet: Packet@e623633
+PRODUCER: Receiving packet. Time: 148525
+PRODUCER: Full queue. Dropping packet: Packet@15216e49
+PRODUCER: Receiving packet. Time: 148525
+PRODUCER: Full queue. Dropping packet: Packet@21c68a0b
+PRODUCER: Receiving packet. Time: 148525
+PRODUCER: Full queue. Dropping packet: Packet@52216d23
+PRODUCER: Receiving packet. Time: 148525
+PRODUCER: Full queue. Dropping packet: Packet@4ded0afa
+PRODUCER: Receiving packet. Time: 148726
+PRODUCER: Full queue. Dropping packet: Packet@53a06628
+PRODUCER: Receiving packet. Time: 148726
+PRODUCER: Full queue. Dropping packet: Packet@46a33885
+PRODUCER: Receiving packet. Time: 148726
+PRODUCER: Full queue. Dropping packet: Packet@1f320d07
+PRODUCER: Receiving packet. Time: 149127
+PRODUCER: Full queue. Dropping packet: Packet@3a2d7ec1
+PRODUCER: Receiving packet. Time: 149328
+PRODUCER: Full queue. Dropping packet: Packet@6a6cce8a
+PRODUCER: Receiving packet. Time: 149328
+PRODUCER: Full queue. Dropping packet: Packet@3554a452
+PRODUCER: Receiving packet. Time: 149328
+PRODUCER: Full queue. Dropping packet: Packet@3a01ddca
+PRODUCER: Receiving packet. Time: 149528
+PRODUCER: Full queue. Dropping packet: Packet@6b8b673d
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 149528
+PRODUCER: Full queue. Dropping packet: Packet@671ffc58
+PRODUCER: Receiving packet. Time: 149729
+PRODUCER: Full queue. Dropping packet: Packet@7779b2dd
+PRODUCER: Receiving packet. Time: 150131
+PRODUCER: Full queue. Dropping packet: Packet@4322de75
+PRODUCER: Receiving packet. Time: 150131
+PRODUCER: Full queue. Dropping packet: Packet@7320fba3
+PRODUCER: Receiving packet. Time: 150131
+PRODUCER: Full queue. Dropping packet: Packet@6b4534a3
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 150531
+PRODUCER: Adding input to queue: Packet@51109c4c Queue now has size: 99
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 150531
+PRODUCER: Full queue. Dropping packet: Packet@414316d
+PRODUCER: Receiving packet. Time: 151333
+PRODUCER: Full queue. Dropping packet: Packet@709d3faf
+PRODUCER: Receiving packet. Time: 151333
+PRODUCER: Full queue. Dropping packet: Packet@32bfed33
+PRODUCER: Receiving packet. Time: 151333
+PRODUCER: Full queue. Dropping packet: Packet@6798e5d4
+PRODUCER: Receiving packet. Time: 151333
+PRODUCER: Full queue. Dropping packet: Packet@42223f13
+PRODUCER: Receiving packet. Time: 151333
+PRODUCER: Full queue. Dropping packet: Packet@5b5b00bf
+PRODUCER: Receiving packet. Time: 151333
+PRODUCER: Full queue. Dropping packet: Packet@1640b892
+PRODUCER: Receiving packet. Time: 151534
+PRODUCER: Full queue. Dropping packet: Packet@36d649cb
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 151534
+PRODUCER: Full queue. Dropping packet: Packet@65df32a5
+PRODUCER: Receiving packet. Time: 151535
+PRODUCER: Full queue. Dropping packet: Packet@66828859
+PRODUCER: Receiving packet. Time: 151535
+PRODUCER: Full queue. Dropping packet: Packet@75153833
+PRODUCER: Receiving packet. Time: 151735
+PRODUCER: Full queue. Dropping packet: Packet@7109af4b
+PRODUCER: Receiving packet. Time: 151735
+PRODUCER: Full queue. Dropping packet: Packet@6d5ff1d5
+PRODUCER: Receiving packet. Time: 151735
+PRODUCER: Full queue. Dropping packet: Packet@1f6d7c67
+PRODUCER: Receiving packet. Time: 151940
+PRODUCER: Full queue. Dropping packet: Packet@43e51b19
+PRODUCER: Receiving packet. Time: 151940
+PRODUCER: Full queue. Dropping packet: Packet@7faa87d9
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 153142
+PRODUCER: Adding input to queue: Packet@6de910a0 Queue now has size: 99
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 153142
+PRODUCER: Full queue. Dropping packet: Packet@1993d73e
+PRODUCER: Receiving packet. Time: 153142
+PRODUCER: Full queue. Dropping packet: Packet@72452ac6
+PRODUCER: Receiving packet. Time: 153343
+PRODUCER: Full queue. Dropping packet: Packet@597aff18
+PRODUCER: Receiving packet. Time: 153343
+PRODUCER: Full queue. Dropping packet: Packet@7c339887
+PRODUCER: Receiving packet. Time: 153343
+PRODUCER: Full queue. Dropping packet: Packet@7b1e8a18
+PRODUCER: Receiving packet. Time: 153343
+PRODUCER: Full queue. Dropping packet: Packet@20569ca7
+PRODUCER: Receiving packet. Time: 153344
+PRODUCER: Full queue. Dropping packet: Packet@2eda358a
+PRODUCER: Receiving packet. Time: 153344
+PRODUCER: Full queue. Dropping packet: Packet@4e4d7776
+PRODUCER: Receiving packet. Time: 153745
+PRODUCER: Full queue. Dropping packet: Packet@410c6aed
+PRODUCER: Receiving packet. Time: 153745
+PRODUCER: Full queue. Dropping packet: Packet@55ab65cf
+PRODUCER: Receiving packet. Time: 153745
+PRODUCER: Full queue. Dropping packet: Packet@2aa26c95
+PRODUCER: Receiving packet. Time: 153745
+PRODUCER: Full queue. Dropping packet: Packet@ff14870
+PRODUCER: Receiving packet. Time: 154146
+PRODUCER: Full queue. Dropping packet: Packet@2d081061
+PRODUCER: WRITING TO GRAPH
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Receiving packet. Time: 154547
+PRODUCER: Adding input to queue: Packet@23039d12 Queue now has size: 99
+PRODUCER: Receiving packet. Time: 154547
+PRODUCER: Full queue. Dropping packet: Packet@1a7c9b23
+PRODUCER: Receiving packet. Time: 154547
+PRODUCER: Full queue. Dropping packet: Packet@1f4bf2d4
+PRODUCER: Receiving packet. Time: 154748
+PRODUCER: Full queue. Dropping packet: Packet@722d6244
+PRODUCER: Receiving packet. Time: 154748
+PRODUCER: Full queue. Dropping packet: Packet@4df99a1e
+PRODUCER: Receiving packet. Time: 155150
+PRODUCER: Full queue. Dropping packet: Packet@3322a501
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 155150
+PRODUCER: Full queue. Dropping packet: Packet@73bf3ce3
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY

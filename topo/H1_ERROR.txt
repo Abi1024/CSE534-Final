@@ -3,31 +3,317 @@ THIS NODE's SERVER PORT: 10835
 THIS NODE's NAME: H1
 Destination IP: 1.1.2.2
 Destination Port: 6797
-Packs per second: 1.0
+Packs per second: 5.0
 CLIENT: Size of gateways: 1
 CLIENT: Size of out: 0
 CLIENT: IN function, setup_outgoing_connections
 CLIENT: Connecting to 1.1.1.2 on port 10836
 CLIENT: Pair key: 1.1.1.2
 SERVER: Waiting for client on port 10835...
-SERVER: Just connected to /1.1.1.2:56551
 CLIENT: Just connected to /1.1.1.2:10836
-CLIENT: The gateway router is:1.1.1.2
-CLIENT: The gateway router is:1.1.1.2
-CLIENT: The gateway router is:1.1.1.2
-CLIENT: The gateway router is:1.1.1.2
-CLIENT: The gateway router is:1.1.1.2
-CLIENT: The gateway router is:1.1.1.2
-CLIENT: The gateway router is:1.1.1.2
-CLIENT: The gateway router is:1.1.1.2
-CLIENT: The gateway router is:1.1.1.2
-CLIENT: The gateway router is:1.1.1.2
-CLIENT: The gateway router is:1.1.1.2
-CLIENT: The gateway router is:1.1.1.2
-CLIENT: The gateway router is:1.1.1.2
-CLIENT: The gateway router is:1.1.1.2
-CLIENT: The gateway router is:1.1.1.2
-CLIENT: The gateway router is:1.1.1.2
-CLIENT: The gateway router is:1.1.1.2
-CLIENT: The gateway router is:1.1.1.2
-CLIENT: The gateway router is:1.1.1.2
+Upload rate: 5.0
+Probability: 0.6417424201965332
+Next iteration
+Delay: 200
+SERVER: Just connected to /1.1.1.2:57099
+Next iteration
+OK: 64.17424201965332
+Sending packet, time: 321
+Packet sent, time: 321
+OK: 64.17424201965332
+Sending packet, time: 733
+Packet sent, time: 733
+Delay: 200
+Next iteration
+OK: 64.17424201965332
+Sending packet, time: 933
+Packet sent, time: 933
+OK: 64.17424201965332
+Sending packet, time: 934
+Packet sent, time: 934
+Delay: 200
+Next iteration
+OK: 64.17424201965332
+Sending packet, time: 1134
+Packet sent, time: 1134
+Delay: 200
+Next iteration
+OK: 64.17424201965332
+Sending packet, time: 1335
+Packet sent, time: 1335
+OK: 64.17424201965332
+Sending packet, time: 1335
+Packet sent, time: 1335
+Delay: 200
+Next iteration
+Delay: 200
+Next iteration
+OK: 64.17424201965332
+Sending packet, time: 1737
+Packet sent, time: 1737
+OK: 64.17424201965332
+Sending packet, time: 1737
+Packet sent, time: 1737
+OK: 64.17424201965332
+Sending packet, time: 1737
+Packet sent, time: 1737
+Delay: 200
+Next iteration
+OK: 64.17424201965332
+Sending packet, time: 1938
+Packet sent, time: 1938
+Delay: 200
+Next iteration
+Delay: 200
+Next iteration
+Delay: 200
+Next iteration
+OK: 64.17424201965332
+Sending packet, time: 2539
+Packet sent, time: 2539
+OK: 64.17424201965332
+Sending packet, time: 2540
+Packet sent, time: 2540
+OK: 64.17424201965332
+Sending packet, time: 2540
+Packet sent, time: 2540
+OK: 64.17424201965332
+Sending packet, time: 2540
+Packet sent, time: 2540
+OK: 64.17424201965332
+Sending packet, time: 2540
+Packet sent, time: 2540
+OK: 64.17424201965332
+Sending packet, time: 2540
+Packet sent, time: 2540
+OK: 64.17424201965332
+Sending packet, time: 2540
+Packet sent, time: 2540
+Delay: 200
+Next iteration
+OK: 64.17424201965332
+Sending packet, time: 2742
+Packet sent, time: 2742
+OK: 64.17424201965332
+Sending packet, time: 2743
+Packet sent, time: 2743
+OK: 64.17424201965332
+Sending packet, time: 2743
+Packet sent, time: 2743
+OK: 64.17424201965332
+Sending packet, time: 2743
+Packet sent, time: 2743
+OK: 64.17424201965332
+Sending packet, time: 2744
+Packet sent, time: 2744
+Delay: 200
+Next iteration
+Delay: 200
+Next iteration
+OK: 64.17424201965332
+Sending packet, time: 3146
+Packet sent, time: 3146
+Delay: 200
+Next iteration
+OK: 64.17424201965332
+Sending packet, time: 3347
+Packet sent, time: 3347
+Delay: 200
+Next iteration
+OK: 64.17424201965332
+Sending packet, time: 3550
+Packet sent, time: 3550
+OK: 64.17424201965332
+Sending packet, time: 3555
+Packet sent, time: 3555
+OK: 64.17424201965332
+Sending packet, time: 3556
+Packet sent, time: 3556
+OK: 64.17424201965332
+Sending packet, time: 3557
+Packet sent, time: 3557
+Delay: 200
+Next iteration
+Delay: 200
+Next iteration
+OK: 64.17424201965332
+Sending packet, time: 3963
+Packet sent, time: 3963
+OK: 64.17424201965332
+Sending packet, time: 3964
+Packet sent, time: 3964
+Delay: 200
+Next iteration
+OK: 64.17424201965332
+Sending packet, time: 4164
+Packet sent, time: 4164
+OK: 64.17424201965332
+Sending packet, time: 4164
+Packet sent, time: 4164
+Delay: 200
+Next iteration
+OK: 64.17424201965332
+Sending packet, time: 4365
+Packet sent, time: 4365
+Delay: 200
+Next iteration
+OK: 64.17424201965332
+Sending packet, time: 4566
+Packet sent, time: 4566
+OK: 64.17424201965332
+Sending packet, time: 4566
+Packet sent, time: 4566
+OK: 64.17424201965332
+Sending packet, time: 4566
+Packet sent, time: 4566
+OK: 64.17424201965332
+Sending packet, time: 4567
+Packet sent, time: 4567
+OK: 64.17424201965332
+Sending packet, time: 4567
+Packet sent, time: 4567
+OK: 64.17424201965332
+Sending packet, time: 4567
+Packet sent, time: 4567
+Delay: 200
+Next iteration
+Delay: 200
+Next iteration
+Delay: 200
+Next iteration
+Delay: 200
+Next iteration
+Delay: 200
+Next iteration
+Delay: 200
+Next iteration
+OK: 64.17424201965332
+Sending packet, time: 5772
+Packet sent, time: 5772
+OK: 64.17424201965332
+Sending packet, time: 5772
+Packet sent, time: 5772
+Delay: 200
+Next iteration
+Delay: 200
+Next iteration
+Delay: 200
+Next iteration
+Delay: 200
+Next iteration
+OK: 64.17424201965332
+Sending packet, time: 6577
+Packet sent, time: 6577
+OK: 64.17424201965332
+Sending packet, time: 6579
+Packet sent, time: 6579
+OK: 64.17424201965332
+Sending packet, time: 6580
+Packet sent, time: 6580
+OK: 64.17424201965332
+Sending packet, time: 6584
+Packet sent, time: 6584
+OK: 64.17424201965332
+Sending packet, time: 6585
+Packet sent, time: 6585
+OK: 64.17424201965332
+Sending packet, time: 6585
+Packet sent, time: 6585
+OK: 64.17424201965332
+Sending packet, time: 6586
+Packet sent, time: 6586
+Delay: 200
+Next iteration
+OK: 64.17424201965332
+Sending packet, time: 6788
+Packet sent, time: 6788
+Delay: 200
+Next iteration
+Delay: 200
+Next iteration
+Delay: 200
+Next iteration
+OK: 64.17424201965332
+Sending packet, time: 7391
+Packet sent, time: 7391
+OK: 64.17424201965332
+Sending packet, time: 7392
+Packet sent, time: 7392
+Delay: 200
+Next iteration
+OK: 64.17424201965332
+Sending packet, time: 7596
+Packet sent, time: 7596
+OK: 64.17424201965332
+Sending packet, time: 7597
+Packet sent, time: 7597
+Delay: 200
+Next iteration
+OK: 64.17424201965332
+Sending packet, time: 7804
+Packet sent, time: 7804
+Delay: 200
+Next iteration
+OK: 64.17424201965332
+Sending packet, time: 8005
+Packet sent, time: 8005
+OK: 64.17424201965332
+Sending packet, time: 8006
+Packet sent, time: 8006
+OK: 64.17424201965332
+Sending packet, time: 8006
+Packet sent, time: 8006
+Delay: 200
+Next iteration
+Delay: 200
+Next iteration
+OK: 64.17424201965332
+Sending packet, time: 8407
+Packet sent, time: 8407
+OK: 64.17424201965332
+Sending packet, time: 8407
+Packet sent, time: 8407
+OK: 64.17424201965332
+Sending packet, time: 8411
+Packet sent, time: 8411
+OK: 64.17424201965332
+Sending packet, time: 8417
+Packet sent, time: 8417
+OK: 64.17424201965332
+Sending packet, time: 8420
+Packet sent, time: 8420
+OK: 64.17424201965332
+Sending packet, time: 8421
+Packet sent, time: 8421
+OK: 64.17424201965332
+Sending packet, time: 8421
+Packet sent, time: 8421
+OK: 64.17424201965332
+Sending packet, time: 8427
+Packet sent, time: 8427
+OK: 64.17424201965332
+Sending packet, time: 8431
+Packet sent, time: 8431
+OK: 64.17424201965332
+Sending packet, time: 8432
+Packet sent, time: 8432
+Delay: 200
+Next iteration
+OK: 64.17424201965332
+Sending packet, time: 8633
+Packet sent, time: 8633
+OK: 64.17424201965332
+Sending packet, time: 8634
+Packet sent, time: 8634
+OK: 64.17424201965332
+Sending packet, time: 8634
+Packet sent, time: 8634
+OK: 64.17424201965332
+Sending packet, time: 8635
+Packet sent, time: 8635
+Delay: 200
+Next iteration
+OK: 64.17424201965332
+Sending packet, time: 8835
+Packet sent, time: 8835
+Delay: 200

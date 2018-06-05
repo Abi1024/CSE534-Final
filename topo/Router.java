@@ -9,27 +9,40 @@ public class Router{
     public static String this_ip;
     public static int server_port;
     public static PrintWriter writer;
+    public static PrintWriter graph;
     public static Thread t1,t2;
     public static final PC pc = new PC();
     public static HashMap<String, ObjectOutputStream> out = new HashMap<>();
     public static Routing_Table router = new Routing_Table();
+    public static long start_time = System.currentTimeMillis();
+    public static long total_packets,dropped_packets;
+    public static long last_time = System.currentTimeMillis();;
+    public static long max_queue_size = 100;
 
     //producer-consumer
     private static class PC{
         private static Queue<Packet> queue = new LinkedList<>();
-        public static final int max_size = 100;
 
-        public void produce(Packet input) throws InterruptedException {
+        public void produce(Packet input, long measurement_interval) throws InterruptedException {
+            total_packets++;
             synchronized (this){
-                if (queue.size() < max_size){
+                writer.println("PRODUCER: Receiving packet. Time: " + (System.currentTimeMillis()-start_time));
+                if (queue.size() < max_queue_size){
                     writer.println("PRODUCER: Adding input to queue: " + input + " Queue now has size: " + queue.size());
                     queue.add(input);
                 }else{
                     writer.println("PRODUCER: Full queue. Dropping packet: " + input);
+                    dropped_packets++;
+                }
+                if (System.currentTimeMillis() - last_time > measurement_interval){
+                    writer.println("PRODUCER: WRITING TO GRAPH");
+                    graph.println(System.currentTimeMillis()-start_time + "," + queue.size() + "," + ((double)dropped_packets/total_packets));
+                    last_time = System.currentTimeMillis();
                 }
             }
         }
-        public void consume() throws InterruptedException{
+        public void consume(double link_rate) throws InterruptedException{
+
             while (true) {
                 synchronized (this) {
                     // consumer thread waits while list
@@ -47,15 +60,17 @@ public class Router{
                         writer.println("CONSUMER: QUEUE IS EMPTY");
                     }
                 }
-                Thread.sleep(5000);
+                Thread.sleep((int)(1000.0/link_rate));
             }
         }
     }
 
+    
+
     public static void initialize() throws Exception{
         this_ip = Get_IP.get_ip();
         server_port = this_ip.hashCode()%5000+6001;
-        node_name = Get_IP.ip_to_node_name(this_ip);
+        node_name = Topo.ip_to_node_name(this_ip);
         File file = new File(node_name +"_ERROR.txt");
         if(!file.exists()) file.createNewFile();;
         FileOutputStream fos = new FileOutputStream(file, false);
@@ -67,27 +82,38 @@ public class Router{
         writer.println("THIS NODE's NAME: " + node_name);
         serverSocket = new ServerSocket(server_port);
         serverSocket.setSoTimeout(10000000);
+
+        File file2 = new File("queue.csv");
+        if(!file2.exists()) file2.createNewFile();;
+        FileOutputStream fos2 = new FileOutputStream(file2, false);
+        OutputStreamWriter osw2 = new OutputStreamWriter(fos2, "UTF-8");
+        BufferedWriter bw2 = new BufferedWriter(osw2);
+        graph = new PrintWriter(bw2, true);
+        graph.println("Time since start (ms),Queue size,Average packet loss");
+
     }
 
     public static void main(String[] args) throws Exception{
+        double link_rate = 0.2;
+        long measurement_interval = 1000;
+        if (args.length >= 1) {
+            link_rate = Double.parseDouble(args[0]);
+            if (args.length >= 2) {
+                measurement_interval = Long.parseLong(args[1]);
+                max_queue_size = Integer.parseInt(args[2]);
+            }
+        }
         initialize();
-        thread1();
-        thread2();
+        writer.println("Link rate: " + link_rate);
+        thread1(measurement_interval);
+        thread2(link_rate);
         t1.start();
         t2.start();
         t1.join();
         t2.join();
     }
 
-    public static void setup_routing_table() throws InterruptedException{
-        router.routing_table.put("1.1.2.2","1.1.2.2");
-        router.gateways.add("1.1.1.1");
-        router.gateways.add("1.1.2.2");
-        router.routing_table.put("1.1.1.1","1.1.1.1");
-        router.setup_outgoing_connections(out, writer);
-    }
-
-    public static void thread1(){
+    public static void thread1(long measurement_interval){
         t1 = new Thread(new Runnable() {
             @Override
             public void run() {
@@ -104,7 +130,7 @@ public class Router{
                             while (true){
                                 Packet input = (Packet)in.readObject();
                                 if (input != null){
-                                    pc.produce(input);
+                                    pc.produce(input, measurement_interval);
                                 }else{
                                     flag = false;
                                 }
@@ -126,13 +152,13 @@ public class Router{
     }
 
     //Router's thread2 is responsible for taking packets in the queue and sending them on their way to the next gateway router (or to the destination if it is one hop away)
-    public static void thread2(){
+    public static void thread2(double link_rate){
         t2 = new Thread(new Runnable() {
             @Override
             public void run() {
                 try{
-                    setup_routing_table();
-                    pc.consume();
+                    Topo.setup_routing_table(this_ip,router,out,writer);
+                    pc.consume(link_rate);
                 }catch(Exception e){
                     e.printStackTrace();
                 }

@@ -26,7 +26,7 @@ public class Routing_Table {
                             + client.getRemoteSocketAddress());
                 }catch(Exception e){
                     writer.println("CLIENT: Can't connect. Attempting to reconnect in 500 ms");
-                    e.printStackTrace(writer);
+                    //e.printStackTrace(writer);
                     Thread.sleep(500);
                 }
             }

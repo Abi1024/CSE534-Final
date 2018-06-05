@@ -1,7 +1,10 @@
+import java.io.ObjectOutputStream;
+import java.io.PrintWriter;
 import java.net.InetAddress;
 import java.net.NetworkInterface;
 import java.net.SocketException;
 import java.util.Enumeration;
+import java.util.HashMap;
 
 public class Get_IP {
     public static String get_ip() {
@@ -28,18 +31,6 @@ public class Get_IP {
         return "2.2.2.2";
     }
 
-    public static String ip_to_node_name(String ip){
-        switch (ip){
-            case "1.1.1.1":
-                return "H1";
-            case "1.1.1.2":
-                return "R1";
-            case "1.1.2.2":
-                return "H2";
-            default:
-                return "TROLL";
-        }
-    }
 
 
 }

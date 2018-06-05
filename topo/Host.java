@@ -12,22 +12,31 @@ public class Host {
     public static PrintWriter writer;
     public static Routing_Table router = new Routing_Table();
     public static HashMap<String, ObjectOutputStream> out = new HashMap<>();
+    public static long start_time = System.currentTimeMillis();
 
     //Host's thread1 is responsible for sending out generated traffic
-    public static void thread1(String destName, int destport, double packets_per_second) {
+    public static void thread1(String destName, int destport, double upload_rate, int num_packets) {
         Random rand = new Random();
         t1 = new Thread(new Runnable() {
             @Override
             public void run() {
                 try {
-                    setup_routing_table();
-                    //@TODO: Add Bursty traffic
-                    for (int i = 0; i < 1000; i++) {
-                        Integer data = rand.nextInt(999999) + 1;
-                        long time = System.currentTimeMillis();
-                        writer.println("CLIENT: The gateway router is: " + router.routing_table.get(destName));
-                        out.get(router.routing_table.get(destName)).writeObject(new Packet(data,destName,time));
-                        Thread.sleep((int) (1000.0 / packets_per_second));
+                    Topo.setup_routing_table(this_ip,router,out,writer);
+                    double probability = ((float)(2*upload_rate+1-Math.sqrt(4*upload_rate+1)))/(2*upload_rate);
+                    writer.println("Upload rate: " + upload_rate);
+                    writer.println("Probability: " + probability);
+                    for (int i = 0; i < num_packets; i++) {
+                        //writer.println("Next iteration");
+                        while (rand.nextInt(100) <= probability*100){
+                            //writer.println("OK: " + (probability*100));
+                            Integer data = rand.nextInt(999999) + 1;
+                            long time = System.currentTimeMillis();
+                            writer.println("Sending packet, time: " + (time-start_time));
+                            out.get(router.routing_table.get(destName)).writeObject(new Packet(data,this_ip,destName,time));
+                            //writer.println("Packet sent, time: " + (time-start_time));
+                        }
+                        //writer.println("Delay: " + (int) (1000.0 / upload_rate));
+                        Thread.sleep((int) (1000.0 / upload_rate));
                     }
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -36,23 +45,8 @@ public class Host {
         });
     }
 
-    public static void setup_routing_table() throws Exception{
-        if (this_ip.equals("1.1.1.1")){
-            router.routing_table.put("1.1.2.2","1.1.1.2");
-            router.routing_table.put("1.1.1.2","1.1.1.2");
-            router.gateways.add("1.1.1.2");
-        }else if (this_ip.equals("1.1.2.2")){
-            router.routing_table.put("1.1.1.1","1.1.1.2");
-            router.routing_table.put("1.1.1.2","1.1.1.2");
-            router.gateways.add("1.1.1.2");
-        }
-        writer.println("CLIENT: Size of gateways: " + router.gateways.size());
-        writer.println("CLIENT: Size of out: " + out.size());
-        router.setup_outgoing_connections(out, writer);
-    }
-
     //Host's thread2 is the server, i.e. the host listens for incoming packets
-    public static void thread2() {
+    public static void thread2(double download_rate) {
         t2 = new Thread(new Runnable() {
             @Override
             public void run() {
@@ -69,11 +63,12 @@ public class Host {
                             while(true){
                                 Packet input = (Packet)in.readObject();
                                 if (input != null){
-                                    System.out.println("SERVER: Receiving packet at host: " + input.payload);
+                                    long time = System.currentTimeMillis() - input.timeStamp;
+                                    System.out.println("SERVER: Receiving packet with payload: " + input.payload + " Source: " + input.source + " Destination: " + input.destination + " Time elapsed (ms): " + time );
                                 }else{
                                     flag = false;
                                 }
-                                Thread.sleep(1000);
+                                Thread.sleep((int)(1000.0/download_rate));
                             }
                         }catch(SocketTimeoutException s) {
                             writer.println("SERVER: Socket timed out!");
@@ -94,7 +89,7 @@ public class Host {
     public static void initialize() throws Exception{
         this_ip = Get_IP.get_ip();
         server_port = this_ip.hashCode()%5000+6001;
-        node_name = Get_IP.ip_to_node_name(this_ip);
+        node_name = Topo.ip_to_node_name(this_ip);
         File file = new File(node_name +"_ERROR.txt");
         if(!file.exists()) file.createNewFile();;
         FileOutputStream fos = new FileOutputStream(file, false);
@@ -110,12 +105,18 @@ public class Host {
 
     public static void main(String[] args) throws Exception {
         String destName = "XXXXXXX";
-        double packets_per_second = 1;
+        double upload_rate = 1;
+        double download_rate = 1;
+        int num_packets = 1000;
         if (args.length >= 1) {
-            is_sending = true;
-            destName = args[0];
-            if (args.length > 1) {
-                packets_per_second = Double.parseDouble(args[1]);
+            download_rate = Double.parseDouble(args[0]);
+            if (args.length >= 2){
+                is_sending = true;
+                destName = args[1];
+                if (args.length >= 3){
+                    upload_rate = Double.parseDouble(args[2]);
+                    num_packets = Integer.parseInt(args[3]);
+                }
             }
         }
         int destport = destName.hashCode()%5000+6001;
@@ -123,10 +124,10 @@ public class Host {
         if (is_sending) {
             writer.println("Destination IP: " + destName);
             writer.println("Destination Port: " + destport);
-            writer.println("Packs per second: " + packets_per_second);
-            thread1(destName, destport, packets_per_second);
+            writer.println("Packs per second: " + upload_rate);
+            thread1(destName, destport, upload_rate, num_packets);
         }
-        thread2();
+        thread2(download_rate);
         if (is_sending) {
             t1.start();
         }
