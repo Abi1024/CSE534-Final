@@ -28,7 +28,7 @@ public class Router{
         public void produce(Packet input, long measurement_interval) throws Exception {
             total_packets++;
             synchronized (this){
-                writer.println("PRODUCER: Receiving packet. Time: " + (System.currentTimeMillis()-start_time));
+                writer.println("PRODUCER: Receiving packet. Time: " + (System.currentTimeMillis()-start_time) + "Source: " + input.source);
                 if (queue.size() < max_queue_size){
                     writer.println("PRODUCER: Adding input to queue: " + input + " Queue now has size: " + queue.size());
                     queue.add(input);
@@ -181,7 +181,7 @@ public class Router{
     public static void initialize() throws Exception{
         this_ip = Get_IP.get_ip();
         server_port = this_ip.hashCode()%5000+6001;
-        node_name = Topo.ip_to_node_name(this_ip);
+        node_name = Topo2.ip_to_node_name(this_ip);
         File file = new File(node_name +"_ERROR.txt");
         if(!file.exists()) file.createNewFile();;
         FileOutputStream fos = new FileOutputStream(file, false);
@@ -194,7 +194,7 @@ public class Router{
         serverSocket = new ServerSocket(server_port);
         serverSocket.setSoTimeout(10000000);
 
-        File file2 = new File("queue.csv");
+        File file2 = new File(node_name+"queue.csv");
         if(!file2.exists()) file2.createNewFile();;
         FileOutputStream fos2 = new FileOutputStream(file2, false);
         OutputStreamWriter osw2 = new OutputStreamWriter(fos2, "UTF-8");
@@ -268,7 +268,7 @@ public class Router{
             @Override
             public void run() {
                 try{
-                    Topo.setup_routing_table(this_ip,router,out,writer);
+                    Topo2.setup_routing_table(this_ip,router,out,writer);
                     pc.consume(link_rate);
                 }catch(Exception e){
                     e.printStackTrace();

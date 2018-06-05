@@ -1,0 +1,5 @@
+THIS NODE's IP: 1.1.4.2
+THIS NODE's SERVER PORT: 8719
+THIS NODE's NAME: H3
+SERVER: Waiting for client on port 8719...
+SERVER: Just connected to /1.1.4.1:52714

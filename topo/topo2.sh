@@ -32,3 +32,10 @@ R1 python ftable.py R1
 R2 python ftable.py H2
 H2 python ftable.py H3
 H3 python ftable.py H4
+
+H1 javac *.java
+H1 java Host 10 1.1.4.2 10 10000 &
+H2 java Host 10 1.1.4.2 10 10000 &
+R1 java Router 20 1000 50 &
+R2 java Router 20 1000 50 &
+H3 java Host 10

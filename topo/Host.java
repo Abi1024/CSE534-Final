@@ -22,7 +22,7 @@ public class Host {
             @Override
             public void run() {
                 try {
-                    Topo.setup_routing_table(this_ip,router,out,writer);
+                    Topo2.setup_routing_table(this_ip,router,out,writer);
                     double probability = 0;
                     synchronized ((Double)upload_rate){
                         probability = ((float)(2*upload_rate+1-Math.sqrt(4*upload_rate+1)))/(2*upload_rate);
@@ -103,7 +103,7 @@ public class Host {
     public static void initialize() throws Exception{
         this_ip = Get_IP.get_ip();
         server_port = this_ip.hashCode()%5000+6001;
-        node_name = Topo.ip_to_node_name(this_ip);
+        node_name = Topo2.ip_to_node_name(this_ip);
         File file = new File(node_name +"_ERROR.txt");
         if(!file.exists()) file.createNewFile();;
         FileOutputStream fos = new FileOutputStream(file, false);

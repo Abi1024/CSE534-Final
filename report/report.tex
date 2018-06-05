@@ -3,6 +3,7 @@
 	\usepackage{enumerate}
 	\usepackage{amsmath}
 	\usepackage{mathtools}
+	\usepackage{float}
 \usepackage{graphicx} 
 \usepackage{caption}
 \usepackage{subcaption}
@@ -56,7 +57,37 @@ We discuss the performance of the three algorithms discussed under a variety of 
 In our first experiment, a simple network with two hosts connected by a link, we simulate a transmission of burst traffic from one host to the other through the link. The sender's upload bandwidth is $1$, the receiver's download bandwidth is also $1$. The link has a rate of $2$, and the link has a single buffer of capacity $5$. Since the link's capacity exceeds the usage by the hosts, we do not expect this simple situation to cause network congestion in the asymptotic case. However, because the traffic is bursty, it is occassionally possible for the queue to become full, resulting in some packet loss. We observe how the queueing algorithms respond
 to this simple scenario.
 
+\subsection{Four hosts connected by a link: brust traffic from H1 to H4 and burst traffic from H4 to H1}
 
+
+   \begin{figure}[H]
+    \centering
+    \includegraphics{figure1.png}
+    \centering
+    \caption{Packet loss for 2 hosts and 1 router}
+\end{figure} 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{figure2.png}
+    \centering
+    \caption{Packet loss for 2 hosts and 1 router}
+\end{figure} 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{figure3.png}
+    \centering
+    \caption{Packet loss for 2 hosts and 1 router}
+\end{figure} 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{figure4.png}
+    \centering
+    \caption{Packet loss for 2 hosts and 1 router}
+\end{figure} 
+ 
 
 \begin{thebibliography}{9}
 \bibitem{red_paper}

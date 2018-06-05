@@ -2,7 +2,7 @@ import java.io.ObjectOutputStream;
 import java.io.PrintWriter;
 import java.util.HashMap;
 
-public class Topo1 {
+public class Topo2 {
     //this function takes an IP address and returns the name of the node associated with that IP
     public static String ip_to_node_name(String ip){
         switch (ip){
@@ -10,12 +10,12 @@ public class Topo1 {
                 return "H1";
             case "1.1.1.2":
                 return "R1";
-            case "1.1.2.1":
-                return "H2";
+            case "1.1.2.2":
+                return "R2";
             case "1.1.3.1":
+                return "H2";
+            case "1.1.4.2":
                 return "H3";
-            case "1.1.4.1":
-                return "H4";
             default:
                 return "TROLL";
         }
@@ -29,42 +29,42 @@ public class Topo1 {
     public static void setup_routing_table(String this_ip, Routing_Table router, HashMap<String,ObjectOutputStream> out, PrintWriter writer) throws Exception{
         switch(this_ip){
             case "1.1.1.1":
-                router.routing_table.put("1.1.2.1","1.1.1.2");
+                router.routing_table.put("1.1.2.2","1.1.1.2");
                 router.routing_table.put("1.1.1.2","1.1.1.2");
                 router.routing_table.put("1.1.3.1","1.1.1.2");
-                router.routing_table.put("1.1.4.1","1.1.1.2");
+                router.routing_table.put("1.1.4.2","1.1.1.2");
                 router.gateways.add("1.1.1.2");
                 break;
             case "1.1.1.2":
-                router.routing_table.put("1.1.2.1","1.1.2.1");
+                router.routing_table.put("1.1.2.2","1.1.2.2");
                 router.routing_table.put("1.1.1.1","1.1.1.1");
                 router.routing_table.put("1.1.3.1","1.1.3.1");
-                router.routing_table.put("1.1.4.1","1.1.4.1");
+                router.routing_table.put("1.1.4.2","1.1.2.2");
                 router.gateways.add("1.1.1.1");
-                router.gateways.add("1.1.2.1");
+                router.gateways.add("1.1.2.2");
                 router.gateways.add("1.1.3.1");
-                router.gateways.add("1.1.4.1");
                 break;
-            case "1.1.2.1":
+            case "1.1.2.2":
                 router.routing_table.put("1.1.1.1","1.1.1.2");
                 router.routing_table.put("1.1.1.2","1.1.1.2");
                 router.routing_table.put("1.1.3.1","1.1.1.2");
-                router.routing_table.put("1.1.4.1","1.1.1.2");
+                router.routing_table.put("1.1.4.2","1.1.4.2");
                 router.gateways.add("1.1.1.2");
+                router.gateways.add("1.1.4.2");
                 break;
             case "1.1.3.1":
                 router.routing_table.put("1.1.1.1","1.1.1.2");
                 router.routing_table.put("1.1.1.2","1.1.1.2");
-                router.routing_table.put("1.1.2.1","1.1.1.2");
-                router.routing_table.put("1.1.4.1","1.1.1.2");
+                router.routing_table.put("1.1.2.2","1.1.1.2");
+                router.routing_table.put("1.1.4.2","1.1.1.2");
                 router.gateways.add("1.1.1.2");
                 break;
-            case "1.1.4.1":
-                router.routing_table.put("1.1.1.1","1.1.1.2");
-                router.routing_table.put("1.1.1.2","1.1.1.2");
-                router.routing_table.put("1.1.3.1","1.1.1.2");
-                router.routing_table.put("1.1.2.1","1.1.1.2");
-                router.gateways.add("1.1.1.2");
+            case "1.1.4.2":
+                router.routing_table.put("1.1.1.1","1.1.2.2");
+                router.routing_table.put("1.1.1.2","1.1.2.2");
+                router.routing_table.put("1.1.3.1","1.1.2.2");
+                router.routing_table.put("1.1.2.1","1.1.2.2");
+                router.gateways.add("1.1.2.2");
                 break;
             default:
                 break;

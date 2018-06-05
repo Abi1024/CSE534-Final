@@ -1,0 +1,906 @@
+THIS NODE's IP: 1.1.2.2
+THIS NODE's SERVER PORT: 6797
+THIS NODE's NAME: R2
+Link rate: 20.0
+SERVER: Waiting for client on port 6797...
+CLIENT: Size of gateways: 2
+CLIENT: Size of out: 0
+CLIENT: IN function, setup_outgoing_connections
+CLIENT: Connecting to 1.1.1.2 on port 10836
+CLIENT: Pair key: 1.1.1.2
+SERVER: Just connected to /1.1.2.1:57243
+CLIENT: Just connected to /1.1.1.2:10836
+CLIENT: Connecting to 1.1.4.2 on port 8719
+CLIENT: Pair key: 1.1.4.2
+CLIENT: Just connected to /1.1.4.2:8719
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+PRODUCER: Receiving packet. Time: 1118Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@1032e2aa Queue now has size: 0
+PRODUCER: WRITING TO GRAPH
+PRODUCER: Receiving packet. Time: 1142Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@d5138ae Queue now has size: 1
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 1192Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@4ff05844 Queue now has size: 1
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 1243Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@455b42aa Queue now has size: 1
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 1294Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@42fbcf19 Queue now has size: 1
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 1345Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@466b1ba0 Queue now has size: 1
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 1395Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@b145951 Queue now has size: 1
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 1445Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@1445048b Queue now has size: 1
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 1496Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@85a821d Queue now has size: 1
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 1547Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@16f23ead Queue now has size: 1
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 1598Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@3f8523f3 Queue now has size: 1
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 1648Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@3d819d4 Queue now has size: 1
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 1698Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@5fce39d8 Queue now has size: 1
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 1749Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@58ce63da Queue now has size: 1
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 1799Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@4e42498b Queue now has size: 1
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 1849Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@d97ef2e Queue now has size: 1
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 1899Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@23b907bd Queue now has size: 1
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 1950Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@84270a3 Queue now has size: 1
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 2001Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@54107e31 Queue now has size: 1
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 2052Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@66cc1502 Queue now has size: 1
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+CONSUMER: QUEUE IS EMPTY
+PRODUCER: Receiving packet. Time: 2405Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@d236289 Queue now has size: 0
+PRODUCER: WRITING TO GRAPH
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 2459Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@167fdce6 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 2509Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@41c9c9ee Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 2560Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@472ba0d0 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 2610Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@518aa596 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 2660Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@39fadbad Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 2710Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@3673f3c5 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 2761Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@2cc4e8fb Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 2811Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@28665ee0 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 2862Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@472ecff2 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 2913Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@6eeaf109 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 2964Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@65624f1f Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 3014Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@7fe98c0d Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 3065Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@4e898d5d Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 3116Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@77d25f3c Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 3166Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@bffc6e Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 3217Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@33059190 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 3268Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@31e411c8 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 3318Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@542a8377 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 3368Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@2b894910 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 3418Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@341fd4e0 Queue now has size: 0
+PRODUCER: WRITING TO GRAPH
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 3469Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@2564e9fa Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 3519Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@25d5e71a Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 3569Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@4475fb79 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 3619Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@e078fc3 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 3670Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@c2e9cc0 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 3720Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@6c94768 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 3770Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@6d0cdafb Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 3820Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@5f47390e Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 3871Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@27f766ba Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 3921Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@6b49972b Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 3972Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@609943bb Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 4023Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@67089ef Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 4073Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@1a2efd2d Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 4124Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@3df9d18c Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 4175Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@17d7d913 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 4226Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@156a15f7 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 4276Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@784055e2 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 4327Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@b469ed7 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 4379Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@22f0c1ed Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 4429Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@67f0bde9 Queue now has size: 0
+PRODUCER: WRITING TO GRAPH
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 4479Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@1d651bb0 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 4531Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@22ea8eed Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 4581Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@631dcf4 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 4632Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@64cc362e Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 4682Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@5141099c Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 4732Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@27aa68bf Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 4783Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@2ff4d6c2 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 4833Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@2a0ce854 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 4883Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@73d81960 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 4935Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@7c36834 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 4984Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@e08fcc8 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 5034Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@438bfb15 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 5089Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@702be91d Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 5139Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@6c35ade4 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 5190Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@2592e216 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 5240Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@395df6e2 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 5292Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@161193d5 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 5342Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@570a467e Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 5392Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@65ba9cdb Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 5443Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@33869c68 Queue now has size: 0
+PRODUCER: WRITING TO GRAPH
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 5494Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@29933ef6 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 5545Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@2cafb40c Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 5595Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@1d42a906 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 5646Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@1aa0031a Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 5696Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@2a74ea36 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 5747Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@7b2a24a0 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 5798Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@73a8a85a Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 5848Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@690acde6 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 5899Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@6422bfab Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 5950Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@4e8798ab Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 6000Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@785b1359 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 6051Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@47019449 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 6102Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@36afb4e5 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 6152Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@441f205b Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 6203Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@64fe325a Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 6254Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@2f964150 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 6304Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@6455c0db Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 6355Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@59f529f2 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 6405Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@4c0cbc74 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 6455Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@518de864 Queue now has size: 0
+PRODUCER: WRITING TO GRAPH
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 6506Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@1b14a996 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 6557Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@6bdeb9bf Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 6608Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@421857ac Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 6658Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@7ce84943 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 6709Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@428e1751 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 6760Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@5c835dfe Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 6810Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@5c26d4f5 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 6860Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@623a3c63 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 6911Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@50bc9bea Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 6962Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@161640ae Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 7013Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@7c7dbfe5 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 7064Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@4f175d2d Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 7114Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@7b40fcee Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 7165Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@5ff7d018 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 7215Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@4e64de94 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 7265Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@3b6f0c40 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 7316Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@47b4204f Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 7366Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@26a24fb1 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 7417Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@4edaa58f Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 7468Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@d94bd18 Queue now has size: 0
+PRODUCER: WRITING TO GRAPH
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 7518Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@6bc442bd Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 7569Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@5f2f57b3 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 7620Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@44c27704 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 7670Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@6c967ef9 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 7722Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@250e087c Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 7772Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@b951a1 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 7823Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@57947ce5 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 7873Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@82aa158 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 7923Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@5d3215c9 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 7974Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@17cc6397 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 8025Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@634b46df Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 8075Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@3eb61b8f Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 8126Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@7367ddcd Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 8176Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@7c3d8ed Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 8227Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@3e071b74 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 8277Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@30e30558 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 8327Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@7d273f3c Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 8378Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@643a84c5 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 8428Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@6260ef8d Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 8478Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@4a81ff5c Queue now has size: 0
+PRODUCER: WRITING TO GRAPH
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 8529Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@e1be7ef Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 8580Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@3eb74645 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 8630Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@5b4eda99 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 8680Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@1ef0a5b3 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 8730Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@4f851d1d Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 8781Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@4b84ffc6 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 8832Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@66b36e3d Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 8883Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@7df58265 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 8933Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@1aff0533 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 8984Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@7669a365 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 9035Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@b56e913 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 9085Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@5ae1b4b6 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 9136Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@3855e444 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 9186Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@31c0aa0 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 9237Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@3f3e75a1 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 9288Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@68ad22f4 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 9338Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@7fcd9c61 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 9389Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@1ce7d032 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 9440Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@50383d72 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 9491Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@51830f03 Queue now has size: 0
+PRODUCER: WRITING TO GRAPH
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 9541Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@42bebfc6 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 9592Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@60fa91e3 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 9643Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@71b8e323 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 9693Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@380a1100 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 9747Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@ffdc948 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 9797Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@3b3c34dd Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 9847Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@dab7962 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 9897Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@65c1fbc6 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 9947Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@497c9bf Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 9998Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@5e579f2c Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 10049Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@8e18ded Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 10099Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@629458fc Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 10149Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@5874bf20 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 10200Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@3ab8e5fd Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 10251Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@3e3289a2 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 10301Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@7ea16520 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 10351Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@3d1486b Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 10402Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@7ebbd2e1 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 10453Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@546e2b0d Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 10503Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@2113ccc5 Queue now has size: 0
+PRODUCER: WRITING TO GRAPH
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 10554Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@28085a9c Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 10605Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@804a9a6 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 10655Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@2d17dde8 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 10705Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@125d496b Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 10755Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@78eb2d06 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 10805Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@558ff224 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 10856Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@46e49de0 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 10907Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@3e0a8246 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 10958Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@1fa81b9c Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 11009Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@359cd49f Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 11059Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@57754451 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 11110Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@3d07f44b Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 11160Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@622c6c8c Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 11210Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@31c7647a Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 11261Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@4cedf9df Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 11311Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@4ecaf9a5 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 11361Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@4f03a4fc Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 11412Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@45edfdd2 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 11462Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@66edd7b1 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 11512Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@7f730d18 Queue now has size: 0
+PRODUCER: WRITING TO GRAPH
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 11563Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@2d05724e Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 11614Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@72c0951 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 11664Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@f74165a Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 11715Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@6808d161 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 11766Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@6e19592c Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 11816Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@998b33f Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 11867Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@2671a290 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 11917Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@85cece6 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 11968Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@2c2804f8 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 12018Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@60655b09 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 12068Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@4b2b00b7 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 12119Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@24fffee8 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 12169Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@481c314b Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 12219Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@26b8652 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 12270Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@11d61010 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 12320Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@4a05b47c Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 12370Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@63ba421e Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 12420Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@3dbd012d Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 12470Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@1ccac01a Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 12521Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@7b0b31ab Queue now has size: 0
+PRODUCER: WRITING TO GRAPH
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 12571Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@4a102666 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 12621Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@1f71e260 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 12672Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@55f13b84 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 12722Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@7755def8 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 12774Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@3c3de562 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 12825Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@2ccf6267 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 12878Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@703e4161 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 12930Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@2945f380 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 12979Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@7a80053f Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 13031Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@2d8b8c52 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 13085Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@2f3ce5cb Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 13136Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@2963ca5f Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 13186Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@53b08bb1 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 13237Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@22a86489 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 13288Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@6a72cfaa Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 13339Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@5df4d189 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 13389Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@a4e3485 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 13440Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@6ba39569 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 13491Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@17d00828 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 13542Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@6c53ebc2 Queue now has size: 0
+PRODUCER: WRITING TO GRAPH
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 13593Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@17c200d1 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 13644Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@60bdc79d Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 13696Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@77bb02ea Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 13747Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@4c5fa24 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 13797Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@386b6e5 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 13848Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@d090827 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 13899Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@220ae73e Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 13950Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@9352d81 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 14001Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@3fb283dc Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 14052Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@7a3fec3d Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 14102Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@f79c753 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 14152Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@2f80ba18 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 14202Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@4076057 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 14253Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@1dc2aee Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 14304Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@405e36d9 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 14354Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@6aa404b0 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 14404Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@551ed46b Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 14455Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@35751f7c Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 14506Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@4ac0ff5 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 14557Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@4e670a54 Queue now has size: 0
+PRODUCER: WRITING TO GRAPH
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 14607Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@6df9327f Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 14658Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@70ea4e43 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 14709Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@145d240c Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 14759Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@621ea979 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 14810Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@46d0158f Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 14861Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@64ead340 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 14912Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@19eaf695 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 14963Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@ea8d1b0 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 15013Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@4812d187 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 15064Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@7ad07b16 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 15114Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@34406487 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 15164Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@7cad16ee Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 15215Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@22ed7e15 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 15266Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@5b9cb995 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 15317Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@6ccf8a3d Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 15368Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@7841fb2c Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 15418Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@31152fe7 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 15469Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@ffb7841 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 15520Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@1f7585e1 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 15571Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@681a85b8 Queue now has size: 0
+PRODUCER: WRITING TO GRAPH
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 15621Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@7068e54b Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 15671Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@2485b277 Queue now has size: 0
+CLIENT (CONSUMER): The gateway router is:1.1.4.2
+PRODUCER: Receiving packet. Time: 15722Source: 1.1.1.1
+PRODUCER: Adding input to queue: Packet@176c618b Queue now has size: 0
