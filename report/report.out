@@ -1,0 +1,8 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Queuing algorithms}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Tail-drop}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Random Early Detection \(RED\)}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{RED with delay-based priority queueing}{section.2}% 5
+\BOOKMARK [1][-]{section.3}{Implementation}{}% 6
+\BOOKMARK [1][-]{section.4}{Results}{}% 7
+\BOOKMARK [2][-]{subsection.4.1}{Two hosts connected by a link: burst traffic from one host to the other}{section.4}% 8
