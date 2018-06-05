@@ -19,5 +19,5 @@ H2 python ftable.py H2
 #Usage R1 java Router <link_rate> {<measure queue size/packet loss interval (ms)> <max queue size>}
 H1 javac *.java
 H1 java Host 10 1.1.2.2 10 10000 &
-R1 java Router 200 1000 10 &
+R1 java Router 20 1000 50 &
 H2 java Host 10

@@ -11,7 +11,7 @@ public class Router{
     public static PrintWriter writer;
     public static PrintWriter graph;
     public static Thread t1,t2;
-    public static final PC2 pc = new PC2();
+    public static final PC3 pc = new PC3();
     public static HashMap<String, ObjectOutputStream> out = new HashMap<>();
     public static Routing_Table router = new Routing_Table();
     public static long start_time = System.currentTimeMillis();
@@ -25,7 +25,7 @@ public class Router{
     private static class PC{
         private static Queue<Packet> queue = new LinkedList<>();
 
-        public void produce(Packet input, long measurement_interval) throws InterruptedException {
+        public void produce(Packet input, long measurement_interval) throws Exception {
             total_packets++;
             synchronized (this){
                 writer.println("PRODUCER: Receiving packet. Time: " + (System.currentTimeMillis()-start_time));
@@ -35,6 +35,7 @@ public class Router{
                 }else{
                     writer.println("PRODUCER: Full queue. Dropping packet: " + input);
                     dropped_packets++;
+                    out.get(router.routing_table.get(input.source)).writeObject(new Packet(-1,this_ip,input.source,System.currentTimeMillis()));
                 }
                 if (System.currentTimeMillis() - last_time > measurement_interval){
                     writer.println("PRODUCER: WRITING TO GRAPH");
@@ -72,7 +73,7 @@ public class Router{
         private static Queue<Packet> queue = new LinkedList<>();
         private static double queue_weight = 0.2;
 
-        public void produce(Packet input, long measurement_interval) throws InterruptedException {
+        public void produce(Packet input, long measurement_interval) throws Exception {
             total_packets++;
             synchronized (this){
                 writer.println("PRODUCER: Receiving packet. Time: " + (System.currentTimeMillis()-start_time));
@@ -82,7 +83,8 @@ public class Router{
                     writer.println("PRODUCER: Adding input to queue: " + input + " Queue now has size: " + queue.size());
                     queue.add(input);
                 }else{
-                    writer.println("PRODUCER: Full queue. Dropping packet: " + input);
+                    writer.println("PRODUCER: Dropping packet: " + input);
+                    out.get(router.routing_table.get(input.source)).writeObject(new Packet(-1,this_ip,input.source,System.currentTimeMillis()));
                     dropped_packets++;
                 }
                 if (System.currentTimeMillis() - last_time > measurement_interval){
@@ -115,7 +117,66 @@ public class Router{
         }
     }
 
+    //producer-consumer (Delay-based priority queueing)
+    private static class PC3{
+        PriorityQueueComparator pqc =new PriorityQueueComparator();
+        PriorityQueue<Packet > queue =new PriorityQueue<Packet>(5,pqc);
+        private static double queue_weight = 0.2;
 
+        public void produce(Packet input, long measurement_interval) throws Exception {
+            total_packets++;
+            synchronized (this){
+                writer.println("PRODUCER: Receiving packet. Time: " + (System.currentTimeMillis()-start_time));
+                average_queue_size = (1-queue_weight)*average_queue_size + queue_weight*queue.size();
+                double probability_drop = Math.pow(average_queue_size/max_queue_size,2);
+                if ((queue.size() < max_queue_size)&&(rand.nextInt(100) > probability_drop*100)){
+                    writer.println("PRODUCER: Adding input to queue: " + input + " Queue now has size: " + queue.size());
+                    queue.add(input);
+                }else{
+                    writer.println("PRODUCER: Dropping packet: " + input);
+                    out.get(router.routing_table.get(input.source)).writeObject(new Packet(-1,this_ip,input.source,System.currentTimeMillis()));
+                    dropped_packets++;
+                }
+                if (System.currentTimeMillis() - last_time > measurement_interval){
+                    writer.println("PRODUCER: WRITING TO GRAPH");
+                    graph.println(System.currentTimeMillis()-start_time + "," + queue.size() + "," + ((double)dropped_packets/total_packets));
+                    last_time = System.currentTimeMillis();
+                }
+            }
+        }
+        public void consume(double link_rate) throws InterruptedException{
+            while (true) {
+                synchronized (this) {
+                    // consumer thread waits while list
+                    // is empty
+                    if (!queue.isEmpty()) {
+                        Packet x = queue.remove();
+                        //writer.println("CONSUMER: Queue has: " + queue.size() + " objects. Just removed: " + Integer.toString(x));
+                        try{
+                            writer.println("CLIENT (CONSUMER): The gateway router is:" + router.routing_table.get(x.destination));
+                            out.get(router.routing_table.get(x.destination)).writeObject(x);
+                        }catch(Exception e){
+                            e.printStackTrace();
+                        }
+                    }else{
+                        writer.println("CONSUMER: QUEUE IS EMPTY");
+                    }
+                }
+                Thread.sleep((int)(1000.0/link_rate));
+            }
+        }
+        class PriorityQueueComparator implements Comparator<Packet>{
+            public int compare(Packet s1, Packet s2) {
+                if (s1.timeStamp < s2.timeStamp) {
+                    return -1;
+                }
+                if (s1.timeStamp > s2.timeStamp) {
+                    return 1;
+                }
+                return 0;
+            }
+        }
+    }
 
     public static void initialize() throws Exception{
         this_ip = Get_IP.get_ip();

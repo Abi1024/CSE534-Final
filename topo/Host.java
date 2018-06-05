@@ -13,17 +13,20 @@ public class Host {
     public static Routing_Table router = new Routing_Table();
     public static HashMap<String, ObjectOutputStream> out = new HashMap<>();
     public static long start_time = System.currentTimeMillis();
+    public static double upload_rate;
 
     //Host's thread1 is responsible for sending out generated traffic
-    public static void thread1(String destName, int destport, double upload_rate, int num_packets) {
+    public static void thread1(String destName, int destport,int num_packets) {
         Random rand = new Random();
         t1 = new Thread(new Runnable() {
             @Override
             public void run() {
                 try {
                     Topo.setup_routing_table(this_ip,router,out,writer);
-                    double probability = ((float)(2*upload_rate+1-Math.sqrt(4*upload_rate+1)))/(2*upload_rate);
-                    writer.println("Upload rate: " + upload_rate);
+                    double probability = 0;
+                    synchronized ((Double)upload_rate){
+                        probability = ((float)(2*upload_rate+1-Math.sqrt(4*upload_rate+1)))/(2*upload_rate);
+                    }
                     writer.println("Probability: " + probability);
                     for (int i = 0; i < num_packets; i++) {
                         //writer.println("Next iteration");
@@ -36,9 +39,14 @@ public class Host {
                             //writer.println("Packet sent, time: " + (time-start_time));
                         }
                         //writer.println("Delay: " + (int) (1000.0 / upload_rate));
-                        Thread.sleep((int) (1000.0 / upload_rate));
+                        double rate = 1;
+                        synchronized ((Double)upload_rate){
+                            rate = upload_rate;
+                            probability = ((float)(2*upload_rate+1-Math.sqrt(4*upload_rate+1)))/(2*upload_rate);
+                        }
+                        Thread.sleep((int) (1000.0 / rate));
                     }
-                } catch (Exception e) {
+                } catch (Exception e){
                     e.printStackTrace();
                 }
             }
@@ -65,6 +73,12 @@ public class Host {
                                 if (input != null){
                                     long time = System.currentTimeMillis() - input.timeStamp;
                                     System.out.println("SERVER: Receiving packet with payload: " + input.payload + " Source: " + input.source + " Destination: " + input.destination + " Time elapsed (ms): " + time );
+                                    if (input.payload == -1){
+                                        synchronized ((Double)upload_rate){
+                                            upload_rate *= .99;
+                                            writer.println("SERVER: THROTTLING UPLOAD. Upload rate: " + upload_rate);
+                                        }
+                                    }
                                 }else{
                                     flag = false;
                                 }
@@ -105,7 +119,7 @@ public class Host {
 
     public static void main(String[] args) throws Exception {
         String destName = "XXXXXXX";
-        double upload_rate = 1;
+        upload_rate = 1;
         double download_rate = 1;
         int num_packets = 1000;
         if (args.length >= 1) {
@@ -125,7 +139,7 @@ public class Host {
             writer.println("Destination IP: " + destName);
             writer.println("Destination Port: " + destport);
             writer.println("Packs per second: " + upload_rate);
-            thread1(destName, destport, upload_rate, num_packets);
+            thread1(destName, destport,num_packets);
         }
         thread2(download_rate);
         if (is_sending) {
