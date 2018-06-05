@@ -5,7 +5,6 @@ Example topology of Quagga routers
 import inspect
 import os
 from mininext.topo import Topo
-from mininet.cli import CLI
 from mininext.services.quagga import QuaggaService
 
 from collections import namedtuple
@@ -40,7 +39,11 @@ class QuaggaTopo(Topo):
                                       loIP= None))
         quaggaHosts.append(QuaggaHost(name='R1', ip='1.1.1.2/24',
                                       loIP=None))
-        quaggaHosts.append(QuaggaHost(name='H2', ip='1.1.2.2/24',
+        quaggaHosts.append(QuaggaHost(name='R2', ip='1.1.2.2/24',
+                                      loIP=None))
+        quaggaHosts.append(QuaggaHost(name='H2', ip='1.1.3.1/24',
+                                      loIP=None))
+        quaggaHosts.append(QuaggaHost(name='H3', ip='1.1.4.2/24',
                                       loIP=None))
         quaggaContainers = []
 
@@ -69,3 +72,5 @@ class QuaggaTopo(Topo):
             # Attach the quaggaContainer to the IXP Fabric Switch
         self.addLink(quaggaContainers[0], quaggaContainers[1])
         self.addLink(quaggaContainers[1], quaggaContainers[2])
+        self.addLink(quaggaContainers[1], quaggaContainers[3])
+        self.addLink(quaggaContainers[2], quaggaContainers[4])

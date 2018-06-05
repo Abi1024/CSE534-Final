@@ -21,7 +21,7 @@ from mininet.log import setLogLevel, info
 from mininext.cli import CLI
 from mininext.net import MiniNExT
 
-from topo import QuaggaTopo
+from topo2 import QuaggaTopo
 
 net = None
 
