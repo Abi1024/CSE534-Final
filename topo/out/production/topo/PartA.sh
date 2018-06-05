@@ -10,3 +10,7 @@ R1 iptables -A FORWARD -i R1-eth0 -o R1-eth1 -j ACCEPT
 H1 echo 1 > /proc/sys/net/ipv4/ip_forward
 H2 echo 1 > /proc/sys/net/ipv4/ip_forward
 R1 echo 1 > /proc/sys/net/ipv4/ip_forward
+
+H1 python ftable.py H1
+R1 python ftable.py R1
+H2 python ftable.py H2

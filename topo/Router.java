@@ -11,7 +11,7 @@ public class Router{
     public static PrintWriter writer;
     public static Thread t1,t2;
     public static final PC pc = new PC();
-    public static ArrayList<ObjectOutputStream> out;
+    public static HashMap<String, ObjectOutputStream> out = new HashMap<>();
     public static Routing_Table router = new Routing_Table();
 
     //producer-consumer
@@ -38,7 +38,8 @@ public class Router{
                         Packet x = queue.remove();
                         //writer.println("CONSUMER: Queue has: " + queue.size() + " objects. Just removed: " + Integer.toString(x));
                         try{
-                            out.get(router.gateways.get(x.destination)).writeObject(x);
+                            writer.println("CLIENT (CONSUMER): The gateway router is:" + router.routing_table.get(x.destination));
+                            out.get(router.routing_table.get(x.destination)).writeObject(x);
                         }catch(Exception e){
                             e.printStackTrace();
                         }
@@ -51,7 +52,25 @@ public class Router{
         }
     }
 
-    public static void main(String[] args) throws InterruptedException{
+    public static void initialize() throws Exception{
+        this_ip = Get_IP.get_ip();
+        server_port = this_ip.hashCode()%5000+6001;
+        node_name = Get_IP.ip_to_node_name(this_ip);
+        File file = new File(node_name +"_ERROR.txt");
+        if(!file.exists()) file.createNewFile();;
+        FileOutputStream fos = new FileOutputStream(file, false);
+        OutputStreamWriter osw = new OutputStreamWriter(fos, "UTF-8");
+        BufferedWriter bw = new BufferedWriter(osw);
+        writer = new PrintWriter(bw, true);
+        writer.println("THIS NODE's IP: " + this_ip);
+        writer.println("THIS NODE's SERVER PORT: " + server_port);
+        writer.println("THIS NODE's NAME: " + node_name);
+        serverSocket = new ServerSocket(server_port);
+        serverSocket.setSoTimeout(10000000);
+    }
+
+    public static void main(String[] args) throws Exception{
+        initialize();
         thread1();
         thread2();
         t1.start();
@@ -61,10 +80,10 @@ public class Router{
     }
 
     public static void setup_routing_table() throws InterruptedException{
-        router.routing_table.put("1.1.2.2","1.1.1.2");
-        router.gateways.put("1.1.1.2",0);
-        router.routing_table.put("1.1.1.1","1.1.1.2");
-        out = new ArrayList<>(router.gateways.size());
+        router.routing_table.put("1.1.2.2","1.1.2.2");
+        router.gateways.add("1.1.1.1");
+        router.gateways.add("1.1.2.2");
+        router.routing_table.put("1.1.1.1","1.1.1.1");
         router.setup_outgoing_connections(out, writer);
     }
 
@@ -73,18 +92,12 @@ public class Router{
             @Override
             public void run() {
                 try{
-                    this_ip = Get_IP.get_ip();
-                    server_port = this_ip.hashCode()%5000+6001;
-                    node_name = Get_IP.ip_to_node_name(this_ip);
-                    writer = new PrintWriter(node_name +"_ERROR.txt", "UTF-8");
-                    serverSocket = new ServerSocket(server_port);
-                    serverSocket.setSoTimeout(10000000);
                     while(true){
                         try{
-                            writer.println("Waiting for client on port " +
+                            writer.println("SERVER: Waiting for client on port " +
                                     serverSocket.getLocalPort() + "...");
                             Socket server = serverSocket.accept();
-                            writer.println("Just connected to "
+                            writer.println("SERVER: Just connected to "
                                     + server.getRemoteSocketAddress());
                             ObjectInputStream in = new ObjectInputStream(server.getInputStream());
                             boolean flag = true;
@@ -97,7 +110,7 @@ public class Router{
                                 }
                             }
                         }catch(SocketTimeoutException s) {
-                            writer.println("Socket timed out!");
+                            writer.println("SERVER: Socket timed out!");
                             break;
                         }catch(IOException e) {
                             e.printStackTrace();

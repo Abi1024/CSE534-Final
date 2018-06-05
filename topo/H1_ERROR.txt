@@ -1,0 +1,33 @@
+THIS NODE's IP: 1.1.1.1
+THIS NODE's SERVER PORT: 10835
+THIS NODE's NAME: H1
+Destination IP: 1.1.2.2
+Destination Port: 6797
+Packs per second: 1.0
+CLIENT: Size of gateways: 1
+CLIENT: Size of out: 0
+CLIENT: IN function, setup_outgoing_connections
+CLIENT: Connecting to 1.1.1.2 on port 10836
+CLIENT: Pair key: 1.1.1.2
+SERVER: Waiting for client on port 10835...
+SERVER: Just connected to /1.1.1.2:56551
+CLIENT: Just connected to /1.1.1.2:10836
+CLIENT: The gateway router is:1.1.1.2
+CLIENT: The gateway router is:1.1.1.2
+CLIENT: The gateway router is:1.1.1.2
+CLIENT: The gateway router is:1.1.1.2
+CLIENT: The gateway router is:1.1.1.2
+CLIENT: The gateway router is:1.1.1.2
+CLIENT: The gateway router is:1.1.1.2
+CLIENT: The gateway router is:1.1.1.2
+CLIENT: The gateway router is:1.1.1.2
+CLIENT: The gateway router is:1.1.1.2
+CLIENT: The gateway router is:1.1.1.2
+CLIENT: The gateway router is:1.1.1.2
+CLIENT: The gateway router is:1.1.1.2
+CLIENT: The gateway router is:1.1.1.2
+CLIENT: The gateway router is:1.1.1.2
+CLIENT: The gateway router is:1.1.1.2
+CLIENT: The gateway router is:1.1.1.2
+CLIENT: The gateway router is:1.1.1.2
+CLIENT: The gateway router is:1.1.1.2

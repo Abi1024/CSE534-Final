@@ -1,0 +1,35 @@
+THIS NODE's IP: 1.1.1.2
+THIS NODE's SERVER PORT: 10836
+THIS NODE's NAME: R1
+SERVER: Waiting for client on port 10836...
+CLIENT: IN function, setup_outgoing_connections
+CLIENT: Connecting to 1.1.1.1 on port 10835
+CLIENT: Pair key: 1.1.1.1
+SERVER: Just connected to /1.1.1.1:48992
+CLIENT: Just connected to /1.1.1.1:10835
+CLIENT: Connecting to 1.1.2.2 on port 6797
+CLIENT: Pair key: 1.1.2.2
+CLIENT: Just connected to /1.1.2.2:6797
+CONSUMER: QUEUE IS EMPTY
+PRODUCER: Adding input to queue: Packet@7a60332a Queue now has size: 0
+PRODUCER: Adding input to queue: Packet@54ed928c Queue now has size: 1
+PRODUCER: Adding input to queue: Packet@112e271d Queue now has size: 2
+PRODUCER: Adding input to queue: Packet@29fb4d91 Queue now has size: 3
+PRODUCER: Adding input to queue: Packet@5279d2e7 Queue now has size: 4
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Adding input to queue: Packet@6ab853d6 Queue now has size: 4
+PRODUCER: Adding input to queue: Packet@ace9753 Queue now has size: 5
+PRODUCER: Adding input to queue: Packet@79aad45e Queue now has size: 6
+PRODUCER: Adding input to queue: Packet@65d8df66 Queue now has size: 7
+PRODUCER: Adding input to queue: Packet@4dd606e8 Queue now has size: 8
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Adding input to queue: Packet@335c640e Queue now has size: 8
+PRODUCER: Adding input to queue: Packet@1c7b4e1f Queue now has size: 9
+PRODUCER: Adding input to queue: Packet@3f7b8119 Queue now has size: 10
+PRODUCER: Adding input to queue: Packet@42e72158 Queue now has size: 11
+PRODUCER: Adding input to queue: Packet@124b411e Queue now has size: 12
+CLIENT (CONSUMER): The gateway router is:1.1.2.2
+PRODUCER: Adding input to queue: Packet@5486eefe Queue now has size: 12
+PRODUCER: Adding input to queue: Packet@3716de3e Queue now has size: 13
+PRODUCER: Adding input to queue: Packet@4c80c465 Queue now has size: 14
+PRODUCER: Adding input to queue: Packet@40b2f5a Queue now has size: 15

@@ -5,7 +5,6 @@ Example topology of Quagga routers
 import inspect
 import os
 from mininext.topo import Topo
-from mininet.cli import CLI
 from mininext.services.quagga import QuaggaService
 
 from collections import namedtuple
@@ -36,15 +35,15 @@ class QuaggaTopo(Topo):
 
         # List of Quagga host configs
         quaggaHosts = []
-        quaggaHosts.append(QuaggaHost(name='H1', ip='1.1.1.1/24',
+        quaggaHosts.append(QuaggaHost(name='H1', ip='10.1.1.1/24',
                                       loIP= None))
-        quaggaHosts.append(QuaggaHost(name='R1', ip='1.1.1.2/24',
+        quaggaHosts.append(QuaggaHost(name='R1', ip='10.1.1.2/24',
                                       loIP=None))
-        quaggaHosts.append(QuaggaHost(name='H2', ip='1.1.2.1/24',
+        quaggaHosts.append(QuaggaHost(name='H2', ip='10.1.2.1/24',
                                       loIP=None))
-        quaggaHosts.append(QuaggaHost(name='H3', ip='1.1.3.1/24',
+        quaggaHosts.append(QuaggaHost(name='H3', ip='10.1.3.1/24',
                                       loIP=None))
-        quaggaHosts.append(QuaggaHost(name='H4', ip='1.1.4.1/24',
+        quaggaHosts.append(QuaggaHost(name='H4', ip='10.1.4.1/24',
                                       loIP=None))
         quaggaContainers = []
 
