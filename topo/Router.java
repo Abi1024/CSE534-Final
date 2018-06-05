@@ -65,7 +65,7 @@ public class Router{
         }
     }
 
-    
+
 
     public static void initialize() throws Exception{
         this_ip = Get_IP.get_ip();
