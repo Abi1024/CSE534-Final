@@ -16,8 +16,8 @@ R1 python ftable.py R1
 H2 python ftable.py H2
 
 #Usage: H1 java Host <download_rate (packets per second)> {<destination> <upload_rate (packets per second)> <number of transmitted packets>}
-#Usage R1 java Router <link_rate> {<measure queue size/packet loss interval (ms)>}
+#Usage R1 java Router <link_rate> {<measure queue size/packet loss interval (ms)> <max queue size>}
 H1 javac *.java
-H1 java Host 5 1.1.2.2 5 10000 &
-R1 java Router 0.5 1000 100 &
-H2 java Host 5
+H1 java Host 10 1.1.2.2 10 10000 &
+R1 java Router 200 1000 10 &
+H2 java Host 10

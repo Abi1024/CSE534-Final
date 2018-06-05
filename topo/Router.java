@@ -11,15 +11,17 @@ public class Router{
     public static PrintWriter writer;
     public static PrintWriter graph;
     public static Thread t1,t2;
-    public static final PC pc = new PC();
+    public static final PC2 pc = new PC2();
     public static HashMap<String, ObjectOutputStream> out = new HashMap<>();
     public static Routing_Table router = new Routing_Table();
     public static long start_time = System.currentTimeMillis();
     public static long total_packets,dropped_packets;
     public static long last_time = System.currentTimeMillis();;
     public static long max_queue_size = 100;
+    public static double average_queue_size = 0;
+    public static Random rand = new Random();
 
-    //producer-consumer
+    //producer-consumer (tail-drop)
     private static class PC{
         private static Queue<Packet> queue = new LinkedList<>();
 
@@ -43,6 +45,54 @@ public class Router{
         }
         public void consume(double link_rate) throws InterruptedException{
 
+            while (true) {
+                synchronized (this) {
+                    // consumer thread waits while list
+                    // is empty
+                    if (!queue.isEmpty()) {
+                        Packet x = queue.remove();
+                        //writer.println("CONSUMER: Queue has: " + queue.size() + " objects. Just removed: " + Integer.toString(x));
+                        try{
+                            writer.println("CLIENT (CONSUMER): The gateway router is:" + router.routing_table.get(x.destination));
+                            out.get(router.routing_table.get(x.destination)).writeObject(x);
+                        }catch(Exception e){
+                            e.printStackTrace();
+                        }
+                    }else{
+                        writer.println("CONSUMER: QUEUE IS EMPTY");
+                    }
+                }
+                Thread.sleep((int)(1000.0/link_rate));
+            }
+        }
+    }
+
+    //producer-consumer (RED)
+    private static class PC2{
+        private static Queue<Packet> queue = new LinkedList<>();
+        private static double queue_weight = 0.2;
+
+        public void produce(Packet input, long measurement_interval) throws InterruptedException {
+            total_packets++;
+            synchronized (this){
+                writer.println("PRODUCER: Receiving packet. Time: " + (System.currentTimeMillis()-start_time));
+                average_queue_size = (1-queue_weight)*average_queue_size + queue_weight*queue.size();
+                double probability_drop = Math.pow(average_queue_size/max_queue_size,2);
+                if ((queue.size() < max_queue_size)&&(rand.nextInt(100) > probability_drop*100)){
+                    writer.println("PRODUCER: Adding input to queue: " + input + " Queue now has size: " + queue.size());
+                    queue.add(input);
+                }else{
+                    writer.println("PRODUCER: Full queue. Dropping packet: " + input);
+                    dropped_packets++;
+                }
+                if (System.currentTimeMillis() - last_time > measurement_interval){
+                    writer.println("PRODUCER: WRITING TO GRAPH");
+                    graph.println(System.currentTimeMillis()-start_time + "," + queue.size() + "," + ((double)dropped_packets/total_packets));
+                    last_time = System.currentTimeMillis();
+                }
+            }
+        }
+        public void consume(double link_rate) throws InterruptedException{
             while (true) {
                 synchronized (this) {
                     // consumer thread waits while list
